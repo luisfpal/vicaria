@@ -1,4 +1,4 @@
-// Excerpta: connect AI in one tap. OpenRouter's official OAuth (PKCE) hands this device its own key; nothing is pasted
+// Vicaria: connect AI in one tap. OpenRouter's official OAuth (PKCE) hands this device its own key; nothing is pasted
 // and nothing passes through a server of ours. The key is stored only on this device, like any key saved in Settings.
 (() => {
   const BASE = window.EXC_BASE || "", OR = "https://openrouter.ai";

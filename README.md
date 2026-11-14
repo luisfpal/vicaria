@@ -1,10 +1,10 @@
-# Excerpta
+# Vicaria
 
 A reader that keeps what a book taught you.
 
-Open a book and read. Excerpta writes a short card for each chapter: the core lesson, the terms the author uses in their own way, and why each point matters. Ask questions about a chapter or the whole book. Highlight passages. Listen with your device's voice. See how ideas connect across everything you have read.
+Open a book and read. Vicaria writes a short card for each chapter: the core lesson, the terms the author uses in their own way, and why each point matters. Ask questions about a chapter or the whole book. Highlight passages. Listen with your device's voice. See how ideas connect across everything you have read.
 
-**Open it:** [luisfpal.github.io/excerpta](https://luisfpal.github.io/excerpta/)
+**Open it:** [luisfpal.github.io/vicaria](https://luisfpal.github.io/vicaria/)
 
 ## Install
 
@@ -33,11 +33,11 @@ Your books, notes and keys stay on your devices. The site only serves the app's 
 ## Build
 
 ```
-python3 standalone/build.py --base /excerpta
-python3 standalone/serve_static.py standalone/dist 8000 /excerpta
+python3 standalone/build.py --base /vicaria
+python3 standalone/serve_static.py standalone/dist 8000 /vicaria
 ```
 
-Then open http://localhost:8000/excerpta/.
+Then open http://localhost:8000/vicaria/.
 
 ## License
 

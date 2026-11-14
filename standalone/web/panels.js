@@ -1,4 +1,4 @@
-// Excerpta: the Discover and Devices panels, added next to the app's own pages.
+// Vicaria: the Discover and Devices panels, added next to the app's own pages.
 (() => {
   const BASE = window.EXC_BASE || "";
   const SE = "https://standardebooks.org";
@@ -165,7 +165,7 @@
         h("p", {}, direct ? `${direct} device${direct > 1 ? "s" : ""} connected directly.` : "No other device connected directly right now; changes wait on the relays."),
         h("p", { class: "x-muted" }, `Last direct sync: ${ago(st.direct)}. Last relay sync: ${ago(st.relay)}.`),
         h("div", { class: "x-row" }, h("button", { class: "x-btn", onclick: () => S.syncNow().then(() => toast?.("Synced")) }, "Sync now"),
-          h("button", { class: "x-ghost", onclick: async () => { const b = await S.exportFile(); const a = h("a", { href: URL.createObjectURL(b), download: "excerpta-sync.txt" }); a.click(); } }, "Save a sync file"),
+          h("button", { class: "x-ghost", onclick: async () => { const b = await S.exportFile(); const a = h("a", { href: URL.createObjectURL(b), download: "vicaria-sync.txt" }); a.click(); } }, "Save a sync file"),
           h("label", { class: "x-ghost" }, "Open a sync file", h("input", { type: "file", style: "display:none", onchange: async e => { try { await S.importFile(await e.target.files[0].text()); toast?.("Merged"); } catch (x) { toast?.("That file is not for this library."); } } }))),
         [...missing].filter(([id]) => !mine.has(id)).length ? h("div", {}, h("p", {}, "On your other devices:"),
           [...missing].filter(([id]) => !mine.has(id)).map(([id, t]) => h("div", { class: "x-row" }, h("span", {}, t), direct ? h("button", { class: "x-ghost", onclick: () => { S.want(id); toast?.("Asking for " + t); } }, "Get it here") : null))) : null,

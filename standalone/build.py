@@ -58,13 +58,22 @@ def app_zip() -> bytes:
     return buf.getvalue()
 
 
-NAME = "Excerpta"
+NAME = "Vicaria"
+
+
+# Ids that devices paired, and sync files saved, before the Excerpta -> Vicaria rename depend on. Renaming any of
+# them would split a user's devices into two rooms, so the build refuses to drop them.
+COMPAT_IDS = ('"excerpta-room"', '"excerpta-tag"', '"excerpta-nostr"', 'appId: "excerpta-v1"', '"EXCERPTA-SYNC-1\\n"', "(EXCERPTA|VICARIA)-SYNC-1")
 
 
 def main():
+    sync_js = (HERE / "web" / "sync.js").read_text()
+    missing = [i for i in COMPAT_IDS if i not in sync_js]
+    if missing:
+        raise SystemExit(f"sync.js lost ids that paired devices rely on: {missing}")
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--base", default="", help="path the app is served under, e.g. /excerpta for GitHub Pages")
+    ap.add_argument("--base", default="", help="path the app is served under, e.g. /vicaria for GitHub Pages")
     base = ap.parse_args().base.rstrip("/")
     if base and not re.fullmatch(r"/[\w.-]+(/[\w.-]+)*", base):
         raise SystemExit("bad --base")

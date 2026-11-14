@@ -1,9 +1,9 @@
-// Excerpta: everything runs on this device. The service worker sends each /api request here, and the on-device
+// Vicaria: everything runs on this device. The service worker sends each /api request here, and the on-device
 // server (worker.js: the Python book_reader package in Pyodide) answers it. Nothing leaves the device except AI
 // requests (straight from this browser to the provider whose key you saved) and sync (see sync.js).
 (() => {
   const BASE = window.EXC_BASE || "";
-  // The app was written for the root of a site; when it lives under a path (GitHub Pages: /excerpta), every absolute
+  // The app was written for the root of a site; when it lives under a path (GitHub Pages: /vicaria), every absolute
   // URL it makes gets that prefix, and the routes it reads lose it.
   const fix = u => typeof u === "string" && BASE && u.startsWith("/") && !u.startsWith("//") && u !== BASE && !u.startsWith(BASE + "/") ? BASE + u : u;
   window.xPath = () => BASE && location.pathname.startsWith(BASE) ? location.pathname.slice(BASE.length) || "/" : location.pathname;
@@ -22,7 +22,7 @@
   document.addEventListener("DOMContentLoaded", () => document.body.append(status));
 
   if (!("serviceWorker" in navigator) || !window.isSecureContext) {
-    document.getElementById("app").textContent = "This browser cannot run Excerpta (it needs service workers over https).";
+    document.getElementById("app").textContent = "This browser cannot run Vicaria (it needs service workers over https).";
     return;
   }
 
@@ -67,5 +67,5 @@
     await load("/static/x/panels.js");
     await load("/static/x/ai.js");
   }
-  boot().catch(e => { document.getElementById("app").textContent = "Could not start Excerpta: " + e.message; });
+  boot().catch(e => { document.getElementById("app").textContent = "Could not start Vicaria: " + e.message; });
 })();

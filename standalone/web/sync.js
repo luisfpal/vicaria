@@ -1,4 +1,4 @@
-// Excerpta sync: your devices keep each other up to date with no server of ours.
+// Vicaria sync (internal ids keep the old name "excerpta" so devices paired before the rename stay paired): your devices keep each other up to date with no server of ours.
 // Pairing shares a library id and a 256-bit key (QR code or link; the part after # never leaves the device).
 // Direct: WebRTC between your devices (Trystero), found through public Nostr relays; the data channel is encrypted.
 // Otherwise: the snapshot is gzip-compressed, AES-GCM encrypted with the pairing key, chunked into Nostr events that
@@ -113,7 +113,7 @@
     async create() { const { id } = await api("/api/library"); P = { lib: id, key: b64.to(crypto.getRandomValues(new Uint8Array(32))), relays: [] }; localStorage.xsync = JSON.stringify(P); await S.start(); S.changed(); },
     async join(code) {
       const m = String(code).trim().replace(/^.*#pair=/, "").match(/^EXC1\.(cp-[a-z0-9]+)\.([A-Za-z0-9_-]{43})$/);
-      if (!m) throw new Error("That is not an Excerpta pairing code.");
+      if (!m) throw new Error("That is not a Vicaria pairing code.");
       await S.stop(); await api("/api/x/sync/adopt", { method: "POST", body: JSON.stringify({ library: m[1] }) });
       P = { lib: m[1], key: m[2], relays: [] }; localStorage.xsync = JSON.stringify(P); await S.start(); S.changed();
     },
@@ -124,7 +124,7 @@
     changed() { if (!P || !K) return; clearTimeout(t1); clearTimeout(t2); t1 = setTimeout(() => S.sendSnap?.().catch(() => {}), 800); t2 = setTimeout(() => publish().catch(e => note("Relay error: " + e.message)), 4000); },
     syncNow: () => Promise.all([S.sendSnap?.(), publish(), fetchRelays()]),
     async exportFile() { const u8 = await seal(await snapshot()); return new Blob([te.encode("EXCERPTA-SYNC-1\n"), te.encode(b64.to(u8))], { type: "text/plain" }); },
-    async importFile(text) { const s = text.trim().replace(/^EXCERPTA-SYNC-1\s*/, ""); await take(await open(b64.from(s)), "file"); },
+    async importFile(text) { const s = text.trim().replace(/^(EXCERPTA|VICARIA)-SYNC-1\s*/, ""); await take(await open(b64.from(s)), "file"); },
     onPanel: f => { onPanel = f; },
   };
   if (P) S.start();
