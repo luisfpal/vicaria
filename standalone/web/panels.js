@@ -93,23 +93,41 @@
       path: (li.getAttribute("about") || "").replace(/^\/ebooks\//, ""), title: li.querySelector('[property="schema:name"]')?.textContent.trim(),
       author: li.querySelector(".author [property='schema:name']")?.textContent.trim() || "", img: SE + li.querySelector("img").getAttribute("src") })).filter(x => x.path && x.title);
   }
-  async function fromGutenberg(q) {
-    const j = await (await fetch(`${GD}?search=${encodeURIComponent(q)}`)).json();
-    return (j.results || []).filter(b => !b.copyright && Object.keys(b.formats || {}).some(k => k.includes("epub"))).map(b => ({
-      id: b.id, title: (b.title || "").split(/[:;]/)[0].trim(), author: (b.authors || []).map(a => a.name.split(", ").reverse().join(" ")).join(", "),
-      img: b.formats["image/jpeg"] || null }));
+  async function fromGutenberg(q, tries = 2) {
+    // Gutendex answers a new query in 1 to 60 s and sometimes not at all: give it time, and one more try.
+    for (let i = 0; ; i++) {
+      try {
+        const r = await fetch(`${GD}?search=${encodeURIComponent(q)}`, { signal: AbortSignal.timeout(75000) });
+        if (!r.ok) throw new Error(String(r.status));
+        const j = await r.json();
+        return (j.results || []).filter(b => !b.copyright && Object.keys(b.formats || {}).some(k => k.includes("epub"))).map(b => ({
+          id: b.id, title: (b.title || "").split(/[:;]/)[0].trim(), author: (b.authors || []).map(a => a.name.split(", ").reverse().join(" ")).join(", "),
+          img: b.formats["image/jpeg"] || null }));
+      } catch (e) { if (i + 1 >= tries) throw e; }
+    }
   }
+  let searchNo = 0;
   async function search(q, out) {
-    out.replaceChildren(h("p", { class: "x-muted" }, "Searching…"));
-    const [se, pg] = await Promise.allSettled([fromSE(q), fromGutenberg(q)]);
-    const seList = se.status === "fulfilled" ? ranked(q, se.value) : [];
-    const have = new Set(seList.map(x => norm(x.title) + "|" + norm(x.author).split(" ").pop()));
-    const pgList = pg.status === "fulfilled" ? ranked(q, pg.value).filter(x => !have.has(norm(x.title) + "|" + norm(x.author).split(" ").pop())).slice(0, 12) : [];
-    const parts = [];
-    if (seList.length) parts.push(h("h3", { class: "x-src" }, "Standard Ebooks"), h("div", { class: "x-grid", "data-src": "se" }, seList.map(x => card(x, btn => addBook(x.path, x.title, btn)))));
-    if (pgList.length) parts.push(h("h3", { class: "x-src" }, "Project Gutenberg"), h("div", { class: "x-grid", "data-src": "pg" }, pgList.map(x => card(x, btn => addGutenberg(x, btn)))));
-    if (pg.status === "rejected") parts.push(h("p", { class: "x-muted" }, "Project Gutenberg did not answer; try again in a moment."));
-    out.replaceChildren(...(parts.length ? parts : [h("p", { class: "x-muted" }, se.status === "rejected" ? "Search needs a connection." : "Nothing found. Try an author or a shorter title.")]));
+    const no = ++searchNo, key = x => norm(x.title) + "|" + norm(x.author).split(" ").pop();
+    const seBox = h("div", {}, h("p", { class: "x-muted" }, "Searching Standard Ebooks…"));
+    const pgBox = h("div", {}, h("h3", { class: "x-src" }, "Project Gutenberg"), h("p", { class: "x-muted" }, "Searching Project Gutenberg… (it can take a minute)"));
+    out.replaceChildren(seBox, pgBox);
+    let have = new Set();
+    const seP = fromSE(q).then(list => {
+      if (no !== searchNo) return;
+      const l = ranked(q, list); have = new Set(l.map(key));
+      seBox.replaceChildren(...(l.length ? [h("h3", { class: "x-src" }, "Standard Ebooks"), h("div", { class: "x-grid", "data-src": "se" }, l.map(x => card(x, btn => addBook(x.path, x.title, btn))))]
+        : [h("p", { class: "x-muted" }, "Nothing at Standard Ebooks.")]));
+    }).catch(() => no === searchNo && seBox.replaceChildren(h("p", { class: "x-muted" }, "Standard Ebooks did not answer. Search needs a connection.")));
+    try {
+      const list = await fromGutenberg(q); await seP; if (no !== searchNo) return;
+      const l = ranked(q, list).filter(x => !have.has(key(x))).slice(0, 12);
+      pgBox.replaceChildren(h("h3", { class: "x-src" }, "Project Gutenberg"), l.length ? h("div", { class: "x-grid", "data-src": "pg" }, l.map(x => card(x, btn => addGutenberg(x, btn))))
+        : h("p", { class: "x-muted" }, "Nothing more at Project Gutenberg."));
+    } catch {
+      if (no === searchNo) pgBox.replaceChildren(h("h3", { class: "x-src" }, "Project Gutenberg"), h("p", { class: "x-muted" }, "Project Gutenberg's search did not answer. ",
+        h("button", { class: "x-ghost", onclick: () => search(q, out) }, "Try again")));
+    }
   }
   function discover() {
     const out = h("div", {}, h("p", { class: "x-muted" }, "Start with a classic:"),
