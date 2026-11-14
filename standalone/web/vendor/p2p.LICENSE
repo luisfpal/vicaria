@@ -1,0 +1,7 @@
+p2p.js bundles, unmodified, with esbuild (see p2p_entry.js; versions pinned below):
+  trystero 0.27.0           MIT License, Copyright (c) 2021 Dan Motzenbecker
+  nostr-tools 2.26.0        The Unlicense (public domain)
+  qrcode-generator 2.0.4    MIT License, Copyright (c) 2009 Kazuhiko Arase
+  and their dependencies (@noble/hashes, @noble/curves, @scure/base: MIT License, Copyright (c) Paul Miller)
+Rebuild: npm i trystero@0.27.0 nostr-tools@2.26.0 qrcode-generator@2.0.4 esbuild &&
+  npx esbuild p2p_entry.js --bundle --minify --format=iife --global-name=P2P --target=es2020 --outfile=p2p.js
