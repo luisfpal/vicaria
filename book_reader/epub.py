@@ -25,6 +25,11 @@ MATTER_TITLE = re.compile(
     r"also by|about the (author|publisher)|acknowledg|colophon|preface|prefatory|foreword|notes?|endnotes|"
     r"bibliography|references|glossary|further reading|title|note to the reader|lecture on platinum\. notes|(subject|name|general|author) index)\b|gutenberg|license",
     re.I)
+# EPUB 3 structural semantics (epub:type, also used by Standard Ebooks) that name pages which are not the book's text.
+MATTER_TYPES = {"titlepage", "halftitlepage", "imprint", "colophon", "copyright-page", "toc", "loi", "lot", "index",
+                "endnotes", "footnotes", "rearnotes", "bibliography", "acknowledgments", "contributors", "other-credits",
+                "errata", "landmarks", "cover", "seriespage", "dedication", "glossary", "credits"}
+_SEM = re.compile(r'<(?:body|section|article|div)\b[^>]*\bepub:type="([^"]*)"', re.I)
 MIN_WORDS = 250  # a section with sub-sections and fewer words is a part (a heading over chapters), not a chapter
 MIN_LEAF_WORDS = 40  # a section without sub-sections is a chapter unless it is almost empty (a title page)
 
@@ -263,6 +268,7 @@ def parse(path: str, repair: bool = True) -> Book:
                 ncx_path = href
         spine = [manifest[i.get("idref")] for i in _find_all(opf, "itemref") if i.get("idref") in manifest]
 
+        body_at = _landmark(zf, nav_path, "bodymatter") if nav_path else None
         toc = _toc_from_nav(zf, nav_path) if nav_path else []
         source = "nav" if toc else ""
         if not toc and ncx_path:
@@ -272,6 +278,7 @@ def parse(path: str, repair: bool = True) -> Book:
         # Flatten the spine into one block list; remember where each file and id starts.
         blocks: list[dict] = []
         pos: dict[str, int] = {}
+        sem: dict[str, set] = {}
         for doc in spine:
             try:
                 raw = zf.read(doc).decode("utf-8", errors="replace")
@@ -282,6 +289,7 @@ def parse(path: str, repair: bool = True) -> Book:
             p.feed(raw)
             p.close()
             pos[doc] = len(blocks)
+            sem[doc] = {t for m in _SEM.finditer(raw[:6000]) for t in m.group(1).split()}  # the page's own outer semantics
             for anchor, i in p.anchors.items():
                 pos[f"{doc}#{anchor}"] = len(blocks) + i
             blocks.extend(p.blocks)
@@ -344,7 +352,47 @@ def parse(path: str, repair: bool = True) -> Book:
     _nest(book.chapters)
     if repair:
         structure.kinds(book)
+    _semantic_matter(book, blocks, pos, sem, body_at)
     return book
+
+
+def _landmark(zf, nav_path, kind):
+    """Where the book's landmarks nav says its main text (bodymatter) starts, as a spine path with its anchor."""
+    try:
+        root = ET.fromstring(zf.read(nav_path))
+    except (KeyError, ET.ParseError):
+        return None
+    for nav in _find_all(root, "nav"):
+        if "landmarks" not in (nav.get("{http://www.idpf.org/2007/ops}type") or "").split():
+            continue
+        for a in _find_all(nav, "a"):
+            if kind in (a.get("{http://www.idpf.org/2007/ops}type") or "").split():
+                return _resolve(nav_path, a.get("href", ""))
+    return None
+
+
+CONTENT_TYPES = {"preface", "foreword", "introduction", "prologue", "preamble", "chapter", "part", "bodymatter", "epigraph"}
+
+
+def _semantic_matter(book, blocks, pos, sem, body_at):
+    """Front and back matter named by the EPUB itself: a page whose epub:type is a title page, imprint, colophon,
+    copyright page, endnotes and the like, and any page before the landmarks' start of the main text that does not
+    say it is a preface, foreword, introduction or chapter."""
+    starts = sorted((at, doc) for doc, at in pos.items() if "#" not in doc)
+    body = pos.get(body_at, pos.get((body_at or "").split("#")[0])) if body_at else None
+    seen = {id(b): i for i, b in enumerate(blocks)}
+    for c in book.chapters:
+        if c.kind == "matter" or not c.blocks:
+            continue
+        at = seen.get(id(c.blocks[0]))
+        if at is None:
+            continue
+        doc = next((d for a, d in reversed(starts) if a <= at), None)
+        types = sem.get(doc, set())
+        if types & MATTER_TYPES and not types & {"chapter", "part"}:
+            c.kind = "matter"
+        elif body is not None and at < body and not types & CONTENT_TYPES and c.words < 1500:
+            c.kind = "matter"
 
 
 def _nest(chapters: list[Chapter]):

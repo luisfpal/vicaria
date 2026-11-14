@@ -17,7 +17,10 @@
 #x-panel .x-in{max-width:760px;margin:0 auto}#x-panel h2{font-family:var(--serif,Georgia,serif);margin:6px 0 4px}#x-panel .x-top{display:flex;justify-content:space-between;align-items:center}
 #x-panel .x-muted{opacity:.7;font-size:14px}#x-panel input,#x-panel textarea{width:100%;box-sizing:border-box;font:inherit;padding:10px 12px;border-radius:10px;border:1px solid #0002;background:#fff8}
 #x-panel .x-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:14px;margin-top:12px}#x-panel .x-book{display:flex;flex-direction:column;gap:6px}
-#x-panel .x-book img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:6px;background:#0001}#x-panel .x-book b{font-size:14px;line-height:1.25}#x-panel .x-book span{font-size:13px;opacity:.7}
+#x-panel .x-cover{position:relative;aspect-ratio:2/3;border-radius:6px;overflow:hidden;color:#fff;display:flex;flex-direction:column;justify-content:space-between;padding:12px 10px;box-sizing:border-box;font-family:var(--serif,Georgia,serif)}
+#x-panel .x-cover strong{font-size:17px;line-height:1.2}#x-panel .x-cover em{font-size:12px;font-style:normal;opacity:.85}
+#x-panel .x-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0}#x-panel .x-cover img.ok{opacity:1}
+#x-panel h3.x-src{font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.7;margin:18px 0 0}#x-panel .x-gstep{display:flex;flex-direction:column;gap:6px;font-size:13px}#x-panel .x-book b{font-size:14px;line-height:1.25}#x-panel .x-book span{font-size:13px;opacity:.7}
 #x-panel button{font:inherit;cursor:pointer}#x-panel .x-btn{background:var(--ink,#1f1d1a);color:var(--paper,#fff);border:0;border-radius:18px;padding:8px 14px}#x-panel .x-ghost{background:transparent;border:1px solid #0003;border-radius:18px;padding:7px 13px;color:inherit}
 #x-panel .x-qr svg{width:220px;height:220px;background:#fff;border-radius:10px}#x-panel code{word-break:break-all;font-size:12px}#x-panel .x-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
 #x-panel ul.x-log{font-size:13px;opacity:.75;padding-left:18px}
@@ -35,40 +38,86 @@
   function close() { panel?.remove(); panel = null; window.ExcSync?.onPanel(() => {}); }
   const toast = t => window.toast ? window.toast(t) : null;
 
-  // -- Discover: Standard Ebooks (free, carefully produced public-domain books, downloadable from any browser) --
+  // -- Discover: Standard Ebooks first (EPUB 3, downloadable from any browser), then Project Gutenberg through Gutendex --
+  const GD = "https://gutendex.com/books/";
+  async function addBlob(blob, name, title) {
+    const book = await api("/api/books", { method: "POST", headers: { "X-Filename": name }, body: blob });
+    close(); window.go ? window.go(`${BASE}/book/${book.id}`) : (location.href = `${BASE}/book/${book.id}`);
+  }
   async function addBook(path, title, btn) {
     btn.disabled = true; btn.textContent = "Adding…";
     try {
       const slug = path.replace(/\//g, "_");
       const r = await fetch(`${SE}/ebooks/${path}/downloads/${slug}.epub?source=download`);
       if (!r.ok) throw new Error("download failed (" + r.status + ")");
-      const book = await api("/api/books", { method: "POST", headers: { "X-Filename": slug + ".epub" }, body: await r.blob() });
-      close(); window.go ? window.go(`${BASE}/book/${book.id}`) : (location.href = `${BASE}/book/${book.id}`);
+      await addBlob(await r.blob(), slug + ".epub", title);
     } catch (e) { btn.disabled = false; btn.textContent = "Try again"; toast?.("Could not add " + title + ": " + e.message); }
   }
-  const cover = path => `${SE}/ebooks/${path}/downloads/cover-thumbnail.jpg`;
-  const card = (path, title, author, img) => h("div", { class: "x-book" },
-    h("img", { src: img || cover(path), alt: "", loading: "lazy", onerror: e => { e.target.style.visibility = "hidden"; } }),
-    h("b", {}, title), h("span", {}, author), h("button", { class: "x-btn", onclick: e => addBook(path, title, e.target) }, "Add"));
+  // Project Gutenberg sends no CORS headers (www.gutenberg.org and every mirror checked, Nov 2026), so a web page cannot
+  // read its files. The browser downloads the EPUB itself, in the same tap, and the next tap adds that file.
+  // No server of ours sits in the middle.
+  function addGutenberg(b, btn) {
+    const url = `https://www.gutenberg.org/ebooks/${b.id}.epub3.images`;
+    h("a", { href: url, target: "_blank", rel: "noopener", download: `pg${b.id}.epub` }).click();
+    const pick = h("input", { type: "file", accept: ".epub,application/epub+zip", style: "display:none", onchange: async e => {
+      const f = e.target.files[0]; if (!f) return;
+      try { await addBlob(f, f.name, b.title); } catch (x) { toast?.("Could not add " + b.title + ": " + x.message); }
+    } });
+    btn.replaceWith(h("div", { class: "x-gstep" }, h("span", {}, "Downloading from Project Gutenberg. When it finishes:"),
+      h("button", { class: "x-btn", onclick: () => pick.click() }, "Add the downloaded file"), pick));
+  }
+  // Ranking: the title, then the author, matched as whole words; the source's own order breaks ties.
+  const norm = s => (s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  function relevance(q, title, author) {
+    const Q = norm(q), T = norm(title).replace(/^(the|a|an) /, ""), A = norm(author), ws = Q.split(" ").filter(Boolean);
+    const tw = new Set(norm(title).split(" ")), aw = new Set(A.split(" "));
+    let s = T === Q.replace(/^(the|a|an) /, "") ? 100 : T.startsWith(Q) ? 60 : 0;
+    s += 40 * ws.filter(w => tw.has(w)).length / ws.length + 30 * ws.filter(w => aw.has(w)).length / ws.length;
+    if (A && (A === Q || A.includes(Q))) s += 50;
+    return s;
+  }
+  const ranked = (q, items) => items.map((x, i) => [relevance(q, x.title, x.author) - i * 0.01, x]).sort((a, b) => b[0] - a[0]).map(x => x[1]);
+  // A cover that is always there: the title and author set in type, with the real picture on top once it loads.
+  function coverEl(title, author, img) {
+    let hue = 0; for (const c of title + author) hue = (hue * 31 + c.charCodeAt(0)) % 360;
+    const box = h("div", { class: "x-cover", style: `background:hsl(${hue} 28% 32%)` }, h("strong", {}, title), h("em", {}, author));
+    if (img) box.append(h("img", { src: img, alt: "", loading: "lazy", referrerpolicy: "no-referrer", onload: e => e.target.classList.add("ok"), onerror: e => e.target.remove() }));
+    return box;
+  }
+  const card = (x, add) => h("div", { class: "x-book" }, coverEl(x.title, x.author, x.img), h("b", {}, x.title), h("span", {}, x.author),
+    h("button", { class: "x-btn", onclick: e => add(e.target) }, "Add"));
+  async function fromSE(q) {
+    const html = await (await fetch(`${SE}/ebooks?query=${encodeURIComponent(q)}&per-page=24`)).text();
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    return [...doc.querySelectorAll('li[typeof="schema:Book"]')].filter(li => li.querySelector("img")).map(li => ({  // no picture: not released yet
+      path: (li.getAttribute("about") || "").replace(/^\/ebooks\//, ""), title: li.querySelector('[property="schema:name"]')?.textContent.trim(),
+      author: li.querySelector(".author [property='schema:name']")?.textContent.trim() || "", img: SE + li.querySelector("img").getAttribute("src") })).filter(x => x.path && x.title);
+  }
+  async function fromGutenberg(q) {
+    const j = await (await fetch(`${GD}?search=${encodeURIComponent(q)}`)).json();
+    return (j.results || []).filter(b => !b.copyright && Object.keys(b.formats || {}).some(k => k.includes("epub"))).map(b => ({
+      id: b.id, title: (b.title || "").split(/[:;]/)[0].trim(), author: (b.authors || []).map(a => a.name.split(", ").reverse().join(" ")).join(", "),
+      img: b.formats["image/jpeg"] || null }));
+  }
   async function search(q, out) {
     out.replaceChildren(h("p", { class: "x-muted" }, "Searching…"));
-    try {
-      const html = await (await fetch(`${SE}/ebooks?query=${encodeURIComponent(q)}&per-page=24`)).text();
-      const doc = new DOMParser().parseFromString(html, "text/html");
-      const items = [...doc.querySelectorAll('li[typeof="schema:Book"]')].map(li => {
-        const path = (li.getAttribute("about") || "").replace(/^\/ebooks\//, "");
-        const img = li.querySelector("img")?.getAttribute("src");
-        return [path, li.querySelector('[property="schema:name"]')?.textContent.trim(), li.querySelector(".author [property='schema:name']")?.textContent.trim() || "", img ? SE + img : null];
-      }).filter(x => x[0] && x[1] && x[0].split("/").length >= 2);
-      out.replaceChildren(items.length ? h("div", { class: "x-grid" }, items.map(x => card(...x))) : h("p", { class: "x-muted" }, "Nothing found. Try an author or a shorter title."));
-    } catch (e) { out.replaceChildren(h("p", { class: "x-muted" }, "Search needs a connection. " + e.message)); }
+    const [se, pg] = await Promise.allSettled([fromSE(q), fromGutenberg(q)]);
+    const seList = se.status === "fulfilled" ? ranked(q, se.value) : [];
+    const have = new Set(seList.map(x => norm(x.title) + "|" + norm(x.author).split(" ").pop()));
+    const pgList = pg.status === "fulfilled" ? ranked(q, pg.value).filter(x => !have.has(norm(x.title) + "|" + norm(x.author).split(" ").pop())).slice(0, 12) : [];
+    const parts = [];
+    if (seList.length) parts.push(h("h3", { class: "x-src" }, "Standard Ebooks"), h("div", { class: "x-grid", "data-src": "se" }, seList.map(x => card(x, btn => addBook(x.path, x.title, btn)))));
+    if (pgList.length) parts.push(h("h3", { class: "x-src" }, "Project Gutenberg"), h("div", { class: "x-grid", "data-src": "pg" }, pgList.map(x => card(x, btn => addGutenberg(x, btn)))));
+    if (pg.status === "rejected") parts.push(h("p", { class: "x-muted" }, "Project Gutenberg did not answer; try again in a moment."));
+    out.replaceChildren(...(parts.length ? parts : [h("p", { class: "x-muted" }, se.status === "rejected" ? "Search needs a connection." : "Nothing found. Try an author or a shorter title.")]));
   }
   function discover() {
-    const out = h("div", {}, h("p", { class: "x-muted" }, "Start with a classic:"), h("div", { class: "x-grid" }, CLASSICS.map(([p, t, a]) => card(p, t, a))));
+    const out = h("div", {}, h("p", { class: "x-muted" }, "Start with a classic:"),
+      h("div", { class: "x-grid" }, CLASSICS.map(([p, t, a]) => card({ title: t, author: a, img: `${SE}/ebooks/${p}/downloads/cover-thumbnail.jpg` }, btn => addBook(p, t, btn)))));
     const input = h("input", { type: "search", placeholder: "Search free classics: title or author", enterkeyhint: "search" });
     input.addEventListener("keydown", e => { if (e.key === "Enter" && input.value.trim()) search(input.value.trim(), out); });
-    show("Discover", [h("p", { class: "x-muted" }, "Free public-domain books from Standard Ebooks. One tap adds a book to this device."), input, out,
-      h("p", { class: "x-muted" }, "Have your own EPUB? Use “Add a book” in the Library. Project Gutenberg files work too: download the EPUB, then add it.")]);
+    show("Discover", [h("p", { class: "x-muted" }, "Free public-domain books from Standard Ebooks and Project Gutenberg. One tap adds a book to this device."), input, out,
+      h("p", { class: "x-muted" }, "Have your own EPUB? Use “Add a book” in the Library.")]);
     input.focus();
   }
 
