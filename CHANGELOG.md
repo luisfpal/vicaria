@@ -2,7 +2,7 @@
 
 Notable changes for readers and contributors. Newest first. Versions follow `app/package.json`.
 
-## 1.0.0 (2026-11-23)
+## 1.0.1 (2026-11-23)
 
 - A rewrite of the app in TypeScript (`app/`), served at `/next/` next to the previous version while 1.0 is prepared.
   Libraries from 0.x move over with every book and highlight found again by its quote.
