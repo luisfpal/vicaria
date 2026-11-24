@@ -82,12 +82,14 @@ jobs:
       - name: Build
         working-directory: app
         env:
-          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
           VIC_KEYSTORE: ${{ runner.temp }}/vicaria.jks
           VIC_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           VIC_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           VIC_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-        run: npx tauri android build --apk --target aarch64
+        run: |
+          export NDK_HOME="$ANDROID_HOME/ndk/27.0.12077973"
+          ls "$NDK_HOME" >/dev/null
+          npx tauri android build --apk --target aarch64
       - name: Collect
         run: |
           V=$(node -p "require('./app/package.json').version")
