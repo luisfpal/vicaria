@@ -70,8 +70,9 @@ jobs:
         with: { distribution: temurin, java-version: 17 }
       - name: Android SDK pieces (the runner image already has the SDK)
         run: |
-          yes | sdkmanager --licenses >/dev/null || true
-          sdkmanager "platforms;android-36" "build-tools;36.0.0" "ndk;27.0.12077973"
+          SDKM=$(ls "$ANDROID_HOME"/cmdline-tools/*/bin/sdkmanager | head -1)
+          yes | "$SDKM" --licenses >/dev/null || true
+          "$SDKM" "platforms;android-36" "build-tools;36.0.0" "ndk;27.0.12077973"
       - uses: dtolnay/rust-toolchain@stable
         with: { targets: "aarch64-linux-android" }
       - run: npm ci
