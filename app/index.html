@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Read a book, ask it anything, keep what it taught you.">
+<title>Vicaria</title>
+<link rel="manifest" href="%BASE_URL%manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="%BASE_URL%icons/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="%BASE_URL%icons/favicon-32.png">
+<link rel="apple-touch-icon" href="%BASE_URL%icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<script>
+  // Theme and type size before anything draws, so the first frame is already right.
+  try { var p = JSON.parse(localStorage.getItem("vic:prefs") || "{}"), r = document.documentElement, t = p.theme || "auto";
+    r.dataset.theme = t === "auto" ? (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light") : t;
+    if (p.size) r.style.setProperty("--size", p.size + "px"); } catch (e) {}
+</script>
+<style>
+  :root{--paper:#f7f4ee;--ink:#1f1d1a;--muted:#6b665e;--line:#0000001a;--accent:#8a4b2a}
+  [data-theme=dark]{--paper:#161513;--ink:#e9e4da;--muted:#a39d92;--line:#ffffff1f;--accent:#e0a37a}
+  [data-theme=sepia]{--paper:#f1e6cf;--ink:#3b2f22;--muted:#7a6a55;--line:#3b2f2220;--accent:#8a4b2a}
+  html,body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+  .bar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:18px;padding:10px 16px;padding-top:max(10px,env(safe-area-inset-top));background:var(--paper);border-bottom:1px solid var(--line)}
+  .bar b{font-family:Georgia,serif;font-size:20px;letter-spacing:.01em}
+</style>
+</head>
+<body>
+<div id="app"><header class="bar"><b>Vicaria</b></header></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

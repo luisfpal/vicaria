@@ -1,4 +1,66 @@
+# Dependencies and build output
+node_modules/
+app/dist/
 standalone/dist/
+app/bench-result.json
+target/
+*.tsbuildinfo
+.vite/
+coverage/
+
+# Test output
+app/test-results/
+app/playwright-report/
+tests/corpus/idpf-kusamakura-japanese-vertical-writing.epub
+
+# Secrets and signing material (never commit)
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.p8
+key.properties
+keystore.properties
+local.properties
+google-services.json
+secrets/
+api_keys/
+devkeys/
+releasekeys/
+
+# Local configuration and private working notes
+.meta
+CLAUDE.local.md
+AGENTS.local.md
+.claude/
+.aider*
+.ap_state
+.cursor/
+.idea/
+.vscode/
+*.local
+
+# Android build output
+app/src-tauri/gen/android/.gradle/
+app/src-tauri/gen/android/build/
+app/src-tauri/gen/android/app/build/
+*.apk
+*.aab
+
+# Python
 __pycache__/
 *.pyc
+.venv/
+
+# OS junk and logs
 .DS_Store
+Thumbs.db
+*.log
+*.swp
+HANDOFF.md

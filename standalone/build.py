@@ -94,7 +94,10 @@ def main():
                         f'<script>window.EXC_BASE = "{base}";</script><script src="/static/x/p2p.js"></script><script src="/standalone.js"></script>')
     html = re.sub(r'(href|src)="/(?!/)', rf'\1="{base}/', html).replace("Commonplace", NAME)
     (DIST / "index.html").write_text(html)
-    (DIST / "404.html").write_text(html)  # GitHub Pages answers unknown paths (the app's own routes) with this
+    # GitHub Pages answers unknown paths (the app's own routes) with this. Paths under /next/ belong to the new
+    # reader, which lives in its own folder: send them there with the route in the query string.
+    nxt = f'<script>if(location.pathname.indexOf("{base}/next/")===0)location.replace("{base}/next/?r="+encodeURIComponent(location.pathname.slice({len(base) + 5})+location.search+location.hash))</script>'
+    (DIST / "404.html").write_text(html.replace("<head>", "<head>" + nxt, 1))
     app = (STATIC / "app.js").read_text()
     if "location.pathname" not in app:
         raise SystemExit("app.js changed: no location.pathname to rewrite")

@@ -1428,7 +1428,7 @@ const Narrator = (() => {
     // the listener wait while it is spoken into being
     for (let j = 0; j < out.length; j++) {
       const x = out[j]; if (x.text !== undefined || x.e - x.s <= 170) continue;
-      const t = x.node.textContent.slice(x.s, x.e), cuts = [...t.matchAll(/[,;:—–)] /g)].map(m => m.index + 2);
+      const t = x.node.textContent.slice(x.s, x.e), cuts = [...t.matchAll(/[,;:\u2014–)] /g)].map(m => m.index + 2);
       const cut = cuts.filter(c => c >= 50 && t.length - c >= 50).sort((a, b) => Math.abs(a - Math.min(150, t.length / 2)) - Math.abs(b - Math.min(150, t.length / 2)))[0];
       if (cut) out.splice(j, 1, { node: x.node, s: x.s, e: x.s + cut }, { node: x.node, s: x.s + cut, e: x.e });
       if (cut) j--;
@@ -1446,8 +1446,8 @@ const Narrator = (() => {
   function lead(j) {
     const x = segs[j]; if (!x || x.title || x.figure || x.text.length <= 70 || warm.has(url(x))) return;
     const t = x.node.textContent.slice(x.s, x.e);
-    const marks = [...t.matchAll(/[,;:—–)] |\s/g)].map(m => m.index + m[0].length).filter(c => c >= 16 && c <= 42 && t.length - c >= 25);
-    const cut = marks.filter(c => /[,;:—–)] $/.test(t.slice(0, c))).at(-1) || marks.at(-1); if (!cut) return;
+    const marks = [...t.matchAll(/[,;:\u2014–)] |\s/g)].map(m => m.index + m[0].length).filter(c => c >= 16 && c <= 42 && t.length - c >= 25);
+    const cut = marks.filter(c => /[,;:\u2014–)] $/.test(t.slice(0, c))).at(-1) || marks.at(-1); if (!cut) return;
     segs.splice(j, 1, { node: x.node, s: x.s, e: x.s + cut, text: speakable(t.slice(0, cut)) }, { node: x.node, s: x.s + cut, e: x.e, text: speakable(t.slice(cut)) });
   }
   function mark() {

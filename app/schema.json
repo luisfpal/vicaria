@@ -1,0 +1,82 @@
+{
+ "version": 4,
+ "stores": {
+  "anchors": {
+   "keyPath": null,
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "books": {
+   "keyPath": "id",
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "heads": {
+   "keyPath": "meta.id",
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "images": {
+   "keyPath": null,
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "kv": {
+   "keyPath": null,
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "opids": {
+   "keyPath": null,
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "ops": {
+   "keyPath": "id",
+   "autoIncrement": false,
+   "indexes": {
+    "bk": {
+     "keyPath": "bk",
+     "unique": false,
+     "multiEntry": false
+    },
+    "t": {
+     "keyPath": "t",
+     "unique": false,
+     "multiEntry": false
+    }
+   }
+  },
+  "originals": {
+   "keyPath": null,
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "partials": {
+   "keyPath": null,
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "passages": {
+   "keyPath": null,
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "sections": {
+   "keyPath": null,
+   "autoIncrement": false,
+   "indexes": {}
+  },
+  "segs": {
+   "keyPath": "id",
+   "autoIncrement": false,
+   "indexes": {
+    "bk": {
+     "keyPath": "bk",
+     "unique": false,
+     "multiEntry": false
+    }
+   }
+  }
+ }
+}

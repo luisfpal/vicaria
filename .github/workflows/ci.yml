@@ -1,0 +1,60 @@
+name: Tests
+on:
+  push:
+    branches: [main, v1]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - name: Public text (no em dashes)
+        run: node scripts/public-text.mjs
+      - run: npm run corpus
+      - run: npm test
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Sync protocol model check (TLC)
+        run: spec/check.sh
+      - run: npm run build
+        env:
+          VIC_BASE: /vicaria/next/
+      - run: npx playwright install --with-deps chromium
+      - name: End to end (previous version migration, marks, drawing fuzz, sync, ask, PDF, updates)
+        run: |
+          node bench/serve.mjs dist 47812 /vicaria/next &
+          sleep 1
+          node e2e/legacy.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/marks.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/paint.fuzz.mjs
+          node e2e/background.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/shelf.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/sync.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/ask.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/pdf.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/ideas.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/i18n.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/errors.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/axe.e2e.mjs http://127.0.0.1:47812/vicaria/next
+          node e2e/get.e2e.mjs
+          node e2e/updates.e2e.mjs
+      - name: Performance budgets
+        run: node bench/run.mjs --json bench-result.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bench
+          path: app/bench-result.json

@@ -1,0 +1,242 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`corpus > idpf-internallinks.epub: summary snapshot 1`] = `
+{
+  "author": "",
+  "dir": "ltr",
+  "firstPassages": [
+    "1:0 [EPUBリーダの数式サポート―iBooks3.0のMathML表示がかなり進化] 1 EPUBリーダの数式サポート―iBooks3.0のMathML表示がかなり進化
+10月の主要EPUBリーダの新版登場",
+    "2:0 [EPUBのベストプラクティス linear 属性の設定方法] 2 EPUBのベストプラクティス linear 属性の設定方法
+2–1 EPUB2
+EPUB2に、先頭ページに表紙（カバ",
+    "3:0 [EPUBのベストプラクティス EPUB2用の目次NCXの出力はまだ必要か？] 3 EPUBのベストプラクティス EPUB2用の目次NCXの出力はまだ必要か？
+3–1 EPUB2
+EPUB2では、目次",
+  ],
+  "language": "ja",
+  "math": 0,
+  "noterefs": 7,
+  "notes": 7,
+  "resolved": 7,
+  "sections": 7,
+  "start": 1,
+  "title": "IDに漢字などを使用したサンプル",
+  "toc": [
+    "0:EPUBリーダの数式サポート―iBooks3.0のMathML表示がかなり進化@1.0",
+    "1:iBooks3.0による表示例@1.15",
+    "1:ReadiumによるMathMLの表示@1.22",
+    "1:総合的にみて@1.28",
+    "0:EPUBのベストプラクティス linear 属性の設定方法@2.0",
+  ],
+  "vertical": false,
+}
+`;
+
+exports[`corpus > idpf-kusamakura-japanese-vertical-writing.epub: summary snapshot 1`] = `
+{
+  "author": "夏目 漱石",
+  "dir": "ltr",
+  "firstPassages": [
+    "2:0 [一] 一
+山路やまみちを登りながら、こう考えた。
+智ちに働けば角かどが立つ。情じょうに棹さおさせば流される。意地を通とおせば窮",
+    "3:0 [二] 二
+「おい」と声を掛けたが返事がない。
+軒下のきしたから奥を覗のぞくと煤すすけた障子しょうじが立て切ってある。向う側は見",
+    "4:0 [三] 三
+昨夕ゆうべは妙な気持ちがした。
+宿へ着いたのは夜の八時頃であったから、家の具合ぐあい庭の作り方は無論、東西の区別さえ",
+  ],
+  "language": "ja-jp",
+  "math": 0,
+  "noterefs": 0,
+  "notes": 0,
+  "resolved": 0,
+  "sections": 16,
+  "start": 2,
+  "title": "草枕",
+  "toc": [
+    "0:一@2.0",
+    "0:二@3.0",
+    "0:三@4.0",
+    "0:四@5.0",
+    "0:五@6.0",
+  ],
+  "vertical": true,
+}
+`;
+
+exports[`corpus > idpf-linear-algebra.epub: summary snapshot 1`] = `
+{
+  "author": "Robert A. Beezer",
+  "dir": "ltr",
+  "firstPassages": [
+    "7:0 [Chapter 1. Theorems] Chapter 1. Theorems
+Theorems
+Section WILA Section SSLE Theor",
+    "7:3 [Chapter 1. Theorems] Previous topic: Dedication
+Next topic: Notation",
+    "8:0 [Chapter 2. Notation] Chapter 2. Notation
+Notation
+M Alternative text not availabl",
+  ],
+  "language": "en",
+  "math": 10281,
+  "noterefs": 0,
+  "notes": 0,
+  "resolved": 0,
+  "sections": 94,
+  "start": 13,
+  "title": "A First Course in Linear Algebra",
+  "toc": [
+    "0:A First Course in Linear Algebra@0.0",
+    "0:Copyright@1.0",
+    "0:Author Biography@2.0",
+    "0:Edition@3.0",
+    "0:Publisher@4.0",
+  ],
+  "vertical": false,
+}
+`;
+
+exports[`corpus > idpf-regime-anticancer-arabic.epub: summary snapshot 1`] = `
+{
+  "author": "Pr David Khayat, Nathalie Hutter-Lardeau",
+  "dir": "rtl",
+  "firstPassages": [
+    "2:0 [Commencer la lecture] الفصل الثاني
+ما هو السرطان؟
+من أين تأتي الحياة؟
+حسنًا! إن أر",
+    "2:17 [Commencer la lecture] وستجتمع هذه الخلايا المتمايزة تبعًا لميزاتها الخاصّة لتشكّل ",
+    "2:30 [Commencer la lecture] ما يهمّنا أوّلًا، في سعينا إلى فهم كيفيّة حدوث السرطان، هو ه",
+  ],
+  "language": "ar",
+  "math": 0,
+  "noterefs": 1,
+  "notes": 1,
+  "resolved": 1,
+  "sections": 3,
+  "start": 2,
+  "title": "Le Vrai Régime anti-cancer",
+  "toc": [
+    "0:Couverture@0.0",
+    "0:Page de titre@1.0",
+    "0:Commencer la lecture@2.0",
+  ],
+  "vertical": false,
+}
+`;
+
+exports[`corpus > idpf-sous-le-vent.epub: summary snapshot 1`] = `
+{
+  "author": "Jean-Bernard Pouy",
+  "dir": "ltr",
+  "firstPassages": [
+    "0:0 [] Sous le vent SOUS LE VENT",
+    "1:0 [] Sous le vent Dᴇs ᴍᴇᴍᴇs ᴀᴜᴛᴇᴜʀsSirop de Liège, éditions Estua",
+    "2:0 [] Sous le vent Jean-Bernard PouyJoe G. PinelliSOUS LE VENTRoma",
+  ],
+  "language": "fr",
+  "math": 0,
+  "noterefs": 0,
+  "notes": 0,
+  "resolved": 0,
+  "sections": 13,
+  "start": 0,
+  "title": "Sous le vent",
+  "toc": [
+    "0:Commencer la lecture@6.0",
+  ],
+  "vertical": false,
+}
+`;
+
+exports[`corpus > meditations-se.epub: summary snapshot 1`] = `
+{
+  "author": "Marcus Aurelius",
+  "dir": "ltr",
+  "firstPassages": [
+    "2:0 [Book I] Book I
+From my grandfather Verus I learned good morals and t",
+    "2:7 [Book I] From Rusticus I received the impression that my character re",
+    "2:9 [Book I] From Sextus, a benevolent disposition, and the example of a ",
+  ],
+  "language": "en-gb",
+  "math": 0,
+  "noterefs": 122,
+  "notes": 122,
+  "resolved": 122,
+  "sections": 17,
+  "start": 2,
+  "title": "Meditations",
+  "toc": [
+    "0:Titlepage@0.0",
+    "0:Imprint@1.0",
+    "0:Book I@2.0",
+    "0:Book II@3.0",
+    "0:Book III@4.0",
+  ],
+  "vertical": false,
+}
+`;
+
+exports[`corpus > pg132.epub: summary snapshot 1`] = `
+{
+  "author": "Sunzi",
+  "dir": "ltr",
+  "firstPassages": [
+    "2:0 [Preface to the Project Gutenberg Etext] Preface to the Project Gutenberg Etext
+When Lionel Giles beg",
+    "2:4 [Preface to the Project Gutenberg Etext] The Giles’ edition of the Art of War, as stated above, was a",
+    "3:0 [Preface by Lionel Giles] Preface by Lionel Giles
+The seventh volume of Mémoires conce",
+  ],
+  "language": "en",
+  "math": 0,
+  "noterefs": 0,
+  "notes": 0,
+  "resolved": 0,
+  "sections": 24,
+  "start": 10,
+  "title": "The Art of War",
+  "toc": [
+    "0:Sun Tzŭ on The Art of War@1.10",
+    "0:Contents@1.18",
+    "0:Preface to the Project Gutenberg Etext@2.0",
+    "0:Preface by Lionel Giles@3.0",
+    "0:INTRODUCTION Sun Wu and his Book@4.0",
+  ],
+  "vertical": false,
+}
+`;
+
+exports[`corpus > pg2000.epub: summary snapshot 1`] = `
+{
+  "author": "Miguel de Cervantes Saavedra",
+  "dir": "ltr",
+  "firstPassages": [
+    "1:9 [El ingenioso hidalgo don Quijote de la Mancha] El ingenioso hidalgo don Quijote de la Mancha
+por Miguel de ",
+    "1:37 [por Miguel de Cervantes Saavedra] De la jamás vista ni oída aventura que con más poco peligro ",
+    "1:60 [por Miguel de Cervantes Saavedra] Donde se cuenta la agradable historia del mozo de mulas, con",
+  ],
+  "language": "es",
+  "math": 0,
+  "noterefs": 0,
+  "notes": 0,
+  "resolved": 0,
+  "sections": 15,
+  "start": 2,
+  "title": "Don Quijote",
+  "toc": [
+    "0:El ingenioso hidalgo don Quijote de la Mancha@1.9",
+    "0:por Miguel de Cervantes Saavedra@1.10",
+    "0:El ingenioso hidalgo don Quijote de la Mancha@2.0",
+    "1:TASA@2.1",
+    "1:TESTIMONIO DE LAS ERRATAS@2.4",
+  ],
+  "vertical": false,
+}
+`;

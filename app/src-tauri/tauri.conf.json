@@ -1,0 +1,69 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "Vicaria",
+  "version": "../package.json",
+  "identifier": "io.github.luisfpal.vicaria",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "VIC_BASE=/ npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Vicaria",
+        "width": 1100,
+        "height": 800,
+        "minWidth": 420,
+        "minHeight": 560,
+        "resizable": true,
+        "fullscreen": false,
+        "dragDropEnabled": false
+      }
+    ],
+    "security": {
+      "csp": null,
+      "headers": {
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Embedder-Policy": "credentialless"
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "app",
+      "dmg",
+      "appimage",
+      "deb"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "android": {
+      "minSdkVersion": 26
+    },
+    "category": "Education",
+    "shortDescription": "Read a book, ask it anything, keep what it taught you.",
+    "createUpdaterArtifacts": true,
+    "macOS": {
+      "signingIdentity": "-",
+      "minimumSystemVersion": "12.0"
+    }
+  },
+  "plugins": {
+    "updater": {
+      "requireSignedVersion": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDcyNjc2RUU5MzE4Q0RENzEKUldSeDNZd3g2VzVuY3FmRjZvcDRmdTdmclMvVWJFRVJGdzErekcrU2JPblVKM0x2eTBldUg1RWsK",
+      "endpoints": [
+        "https://github.com/luisfpal/vicaria/releases/latest/download/latest.json"
+      ]
+    }
+  }
+}

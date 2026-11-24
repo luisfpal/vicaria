@@ -14,7 +14,7 @@ THRESHOLD = 0.75
 NUM = r"([0-9]{1,3}|[IVXLCDM]{1,7}|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|first|second|third)"
 KEY = (r"(chapter|book|part|act|canto|lecture|letter|stave|volume|kapitel|teil|buch|cap[ií]tulo|chapitre|livre|libro|parte|"
        r"canto|hoofdstuk|luku|глава|第)")
-HEADING = re.compile(rf"^\s*{KEY}\s+{NUM}\b[\s.:,–—-]*(.{{0,90}})$", re.I)
+HEADING = re.compile(rf"^\s*{KEY}\s+{NUM}\b[\s.:,–\u2014-]*(.{{0,90}})$", re.I)
 GENERIC = re.compile(r"^\s*(section \d+|chapter|untitled|.*\.x?html?|.*split.*|part\d+|)\s*$", re.I)  # "I" or "12" are real titles
 
 

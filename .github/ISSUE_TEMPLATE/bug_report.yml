@@ -1,0 +1,25 @@
+name: Bug report
+description: Something does not work
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you saw.
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in Settings.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options: [Web browser, Mac app, Linux app, Android app, iPhone or iPad]
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: The book (title and format), the browser, a screenshot. Never paste an API key.

@@ -1,0 +1,19 @@
+Vicaria es un lector de libros gratuito que te ayuda a conservar lo que lees.
+
+Abre un EPUB o un PDF y lee. Cuando quieras más, pregúntale al libro. La respuesta cita los pasajes de donde viene, y un toque te lleva a la página.
+
+<b>Pregunta al libro.</b> Las respuestas citan sus pasajes. Por defecto solo usa lo que ya leíste, así que no te cuenta el final.
+
+<b>Conserva las ideas.</b> Subraya mientras lees. Ideas muestra cómo se conectan tus libros, por tema y por autor.
+
+<b>Más sabio.</b> Un pensamiento al día de tus propios subrayados, y lecciones breves de las personas detrás de las ideas. Cierra la tarjeta y no vuelve hasta mañana.
+
+<b>Escucha.</b> Cualquier libro en voz alta, con una voz que funciona en tu teléfono.
+
+<b>Solo tuyo.</b> Libros, notas y claves se quedan en tu dispositivo. Sin cuenta, sin anuncios. Empareja teléfono, tableta y computadora escaneando un código.
+
+Clásicos gratuitos de Standard Ebooks y Project Gutenberg a un toque. En inglés y español.
+
+Para preguntar necesitas una clave de IA propia (OpenRouter, DeepSeek, OpenAI, Anthropic, Google o xAI). Leer, subrayar y escuchar funcionan sin ella.
+
+Código abierto, AGPL-3.0.

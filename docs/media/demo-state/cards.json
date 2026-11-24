@@ -1,0 +1,686 @@
+[
+ {
+  "slug": "marcus-aurelius_meditations_george-long",
+  "section": 3,
+  "card": {
+   "core": "Peace comes from training the ruling part to act with reason and justice, seeing all else as natural and fleeting.",
+   "lessons": [
+    {
+     "lesson": "You will meet difficult people; understanding their ignorance prevents anger.",
+     "why": "They act wrongly from ignorance of good and evil, so you can pity rather than hate them, remembering you share the same intelligence.",
+     "why_extra": ""
+    },
+    {
+     "lesson": "Judge each act as if it were your last, with dignity and justice.",
+     "why": "This strips away carelessness, hypocrisy, self-love, and discontent; few things are needed for a quiet life.",
+     "why_extra": ""
+    },
+    {
+     "lesson": "Desires cause more blame than anger because they are voluntary.",
+     "why": "Theophrastus says anger comes with pain and involuntary contraction, while desire is chosen from pleasure and is more intemperate.",
+     "why_extra": ""
+    }
+   ],
+   "remember": "The present is all you can lose; the past and future you do not have.",
+   "terms": [
+    {
+     "term": "ruling part",
+     "meaning": "The mind or reason, the core self that can choose its responses."
+    },
+    {
+     "term": "daemon",
+     "meaning": "The inner guiding spirit or reason, which must be kept pure from passion and thoughtlessness."
+    }
+   ],
+   "diagram": {
+    "type": "none",
+    "why": "The chapter presents a series of ethical reflections without a clear causal or sequential structure."
+   },
+   "model": "deepseek-flash",
+   "v": "c3"
+  },
+  "hoursAgo": 1
+ },
+ {
+  "slug": "henry-david-thoreau_walden",
+  "section": 4,
+  "card": {
+   "core": "Read the best books deliberately in their original languages, for true reading is a heroic exercise that most never attempt.",
+   "lessons": [
+    {
+     "lesson": "Written language is a separate, higher tongue than speech.",
+     "why": "The chapter distinguishes the mother tongue learned unconsciously from the father tongue, a reserved written expression that must be learned deliberately.",
+     "why_extra": ""
+    },
+    {
+     "lesson": "Translations cannot substitute for reading classics in the original.",
+     "why": "The chapter claims Homer has never been printed in English and that cheap translations leave the ancients as solitary and remote as ever.",
+     "why_extra": ""
+    },
+    {
+     "lesson": "Easy reading stultifies the intellect and wastes life.",
+     "why": "The chapter describes novel readers as machines with dulled sight and stagnant faculties, comparing such books to gingerbread baked daily.",
+     "why_extra": ""
+    }
+   ],
+   "remember": "Books must be read as deliberately and reservedly as they were written.",
+   "terms": [
+    {
+     "term": "classics",
+     "meaning": "The noblest recorded thoughts of man, the only oracles which are not decayed."
+    },
+    {
+     "term": "father tongue",
+     "meaning": "Written language, a reserved and select expression too significant to be heard by the ear."
+    },
+    {
+     "term": "heroic books",
+     "meaning": "Great works that remain in a language dead to degenerate times, requiring labor to understand."
+    },
+    {
+     "term": "true reading",
+     "meaning": "Reading true books in a true spirit, a noble intellectual exercise that tasks the reader more than any customary exercise."
+    }
+   ],
+   "diagram": {
+    "type": "compare",
+    "title": "How do true reading and easy reading differ?",
+    "sides": [
+     "True reading",
+     "Easy reading"
+    ],
+    "rows": [
+     {
+      "aspect": "effort",
+      "a": "Steady intention of a whole life",
+      "b": "Lulls nobler faculties to sleep"
+     },
+     {
+      "aspect": "texts",
+      "a": "Classics in original languages",
+      "b": "Primers, novels, storybooks"
+     },
+     {
+      "aspect": "effect",
+      "a": "Tasks and awakens the reader",
+      "b": "Dullness of sight, stagnant faculties"
+     },
+     {
+      "aspect": "audience",
+      "a": "Alert and heroic readers",
+      "b": "Machines to read provender"
+     }
+    ]
+   },
+   "model": "deepseek-flash",
+   "v": "c3"
+  },
+  "hoursAgo": 1
+ },
+ {
+  "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+  "section": 24,
+  "card": {
+   "core": "A prince must avoid being hated or despised, for these breed conspiracies, and popular goodwill is his best shield.",
+   "lessons": [
+    {
+     "lesson": "Seizing property or women makes a prince hated above all.",
+     "why": "When neither property nor honor is touched, most men live content; only the ambition of a few remains, easily curbed."
+    },
+    {
+     "lesson": "Showing fickleness, frivolity, or irresolution makes a prince contemptible.",
+     "why": "He must instead display greatness, courage, gravity, and fortitude, and make his judgments irrevocable so no one can deceive or bypass him."
+    },
+    {
+     "lesson": "Hatred and contempt doom a prince; goodwill protects him.",
+     "why": "Roman emperors like Pertinax, Alexander, and Maximinus fell to conspiracy from these; Marcus, esteemed by both orders, lived honored."
+    }
+   ],
+   "remember": "Hatred is acquired as much by good works as by bad ones.",
+   "terms": [
+    {
+     "term": "despised",
+     "meaning": "Held in contempt for being fickle, frivolous, effeminate, mean-spirited, or irresolute."
+    },
+    {
+     "term": "hated",
+     "meaning": "Made an object of loathing by rapacity, violating property or women, or cruelty."
+    },
+    {
+     "term": "conspiracy",
+     "meaning": "A secret plot by subjects to overthrow or kill the prince."
+    },
+    {
+     "term": "goodwill",
+     "meaning": "The people's esteem and affection for the prince, which makes conspirators fear offending them."
+    }
+   ],
+   "diagram": {
+    "type": "cause",
+    "title": "How does hatred or contempt lead to ruin?",
+    "nodes": [
+     {
+      "id": "a",
+      "label": "hatred or contempt"
+     },
+     {
+      "id": "b",
+      "label": "people hostile"
+     },
+     {
+      "id": "c",
+      "label": "conspirators encouraged"
+     },
+     {
+      "id": "d",
+      "label": "conspiracy"
+     },
+     {
+      "id": "e",
+      "label": "prince overthrown"
+     }
+    ],
+    "edges": [
+     {
+      "from": "a",
+      "to": "b",
+      "label": "produces"
+     },
+     {
+      "from": "b",
+      "to": "c",
+      "label": "gives hope"
+     },
+     {
+      "from": "c",
+      "to": "d",
+      "label": "leads to"
+     },
+     {
+      "from": "d",
+      "to": "e",
+      "label": "causes"
+     }
+    ]
+   },
+   "model": "deepseek-flash",
+   "v": "c3"
+  },
+  "hoursAgo": 1
+ },
+ {
+  "slug": "john-stuart-mill_on-liberty",
+  "section": 6,
+  "card": {
+   "core": "Society may coerce an individual only to prevent harm to others, never for his own good.",
+   "lessons": [
+    {
+     "lesson": "Self-government is a fiction; the majority rules the rest.",
+     "why": "The 'people' wielding power are not the same as those it is exercised over, and the majority may oppress a minority.",
+     "why_fix": ""
+    },
+    {
+     "lesson": "Social tyranny goes deeper than political oppression.",
+     "why": "It works through opinion rather than law, leaves fewer means of escape, penetrates the details of life, and enslaves the soul.",
+     "why_fix": ""
+    },
+    {
+     "lesson": "Rules of conduct rest on custom and class interest, not reason.",
+     "why": "People follow their own liking, class feelings and servility to masters, and never suspect any difficulty in their standards.",
+     "why_fix": ""
+    }
+   ],
+   "remember": "Ask of any interference: does this conduct harm anyone besides the actor?",
+   "terms": [
+    {
+     "term": "social liberty",
+     "meaning": "The nature and limits of the power society may legitimately exercise over the individual."
+    },
+    {
+     "term": "tyranny of the majority",
+     "meaning": "The majority imposing its opinions and practices on dissenters, by law or by opinion."
+    },
+    {
+     "term": "self-regarding",
+     "meaning": "Conduct that affects only the agent himself, or others only with their free consent."
+    },
+    {
+     "term": "harm",
+     "meaning": "Evil or injury done to someone else; the only warrant for compulsion."
+    }
+   ],
+   "diagram": {
+    "type": "cause",
+    "title": "Why liberty needs defending now",
+    "nodes": [
+     {
+      "id": "a",
+      "label": "Popular government"
+     },
+     {
+      "id": "b",
+      "label": "Majority rules rest"
+     },
+     {
+      "id": "c",
+      "label": "Social tyranny"
+     },
+     {
+      "id": "d",
+      "label": "Custom mistaken for reason"
+     },
+     {
+      "id": "e",
+      "label": "Encroachment grows"
+     },
+     {
+      "id": "f",
+      "label": "Harm principle barrier"
+     }
+    ],
+    "edges": [
+     {
+      "from": "a",
+      "to": "b",
+      "label": "creates"
+     },
+     {
+      "from": "b",
+      "to": "c",
+      "label": "produces"
+     },
+     {
+      "from": "d",
+      "to": "c",
+      "label": "justifies"
+     },
+     {
+      "from": "c",
+      "to": "e",
+      "label": "strengthens"
+     },
+     {
+      "from": "f",
+      "to": "e",
+      "label": "restrains"
+     }
+    ]
+   },
+   "model": "deepseek-flash",
+   "v": "c3"
+  },
+  "hoursAgo": 1
+ },
+ {
+  "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+  "section": 16,
+  "card": {
+   "core": "When the Quaker Assembly would not fund defense, Franklin raised an army of volunteers by pamphlet, lottery and persuasion.",
+   "lessons": [
+    {
+     "lesson": "A pamphlet can move more people than a law.",
+     "why": "Plain Truth was written and read aloud; twelve hundred signed at once and the total grew past ten thousand.",
+     "why_note": ""
+    },
+    {
+     "lesson": "Quaker objection came from principle, not numbers.",
+     "why": "At the fire company vote, only one of twenty-two Quakers opposed; others stayed away or offered votes quietly.",
+     "why_note": ""
+    },
+    {
+     "lesson": "Printed creeds trap a sect that learns.",
+     "why": "The Dunker founder refused to print his faith, fearing members would feel bound and stop improving.",
+     "why_note": ""
+    }
+   ],
+   "remember": "Never ask, never refuse, nor ever resign an office.",
+   "terms": [
+    {
+     "term": "association",
+     "meaning": "A volunteer army raised by citizens signing a paper, not by law."
+    },
+    {
+     "term": "proprietaries",
+     "meaning": "The Penn family, who owned and governed Pennsylvania."
+    },
+    {
+     "term": "other grain",
+     "meaning": "Franklin's joke for gunpowder, since the Assembly funded bread but not powder."
+    }
+   ],
+   "diagram": {
+    "type": "process",
+    "title": "How the militia got built",
+    "nodes": [
+     {
+      "id": "a",
+      "label": "Plain Truth pamphlet"
+     },
+     {
+      "id": "b",
+      "label": "Signed association"
+     },
+     {
+      "id": "c",
+      "label": "Companies and regiments"
+     },
+     {
+      "id": "d",
+      "label": "Lottery and cannon"
+     },
+     {
+      "id": "e",
+      "label": "Battery and guard"
+     }
+    ],
+    "edges": [
+     {
+      "from": "a",
+      "to": "b",
+      "label": "recruits"
+     },
+     {
+      "from": "b",
+      "to": "c",
+      "label": "forms"
+     },
+     {
+      "from": "c",
+      "to": "d",
+      "label": "needs arms"
+     },
+     {
+      "from": "d",
+      "to": "e",
+      "label": "builds"
+     },
+     {
+      "from": "e",
+      "to": "c",
+      "label": "defends"
+     }
+    ]
+   },
+   "model": "deepseek-flash",
+   "v": "c3"
+  },
+  "hoursAgo": 1
+ },
+ {
+  "slug": "charles-darwin_the-origin-of-species",
+  "section": 7,
+  "card": {
+   "core": "Species and varieties cannot be cleanly separated; they are stages on one continuous series, and that supports common descent.",
+   "lessons": [
+    {
+     "lesson": "Varieties are incipient species, not a separate kind of thing.",
+     "why": "Individual differences blend into slight varieties, then marked varieties, subspecies and species by an insensible series; Darwin calls a well-marked variety an incipient species."
+    },
+    {
+     "lesson": "Dominant, wide-ranging species of large genera produce the most varieties.",
+     "why": "Tables of plants from twelve countries and beetles from two districts show species of larger genera yield more varieties; being already dominant, their offspring inherit the advantages."
+    },
+    {
+     "lesson": "Species of large genera resemble varieties in being closely and unequally allied, with restricted ranges.",
+     "why": "They differ by unusually small amounts and cluster like satellites round other species; Watson found doubtful species average 6.9 provinces against 7.7 for varieties and 14.3 for their parent species."
+    }
+   ],
+   "remember": "Where many large trees grow, we expect to find saplings.",
+   "terms": [
+    {
+     "term": "species",
+     "meaning": "In this book, an arbitrarily given label for a set of closely resembling individuals, for convenience, differing only in degree from variety."
+    },
+    {
+     "term": "variety",
+     "meaning": "A less distinct, more fluctuating form; in Darwin's view an incipient species, a species in the making."
+    },
+    {
+     "term": "individual differences",
+     "meaning": "The slight differences among offspring of the same parents, or among individuals of one species in one locality."
+    },
+    {
+     "term": "dominant",
+     "meaning": "A species more numerous in individuals and more widely diffused than its close competitors of the same group."
+    },
+    {
+     "term": "monstrosity",
+     "meaning": "A considerable deviation of structure, generally injurious or not useful to the species, grading into varieties."
+    }
+   ],
+   "diagram": {
+    "type": "process",
+    "title": "How a difference becomes a species",
+    "nodes": [
+     {
+      "id": "a",
+      "label": "Individual differences"
+     },
+     {
+      "id": "b",
+      "label": "Slight varieties"
+     },
+     {
+      "id": "c",
+      "label": "Marked varieties"
+     },
+     {
+      "id": "d",
+      "label": "Subspecies"
+     },
+     {
+      "id": "e",
+      "label": "Species"
+     }
+    ],
+    "edges": [
+     {
+      "from": "a",
+      "to": "b",
+      "label": "accumulate into"
+     },
+     {
+      "from": "b",
+      "to": "c",
+      "label": "become more permanent"
+     },
+     {
+      "from": "c",
+      "to": "d",
+      "label": "deepen by selection"
+     },
+     {
+      "from": "d",
+      "to": "e",
+      "label": "widen difference"
+     }
+    ]
+   },
+   "model": "deepseek-flash",
+   "v": "c3"
+  },
+  "hoursAgo": 1
+ },
+ {
+  "slug": "fyodor-dostoevsky_crime-and-punishment_constance-garnett",
+  "section": 9,
+  "card": {
+   "core": "Raskolnikov abandons his plan as impossible, then a chance overheard remark makes it certain.",
+   "lessons": [
+    {
+     "lesson": "He confesses he could never swing the axe",
+     "why": "Waking from the horse dream, he says flatly he would never bring himself to it, yet goes on torturing himself with the thought",
+     "why_note": ""
+    },
+    {
+     "lesson": "Relief is a feeling, not a decision",
+     "why": "He prays to be shown his path and renounces the dream, but only the feeling changes; the reasoning stays untouched",
+     "why2": ""
+    },
+    {
+     "lesson": "Chance information removes the last obstacle",
+     "why": "He overhears that Lizaveta will be out at seven, so the old woman will be alone, exactly what his plan needed",
+     "why3": ""
+    }
+   ],
+   "remember": "The abscess in his heart bursts and he feels free, yet freedom only clears ground for the plan.",
+   "terms": [
+    {
+     "term": "experiment",
+     "meaning": "Raskolnikov's word for his earlier visit to the pawnbroker, a trial run of the plan rather than an errand"
+    }
+   ],
+   "diagram": {
+    "type": "cause",
+    "title": "What turns refusal into certainty?",
+    "nodes": [
+     {
+      "id": "dream",
+      "label": "Horse dream"
+     },
+     {
+      "id": "horror",
+      "label": "Horror at himself"
+     },
+     {
+      "id": "refusal",
+      "label": "Vow to renounce"
+     },
+     {
+      "id": "relief",
+      "label": "Sudden relief"
+     },
+     {
+      "id": "overheard",
+      "label": "Overheard at Hay Market"
+     },
+     {
+      "id": "decided",
+      "label": "No freedom left"
+     }
+    ],
+    "edges": [
+     {
+      "from": "dream",
+      "to": "horror",
+      "label": "awakens"
+     },
+     {
+      "from": "horror",
+      "to": "refusal",
+      "label": "drives to"
+     },
+     {
+      "from": "refusal",
+      "to": "relief",
+      "label": "produces"
+     },
+     {
+      "from": "overheard",
+      "to": "decided",
+      "label": "settles"
+     },
+     {
+      "from": "relief",
+      "to": "decided",
+      "label": "clears way for"
+     }
+    ]
+   },
+   "model": "deepseek-flash",
+   "v": "c3"
+  },
+  "hoursAgo": 1
+ },
+ {
+  "slug": "leo-tolstoy_a-confession_aylmer-maude",
+  "section": 5,
+  "card": {
+   "core": "A healthy, fortunate man discovers life has no meaning, and the truth drives him toward suicide.",
+   "lessons": [
+    {
+     "lesson": "Knowing the truth is what makes life unlivable.",
+     "why": "Once sober, he sees that death will erase everything he does; while intoxicated with life he could live, but he cannot return to that.",
+     "why_note": ""
+    },
+    {
+     "lesson": "He distrusts himself around his own death.",
+     "why": "He hides a cord and stops going out shooting, not because he wants to die but because the pull is so quick and seductive.",
+     "why_note": ""
+    },
+    {
+     "lesson": "Family and art lose their sweetness once the truth is seen.",
+     "why": "Both were honey drops distracting him from the dragon; art he now calls a fraud, since it adorns a life he no longer wants.",
+     "why_note": ""
+    }
+   ],
+   "remember": "The fable is not a fable: the dragon is real and the honey no longer tastes sweet.",
+   "terms": [
+    {
+     "term": "intoxicated with life",
+     "meaning": "The state of living on borrowed meaning, absorbed in habits and hopes, without noticing that death cancels everything."
+    },
+    {
+     "term": "honey",
+     "meaning": "Any pleasure, in the fable and in his life: family love, art, success. It distracts from the dragon but does not remove it."
+    }
+   ],
+   "diagram": {
+    "type": "cycle",
+    "title": "Why he cannot escape his torment",
+    "nodes": [
+     {
+      "id": "truth",
+      "label": "Sees death's truth"
+     },
+     {
+      "id": "nohope",
+      "label": "No wish is reasonable"
+     },
+     {
+      "id": "fear",
+      "label": "Fear of life and death"
+     },
+     {
+      "id": "distract",
+      "label": "Honey: family, art"
+     },
+     {
+      "id": "loss",
+      "label": "Honey loses sweetness"
+     }
+    ],
+    "edges": [
+     {
+      "from": "truth",
+      "to": "nohope",
+      "label": "removes purpose"
+     },
+     {
+      "from": "nohope",
+      "to": "fear",
+      "label": "produces terror"
+     },
+     {
+      "from": "fear",
+      "to": "distract",
+      "label": "seeks relief"
+     },
+     {
+      "from": "distract",
+      "to": "loss",
+      "label": "fails to soothe"
+     },
+     {
+      "from": "loss",
+      "to": "truth",
+      "label": "returns him to"
+     }
+    ]
+   },
+   "model": "deepseek-flash",
+   "v": "c3"
+  },
+  "hoursAgo": 1
+ }
+]

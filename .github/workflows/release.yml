@@ -1,0 +1,113 @@
+name: Release
+# A tag like v1.0.0 builds every download: Mac (Apple silicon and Intel), Linux AppImage and .deb, the Android APK,
+# and latest.json for the desktop updater, then publishes them on the GitHub release (Obtainium tracks the APK there).
+# Secrets (Settings > Secrets and variables > Actions):
+#   TAURI_SIGNING_PRIVATE_KEY, TAURI_SIGNING_PRIVATE_KEY_PASSWORD   the updater signing key (npx tauri signer generate)
+#   ANDROID_KEYSTORE_BASE64, ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS, ANDROID_KEY_PASSWORD   the APK keystore
+# Variable: UPDATER_PUBKEY   the public half of the updater key
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+permissions:
+  contents: write
+env:
+  CI: "true"
+jobs:
+  desktop:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: macos-latest, target: aarch64-apple-darwin, arch: aarch64, bundles: "app,dmg" }
+          - { os: macos-13, target: x86_64-apple-darwin, arch: x64, bundles: "app,dmg" }
+          - { os: ubuntu-22.04, target: x86_64-unknown-linux-gnu, arch: amd64, bundles: "appimage,deb" }
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24, cache: npm, cache-dependency-path: app/package-lock.json }
+      - uses: dtolnay/rust-toolchain@stable
+        with: { targets: "${{ matrix.target }}" }
+      - uses: swatinem/rust-cache@v2
+        with: { workspaces: app/src-tauri }
+      - if: startsWith(matrix.os, 'ubuntu')
+        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf libfuse2
+      - run: npm ci
+        working-directory: app
+      - name: Build
+        working-directory: app
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        run: >
+          npx tauri build --target ${{ matrix.target }} --bundles ${{ matrix.bundles }}
+          --config "{\"plugins\":{\"updater\":{\"pubkey\":\"${{ vars.UPDATER_PUBKEY }}\"}}}"
+      - name: Collect
+        shell: bash
+        run: |
+          set -e
+          B=app/src-tauri/target/${{ matrix.target }}/release/bundle
+          V=$(node -p "require('./app/package.json').version")
+          mkdir out
+          case "${{ matrix.os }}" in
+            macos*) cp $B/dmg/*.dmg out/Vicaria_${V}_${{ matrix.arch }}.dmg
+                    cp $B/macos/Vicaria.app.tar.gz out/Vicaria_${V}_${{ matrix.arch }}.app.tar.gz
+                    cp $B/macos/Vicaria.app.tar.gz.sig out/Vicaria_${V}_${{ matrix.arch }}.app.tar.gz.sig ;;
+            *)      cp $B/appimage/*.AppImage out/Vicaria_${V}_${{ matrix.arch }}.AppImage
+                    cp $B/appimage/*.AppImage.sig out/Vicaria_${V}_${{ matrix.arch }}.AppImage.sig
+                    cp $B/deb/*.deb out/Vicaria_${V}_${{ matrix.arch }}.deb ;;
+          esac
+      - uses: actions/upload-artifact@v4
+        with: { name: "desktop-${{ matrix.arch }}-${{ matrix.os }}", path: out/* }
+  android:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24, cache: npm, cache-dependency-path: app/package-lock.json }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 17 }
+      - uses: android-actions/setup-android@v3
+      - run: sdkmanager "platforms;android-36" "build-tools;36.0.0" "ndk;27.0.12077973"
+      - uses: dtolnay/rust-toolchain@stable
+        with: { targets: "aarch64-linux-android,armv7-linux-androideabi,i686-linux-android,x86_64-linux-android" }
+      - run: npm ci
+        working-directory: app
+      - name: Keystore
+        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > "$RUNNER_TEMP/vicaria.jks"
+      - name: Build
+        working-directory: app
+        env:
+          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/27.0.12077973
+          VIC_KEYSTORE: ${{ runner.temp }}/vicaria.jks
+          VIC_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          VIC_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          VIC_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: npx tauri android build --apk --target aarch64 --target armv7
+      - name: Collect
+        run: |
+          V=$(node -p "require('./app/package.json').version")
+          mkdir out
+          cp app/src-tauri/gen/android/app/build/outputs/apk/universal/release/*.apk out/Vicaria_${V}_android.apk
+      - uses: actions/upload-artifact@v4
+        with: { name: android, path: out/* }
+  publish:
+    needs: [desktop, android]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24 }
+      - uses: actions/download-artifact@v4
+        with: { path: out, merge-multiple: true }
+      - name: latest.json
+        run: |
+          V=$(node -p "require('./app/package.json').version")
+          [ "${GITHUB_REF_NAME#v}" = "$V" ] || { echo "tag $GITHUB_REF_NAME does not match package version $V"; exit 1; }
+          node app/scripts/latest-json.mjs "$V" out "https://github.com/${{ github.repository }}/releases/download/${GITHUB_REF_NAME}" > out/latest.json
+      - name: Publish
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          # a draft first: a maintainer reads the notes and presses Publish (pre-release tags stay pre-releases)
+          gh release create "$GITHUB_REF_NAME" out/* --draft --generate-notes $(echo "$GITHUB_REF_NAME" | grep -q -- '-' && echo --prerelease)

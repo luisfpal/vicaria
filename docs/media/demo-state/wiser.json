@@ -1,0 +1,63 @@
+{
+ "thoughts": [
+  {
+   "text": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+   "act": "Name one thing today that is not yours to control, and let it go.",
+   "by": "Marcus Aurelius",
+   "from": "Meditations",
+   "src": "bundled",
+   "daysAgo": 2
+  },
+  {
+   "text": "Waste no more time arguing about what a good man should be. Be one.",
+   "act": "Do one small thing today you would admire in someone else.",
+   "by": "Marcus Aurelius",
+   "from": "Meditations, 10.16",
+   "src": "bundled",
+   "daysAgo": 6
+  },
+  {
+   "text": "It is not that we have a short time to live, but that we waste much of it.",
+   "act": "Find one hour you will give away today, and take it back.",
+   "by": "Seneca",
+   "from": "On the Shortness of Life",
+   "src": "bundled",
+   "daysAgo": 11
+  }
+ ],
+ "lessons": [
+  {
+   "title": "The ledger: what you count, you can change",
+   "body": "**The idea.** Benjamin Franklin picked thirteen virtues and kept a small book with a column for each day. Each evening he marked where he had slipped. He did not try to fix everything at once: he took one virtue a week and let the others rest.\n\n**First principles.** A habit is a loop of a cue, a move and a result. Most of the time the result is invisible, so the loop never closes. A count makes it visible. Seeing a slip written down is cheaper than the slip itself, and it asks for no willpower, only honesty.\n\n**An example.** Franklin wanted order. By his own account he never reached it, yet he called himself a better and happier man for trying. The ledger was the point, not the score.\n\n**One move for today.** Pick one thing you want to do less of or more of. Draw a line on paper. Tonight, make one mark per time it happened. Do not judge the number. Tomorrow, look at it again.",
+   "people": [
+    "Benjamin Franklin"
+   ],
+   "models": [
+    "feedback loop",
+    "one thing at a time"
+   ],
+   "summary": "Count one habit for a day so the loop closes; one virtue a week.",
+   "topics": [
+    "habits"
+   ],
+   "daysAgo": 1,
+   "fav": true
+  },
+  {
+   "title": "Inversion: ask how it fails",
+   "body": "**The idea.** The mathematician Jacobi said to invert, always invert. Charlie Munger made it a daily tool: instead of asking how to succeed, ask what would guarantee failure, and avoid that.\n\n**First principles.** Some goals are fuzzy, while their opposites are sharp. It is hard to say what a great day looks like, but easy to list what ruins one. Removing the ruinous things often gets most of the way there, and it is a smaller task than inventing the perfect plan.\n\n**An example.** Seneca asks us to imagine losing what we have: a friend, our health, our home. Seen from the other side, what remains looks like a gift, and we treat it that way.\n\n**One move for today.** Write the goal you care about this week. Under it, list three ways to make it fail for certain. Cross out the one you are quietly doing already.",
+   "people": [
+    "Charlie Munger",
+    "Seneca"
+   ],
+   "models": [
+    "inversion"
+   ],
+   "summary": "List what would guarantee failure and remove it.",
+   "topics": [
+    "decisions"
+   ],
+   "daysAgo": 4
+  }
+ ]
+}

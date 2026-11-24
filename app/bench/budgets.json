@@ -1,0 +1,34 @@
+{
+  "cpu_throttle": 4,
+  "runs": 5,
+  "budgets_ms": {
+    "shell_first_paint_cold": 300,
+    "library_interactive_cold": 600,
+    "library_interactive_warm": 600,
+    "open_book_from_library": 200,
+    "open_book_page_load_warm": 600,
+    "next_chapter": 200,
+    "footnote_popover": 50,
+    "library_search_1000_books": 100,
+    "open_book_2000_marks": 200,
+    "marks_shown_2000": 400,
+    "paint_500_marks": 16,
+    "marks_panel_2000": 120,
+    "export_100k_marks": 2000,
+    "ideas_list_1000_books": 600,
+    "ideas_search_1000_books": 100,
+    "ideas_scroll_frame_p95": 20,
+    "ideas_graph_ready_1000_books": 3000
+  },
+  "budgets_kb_gzip": {
+    "initial_js": 40
+  },
+  "notes": {
+    "paint_500_marks": "was 5 ms before measuring; measured 6 to 11 ms at 4x CPU (1.5 to 3 ms real) with CSS highlights, so the gate is one frame (16 ms) at 4x",
+    "marks_panel_2000": "measured 95 to 106 ms median at 4x CPU; 120 ms at 4x is about 30 ms real, inside the 100 ms RAIL response target",
+    "open_book_2000_marks": "time to the text; marks_shown_2000 is time to the marks, which follow the text",
+    "ideas_scroll_frame_p95": "a frame is 16.7 ms at 60 Hz; the gate is the 95th slowest frame of a full scroll through 1,000 books at 4x CPU on a phone-size window, so a miss means dropped frames. A real Android phone is still to be measured",
+    "ideas_graph_ready_1000_books": "was 5000; 1.6 s at 4x CPU once the layout ran on a copy sigma does not watch (3.0 s before)",
+    "initial_js": "was 80; 31.2 KB after the reader, secondary screens and the Spanish catalog became their own files (Nov 2026). Counts the entry and every chunk it preloads"
+  }
+}

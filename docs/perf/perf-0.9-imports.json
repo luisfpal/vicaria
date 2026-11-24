@@ -1,0 +1,74 @@
+{
+  "meditations-se.epub@cpu1x": {
+    "median_ms": 82,
+    "runs": [
+      71,
+      82,
+      110
+    ],
+    "mb": "0.7"
+  },
+  "pg132.epub@cpu1x": {
+    "median_ms": 79,
+    "runs": [
+      75,
+      79,
+      98
+    ],
+    "mb": "0.4"
+  },
+  "pg2000.epub@cpu1x": {
+    "median_ms": 252,
+    "runs": [
+      250,
+      252,
+      254
+    ],
+    "mb": "1.1"
+  },
+  "idpf-linear-algebra.epub@cpu1x": {
+    "median_ms": 1304,
+    "runs": [
+      1234,
+      1304,
+      1476
+    ],
+    "mb": "1.1"
+  },
+  "idpf-regime-anticancer-arabic.epub@cpu1x": {
+    "median_ms": 47,
+    "runs": [
+      44,
+      47,
+      61
+    ],
+    "mb": "0.1"
+  },
+  "idpf-sous-le-vent.epub@cpu1x": {
+    "median_ms": 73,
+    "runs": [
+      71,
+      73,
+      78
+    ],
+    "mb": "1.2"
+  },
+  "idpf-internallinks.epub@cpu1x": {
+    "median_ms": 78,
+    "runs": [
+      77,
+      78,
+      101
+    ],
+    "mb": "0.7"
+  },
+  "idpf-kusamakura-japanese-vertical-writing.epub@cpu1x": {
+    "median_ms": 444,
+    "runs": [
+      434,
+      444,
+      476
+    ],
+    "mb": "17.9"
+  }
+}

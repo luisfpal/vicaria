@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get Vicaria</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f7f4ee; --fg: #1d1a16; --muted: #6b645a; --accent: #b4532a; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #141210; --fg: #eee8dc; --muted: #a39a8b; --accent: #e59a6f; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.55 Georgia, serif; }
+  main { max-width: 34rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  h1 { font-size: 2.4rem; margin: 0 0 .25rem; } h2 { font-size: 1.3rem; margin: 2.2rem 0 .6rem; }
+  p.lead, .muted { color: var(--muted); } .muted { font-size: .9rem; }
+  .btn { display: inline-block; background: var(--accent); color: var(--bg); padding: .75rem 1.3rem; border-radius: 999px; text-decoration: none; font: 600 1rem system-ui, sans-serif; margin: .3rem .4rem .3rem 0; }
+  .btn.alt { background: transparent; color: var(--fg); border: 1px solid var(--muted); }
+  pre { background: rgba(127,127,127,.15); padding: .8rem 1rem; border-radius: .6rem; overflow-x: auto; font-size: .85rem; user-select: all; }
+  .logo { border-radius: 14px; display: block; margin-bottom: 1rem; } .shot { width: 100%; height: auto; border-radius: .6rem; border: 1px solid rgba(127,127,127,.3); margin: 1.6rem 0 .4rem; }
+  ul#benefits { list-style: none; padding: 0; } #benefits li { margin: .8rem 0; } #benefits b { display: block; }
+  ol { padding-left: 1.3rem; } [hidden] { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="media/icon.png" width="64" height="64" alt="">
+  <h1 id="title">Get Vicaria</h1>
+  <p class="lead" id="lead"></p>
+  <section id="primary"></section>
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="media/ask-phone-dark.jpg">
+    <source media="(max-width: 600px)" srcset="media/ask-phone-light.jpg">
+    <source media="(prefers-color-scheme: dark)" srcset="media/ask-desktop-dark.jpg">
+    <img class="shot" src="media/ask-desktop-light.jpg" alt="" width="1600" height="1000">
+  </picture>
+  <ul id="benefits"></ul>
+  <h2 id="other-h"></h2>
+  <p><a id="web" class="btn alt"></a> <a id="all" class="btn alt"></a></p>
+  <p class="muted" id="pending" hidden></p>
+</main>
+<script type="module">
+import { detect, assetFor, obtainiumLink, INSTALL, WEB, REPO, TEXT } from "./pick.mjs";
+const lang = (navigator.languages || [navigator.language]).map(l => l.slice(0, 2)).find(l => l in TEXT) || "en";
+const T = TEXT[lang], kind = new URLSearchParams(location.search).get("for") || detect(navigator.userAgent, navigator.platform, navigator.maxTouchPoints);
+document.documentElement.lang = lang;
+document.title = T.title; title.textContent = T.title; lead.textContent = T.lead;
+$("other-h", T.other); web.textContent = T.web; web.href = WEB; all.textContent = T.all; all.href = `https://github.com/${REPO}/releases`;
+function $(id, text) { document.getElementById(id).textContent = text; }
+const el = (tag, props = {}, ...kids) => { const e = Object.assign(document.createElement(tag), props); e.append(...kids); return e; };
+const btn = (text, href, alt) => el("a", { className: "btn" + (alt ? " alt" : ""), href, textContent: text });
+const sec = (h, ...kids) => { primary.replaceChildren(el("h2", { textContent: h }), ...kids); };
+benefits.replaceChildren(...T.benefits.map(([h, t]) => el("li", {}, el("b", { textContent: h }), t)));
+let assets = [];
+try { assets = (await (await fetch(`https://api.github.com/repos/${REPO}/releases/latest`)).json()).assets || []; } catch { /* offline, or no release yet */ }
+const a = assetFor(kind, assets), rel = `https://github.com/${REPO}/releases/latest`;
+if (kind === "ios") sec(T.ios, el("ol", {}, ...T.iosSteps.map(s => el("li", { textContent: s }))), btn(T.iosOpen, WEB));
+else if (kind === "android") sec(T.android, btn(T.androidApk, a.apk || rel), btn(T.androidObt, obtainiumLink, true), el("p", { className: "muted", textContent: T.androidNote }));
+else if (kind === "mac") sec(T.mac, el("p", { textContent: T.macCmd }), el("pre", { textContent: INSTALL }), btn(T.macArm, a.arm || rel, true), btn(T.macIntel, a.intel || rel, true), el("p", { className: "muted", textContent: T.macNote }));
+else if (kind === "linux") sec(T.linux, el("p", { textContent: T.linuxCmd }), el("pre", { textContent: INSTALL }), btn(T.linuxAppimage, a.appimage || rel, true), btn(T.linuxDeb, a.deb || rel, true), el("p", { className: "muted", textContent: T.linuxNote }));
+else if (kind === "windows") sec(T.windows, el("p", { textContent: T.windowsNote }));
+else sec(T.title, btn(T.web, WEB));
+if (!assets.length && ["android", "mac", "linux"].includes(kind)) { pending.textContent = T.pending; pending.hidden = false; }
+</script>
+</body>
+</html>

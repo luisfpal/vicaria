@@ -1,0 +1,1658 @@
+[
+ {
+  "slug": "virginia-woolf_to-the-lighthouse",
+  "scope": "ch12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does the lighthouse stand for in this part?",
+    "at": 1795356889697
+   },
+   {
+    "role": "assistant",
+    "text": "The lighthouse is mostly the destination of a promised trip. What it stands for is shown through James, for whom going there is \"a passion\" [5.0], and through his jealousy when he has to serve as a measuring-block for the keeper's little boy [7.0].\n\nThe passages give three layers:\n\n- **A concrete place with people in it.** Mrs. Ramsay knits a stocking for the keeper's son, \"who was threatened with a tuberculous hip,\" and plans to send old magazines and tobacco to men \"shut up for a whole month at a time\" on \"a rock the size of a tennis lawn\" [3.5]. The lighthouse is a lonely outpost of human need, not a symbol in the sky.\n- **A test of the weather and of the father.** Mr. Ramsay's \"caustic saying that it would not be fine\" dashes James's spirits [5.0], and Tansley repeats it [5.0]. For the child, the lighthouse is what the adults' word controls: fine or not fine.\n- **A word that keeps the family tied together.** Mrs. Ramsay says that \"even if it isn't fine tomorrow, it will be another day\" [7.0], and she keeps measuring the stocking because \"they might go to the Lighthouse after all\" [7.0].\n\nSo in these chapters the lighthouse is a bright, small, far-off object that gathers the family's hope, the keeper's isolation, and the father's bluntness into one point. Whether it carries a larger meaning is not stated here. The book does not say what happens at the lighthouse, and I will not guess past these pages.\n\n```mermaid\nflowchart LR\n  A[James: passion to go] --> L[Lighthouse]\n  B[Mr. Ramsay: it will not be fine] -- blocks --> L\n  C[Tansley: echoes the father] -- blocks --> L\n  D[Mrs. Ramsay: another day] -- keeps hope --> L\n  E[Stocking for keeper's boy] --> L\n```",
+    "at": 1795356894152,
+    "sent": [
+     "3.5",
+     "3.9",
+     "4.0",
+     "5.0",
+     "5.4",
+     "6.0",
+     "7.0",
+     "7.4",
+     "8.27",
+     "8.28",
+     "10.2",
+     "10.4",
+     "10.5",
+     "11.3",
+     "11.4",
+     "12.0",
+     "12.3",
+     "12.9"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "sun-tzu_the-art-of-war_lionel-giles",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Which of his advice would help in a negotiation?",
+    "at": 1795356765136
+   },
+   {
+    "role": "assistant",
+    "text": "The passages that bear most on negotiation are the nine-ground responses, \"seizing something your opponent holds dear,\" and the spy sections on foreknowledge. [21.0] [21.19] [23.0] [23.18]\n\n- Know which ground you are on before choosing a move. On contentious ground, \"attack not\"; on open ground, \"do not try to block the enemy's way\"; on intersecting highways, \"join hands with your allies.\" [21.0] The same set is restated with the general's own actions: on contentious ground \"hurry up my rear,\" on open ground \"keep a vigilant eye on my defences,\" on intersecting highways \"consolidate my alliances.\" [21.43]\n- Against a strong opponent in good order, \"Begin by seizing something which your opponent holds dear; then he will be amenable to your will.\" [21.19]\n- Move fast and by unexpected routes: \"Rapidity is the essence of war: take advantage of the enemy's unreadiness.\" [21.19]\n- Do not go in blind. \"We cannot enter into alliance with neighboring princes until we are acquainted with their designs,\" and you need local guides for the country. [21.43]\n- Get foreknowledge, and get it from people, not from hopes or calculations: it \"cannot be elicited from spirits; it cannot be obtained inductively from experience, nor by any deductive calculation. Knowledge of the enemy's dispositions can only be obtained from other men.\" [23.0]\n- Find out the names and roles of those around the decision maker: \"the attendants, the aides-de-camp, and doorkeepers and sentries of the general in command.\" [23.18]\n- Turn the other side's people. Enemy agents \"must be sought out, tempted with bribes, led away and comfortably housed. Thus they will become converted spies.\" [23.18] Treat informants well: they should be \"more liberally rewarded\" than anyone, and managed with \"benevolence and straightforwardness.\" [23.0]\n- Keep secrets. If a spy leaks news early, \"he must be put to death together with the man to whom the secret was told.\" [23.18] And check reports: \"Without subtle ingenuity of mind, one cannot make certain of the truth of their reports.\" [23.18]\n- On desperate ground, fight. When there is no way out but agreement, push hard, because soldiers in that position \"will prefer death to flight.\" [21.0] [21.19]\n\nThe book does not say how to apply these to a commercial or diplomatic table; that mapping is my own view. The closest fit is that a negotiation is a contest of position and information, so the ground you stand on decides your move, and the converted spy is the hinge of everything, since \"this knowledge can only be derived, in the first instance, from the converted spy.\" [23.18]\n\n```mermaid\nflowchart LR\nA[Know the ground] --> B[Know their designs]\nB --> C[Seize what they hold dear]\nC --> D[Move fast, unexpected routes]\nD --> E[Turn their people]\nE --> F[Verify reports]\n```",
+    "at": 1795356768820,
+    "sent": [
+     "21.0",
+     "21.19",
+     "21.43",
+     "23.0",
+     "23.18"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "sun-tzu_the-art-of-war_lionel-giles",
+  "scope": "ch12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does Sun Tzu mean by winning without fighting?",
+    "at": 1795356760744
+   },
+   {
+    "role": "assistant",
+    "text": "The book does not say. \"Winning without fighting\" does not appear in the passages you gave me, so I cannot explain it from them.\n\nWhat these passages do say is the opposite emphasis: the cost of a single army of 100,000 men is a thousand ounces of silver per day [12.0], long campaigns dull weapons, damp ardor, exhaust strength and drain the treasury, and invite other chieftains to strike [12.0]. So Sun Tzu's concern here is speed and economy, not a battle avoided. \"Though we have heard of stupid haste in war, cleverness has never been seen associated with long delays\" [12.0], and \"There is no instance of a country having benefited from prolonged warfare\" [12.0].\n\nHow to win cheaply, on his account, is supply: \"The skilful soldier does not raise a second levy, neither are his supply-wagons loaded more than twice. Bring war material with you from home, but forage on the enemy\" [12.0]. He also wants a commander well versed in the evils of war: \"It is only one who is thoroughly acquainted with the evils of war that can thoroughly understand the profitable way of carrying it on\" [12.0].\n\n```mermaid\nflowchart LR\n  A[Raise army once] --> B[Short campaign]\n  B --> C[Forage on the enemy]\n  C --> D[Treasury intact]\n  D --> E[No rival chieftain exploits you]\n```\n\nMy own view, not the book's: the idea of a victory with no battle is usually credited to later parts of the work, which are not in front of us, so I will leave it there.",
+    "at": 1795356763455,
+    "sent": [
+     "11.0",
+     "12.0"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "plato_dialogues_benjamin-jowett",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does Socrates mean when he says he knows nothing?",
+    "at": 1795356809523
+   },
+   {
+    "role": "assistant",
+    "text": "Socrates means he has no wisdom of his own to teach, and that his only advantage over others is that he does not think he knows what he does not know. He says exactly this: he \"neither know[s] nor think[s] that I know,\" while the reputed wise man \"knows nothing, and thinks that he knows\" [18.37]. He calls the fear of death \"the pretence of knowing the unknown,\" a \"conceit that a man knows what he does not know,\" and says in this respect only he may be wiser than others [18.86].\n\nThat is not total ignorance of everything. In the same passage he says he does know that \"injustice and disobedience to a better, whether God or man, is evil and dishonourable\" [18.86]. The \"know nothing\" is a refusal to claim knowledge he lacks, especially about the unknown, and it is his method: he examines a man who has a reputation for wisdom, finds he is not wise, and thereby makes an enemy [18.37].\n\nThe Charmides turns the same idea into a puzzle. Knowing what one knows and does not know sounds like temperance, but Socrates asks whether a science can be a science of itself the way a vision that sees no colour could see only vision [7.222]. And even if it existed, a knowledge of knowledge alone could not tell you what you know: medicine, not wisdom, teaches health, so such a man \"will only know that he knows, but not what he knows\" [7.283]. He could not separate the true physician from the false, since the sciences differ \"not by the mere fact that they are sciences, but by the nature of their subjects\" [7.301].\n\nHow he came to this: the god said he was wisest, and he could not believe it, so he went testing men with a reputation for wisdom and found they only thought they knew [18.37].\n\n```mermaid\nflowchart LR\n  A[God: Socrates is wisest] --> B[Socrates: I know nothing]\n  B --> C[Examine a reputed wise man]\n  C --> D[He thinks he knows but does not]\n  D --> E[Socrates slightly better off]\n```\n\nOn the question whether he deliberately hides knowledge: the book does not say. My own view is that the passages present the ignorance as genuine in the sense of unclaimed, not as a mask over a settled doctrine.",
+    "at": 1795356814247,
+    "sent": [
+     "7.222",
+     "7.283",
+     "7.301",
+     "8.44",
+     "10.417",
+     "12.14",
+     "12.1519",
+     "13.666",
+     "17.43",
+     "18.6",
+     "18.37",
+     "18.42",
+     "18.86",
+     "21.40",
+     "21.488",
+     "22.573",
+     "22.1835",
+     "22.1863",
+     "22.1882"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "plato_dialogues_benjamin-jowett",
+  "scope": "ch22",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is Socrates arguing in this dialogue?",
+    "at": 1795356804631
+   },
+   {
+    "role": "assistant",
+    "text": "Socrates is arguing that justice is good in itself, not merely for its rewards, and he is asked to prove what justice and injustice do to the soul of the person who has them. In this passage Adeimantus says no one has praised justice for its own essential nature \"abiding in the soul, and invisible to any human or divine eye,\" and asks Socrates to show \"the essential good and evil which justice and injustice work in the possessors of them\" [22.909].\n\nThe reasoning: Adeimantus complains that all the professed defenders of justice praise it only \"with a view to the glories, honours, and benefits which flow from them\" [22.909]. He asks Socrates to strip away reputation, since otherwise the praise is of the appearance of justice, not justice. He grants that justice belongs to the highest class of goods, desired for their results but far more for their own sake, like sight, hearing, knowledge, and health [22.909]. So the task is to show justice's effect on the possessor himself, \"whether seen or unseen by gods and men\" [22.909].\n\nThe book does not say in these passages what Socrates' full answer is. My own view: this is the framing request that the rest of the discussion works toward, so you are reading the question being set rather than answered.",
+    "at": 1795356807424,
+    "sent": [
+     "7.52",
+     "9.393",
+     "10.26",
+     "10.28",
+     "12.4",
+     "12.13",
+     "12.22",
+     "12.109",
+     "17.191",
+     "21.6",
+     "21.31",
+     "21.1692",
+     "21.1886",
+     "21.2278",
+     "22.0",
+     "22.11",
+     "22.14",
+     "22.16",
+     "22.17",
+     "22.22",
+     "22.66",
+     "22.75",
+     "22.318",
+     "22.348",
+     "22.364",
+     "22.909"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What role does fortune play in his argument?",
+    "at": 1795356755520
+   },
+   {
+    "role": "assistant",
+    "text": "Fortune controls about half of our actions; the other half is left to our own direction [30.0]. The book's point is not that fortune is all-powerful but that it shows its force only where valour has built no barriers against it [30.0].\n\nHis main image makes this clear. Fortune is like a flooding river that sweeps away trees and buildings, yet in fair weather men can build canals and embankments so that the next flood is less dangerous [30.0]. Italy is his example of the opposite: an open country without defences, which is why the invasion brought such great changes, while Germany, Spain, and France, defended by proper valour, suffered less or not at all [30.0].\n\nHe also ties fortune to timing. A prince who relies entirely on fortune is lost when it changes [30.5]. Men reach glory and riches by different methods, caution or haste, force or skill, and each succeeds or fails according as his method fits the spirit of the times [30.5]. The cautious man ruined when the times turn adventurous is ruined because he cannot change his nature [30.5]. Earlier he says the same of the Italian princes: they blamed fortune for losing their states, but the cause was their own sloth in quiet times [29.5], and only what depends on yourself is reliable, certain, and durable [29.5].\n\nOne place where he narrows fortune's role: he who has relied least on fortune is established strongest [11.0], and those raised solely by good fortune have little trouble rising but much in keeping atop, because they stand on two most inconstant things, the goodwill and fortune of whoever elevated them [12.0].\n\n```mermaid\nflowchart LR\n  F[Fortune: half of actions] --> R{River in flood}\n  R -->|no barriers| D[Italy: swept, great changes]\n  R -->|barriers built in fair weather| S[Germany, Spain, France: less harm]\n  P[Prince's own valour and provision] --> B[Build the barriers]\n  B --> S\n```\n\nThe book does not say fortune can be abolished or predicted. In my own view, the argument treats fortune as the share of events you cannot control and makes the practical question what you built before it arrived.",
+    "at": 1795356759070,
+    "sent": [
+     "8.8",
+     "8.10",
+     "10.0",
+     "11.0",
+     "12.0",
+     "15.5",
+     "16.0",
+     "17.6",
+     "18.9",
+     "21.0",
+     "21.4",
+     "28.0",
+     "28.4",
+     "29.5",
+     "30.0",
+     "30.5",
+     "31.8",
+     "31.10",
+     "31.13"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+  "scope": "ch24",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Why does Machiavelli say it is safer to be feared than loved?",
+    "at": 1795356750768
+   },
+   {
+    "role": "assistant",
+    "text": "Machiavelli says fear is safer because it rests on a dread of punishment that the prince controls, while love rests on an obligation men break whenever it suits them [22.6].\n\nHis reasoning, in his own words: men are \"ungrateful, fickle, false, cowardly, covetous,\" and while you succeed they are yours entirely, but when need approaches they turn against you [22.6]. Friendships bought with payments are earned but not secured, and men have \"less scruple in offending one who is beloved than one who is feared\" [22.6]. So a prince should build on what is in his own control, not on what belongs to others' wills, and only take care to avoid hatred [22.8].\n\nHe also sets the limit: inspire fear without hatred, which holds as long as the prince abstains from the property and women of his subjects, because \"men more quickly forget the death of their father than the loss of their patrimony\" [22.7]. His example for the useful side of fear is Hannibal, whose \"inhuman cruelty\" kept a mixed army united in foreign lands, while Scipio's too great forbearance let his army rebel in Spain [22.8].\n\n```mermaid\nflowchart TD\n    A[Prince needs security] --> B{Feared or loved?}\n    B -->|Loved| C[Obligation of men breaks at advantage]\n    B -->|Feared| D[Dread of punishment never fails]\n    D --> E[Avoid hatred: no taking of property or women]\n    E --> F[Feared but not hated: safe]\n```",
+    "at": 1795356753854,
+    "sent": [
+     "7.0",
+     "8.8",
+     "10.0",
+     "11.0",
+     "12.6",
+     "12.12",
+     "14.4",
+     "17.4",
+     "17.6",
+     "19.0",
+     "21.0",
+     "21.4",
+     "22.0",
+     "22.6",
+     "22.7",
+     "22.8",
+     "24.0"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "charles-darwin_the-origin-of-species",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Which objections does Darwin expect, and how does he answer them?",
+    "at": 1795356783582
+   },
+   {
+    "role": "assistant",
+    "text": "Darwin expects objections that natural selection cannot explain the incipient stages of useful structures, transitional forms, and why some animals have not acquired advantageous traits. He answers that gradations can be beneficial at each step, that transitional forms are rare because the record is imperfect and intermediate varieties get supplanted, and that a structure's absence often depends on unknown conditions or on other parts of the body.\n\nOn incipient stages he takes Mivart's objection directly: natural selection is said to be \"incompetent to account for the incipient stages of useful structures\" [12.20]. His answer is the giraffe. Individuals that could browse even an inch or two higher \"will often have been preserved\" during dearths, and the less favoured \"will have been the most liable to perish\" [12.20]. The Niata cattle show how small a structural difference can decide life or death in droughts [12.20]. He adds that no species is preserved by one advantage alone, \"but by the union of all, great and small\" [12.22].\n\nOn why other hoofed quadrupeds did not get long necks, he answers with the meadow: horses and cattle trim the lower branches to one level, so what use would a slightly longer neck be to sheep [12.24]? In South Africa the competition for high browsing \"must be between giraffe and giraffe, and not with the other ungulate animals\" [12.24]. Elsewhere he admits he cannot give a distinct answer, and compares the question to why some event in human history happened in one country and not another [12.25]. He lists the reasons: coadaptation of several parts, variation not always in the right direction, selection retarded when numbers are set by predators or parasites, and the slowness of the process [12.26]. The ostrich's flightlessness and the absence of terrestrial mammals on oceanic islands are answered the same way: each transition must be beneficial at every stage, under peculiar conditions [12.27]. On why apes have not acquired human intellect, he declines to answer, calling the causes conjectural [12.28].\n\nOn transitional forms he says the answer \"mainly lies in the record being incomparably less perfect than is generally supposed\" [11.10]. Where allied species meet, each has \"supplanted and exterminated its original parent-form and all the transitional varieties between its past and present states\" [11.10]. For changes of habit he points to the Mustela vison, which has webbed feet and dives for fish in summer but preys on mice in winter [11.21]. The La Plata woodpecker Colaptes nests in holes in banks in some districts and bores into trees in others [11.29].\n\nOn mimicry he grants that a rude accidental resemblance must come first, then every variation making the insect more like the object \"would be preserved\" [12.30]. The walking-stick insect covered like moss shows that each grade of resemblance aids escape, \"and the more perfect the resemblance so much the better\" [12.31].\n\nOn single characters, Bronn's objection that species differ in many parts is answered by the racehorse and greyhound: modifications come \"first in one part and then another,\" and inheritance makes them look simultaneous [12.6].\n\nThe book does not say how every such objection is settled; Darwin himself says want of space prevents him from considering all of Mivart's cases [12.20], and that speculation on the first dawn of life is \"almost useless\" without facts [9.89].",
+    "at": 1795356788326,
+    "sent": [
+     "6.45",
+     "9.6",
+     "9.56",
+     "9.89",
+     "11.10",
+     "11.21",
+     "11.29",
+     "11.59",
+     "12.6",
+     "12.20",
+     "12.22",
+     "12.24",
+     "12.25",
+     "12.26",
+     "12.27",
+     "12.28",
+     "12.30",
+     "12.31"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "charles-darwin_the-origin-of-species",
+  "scope": "ch7",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does Darwin mean by the struggle for existence?",
+    "at": 1795356779502
+   },
+   {
+    "role": "assistant",
+    "text": "The passages you gave me do not define the struggle for existence. That phrase appears only in passing, in a passage about animals kept by uncivilised man: \"they almost always have to struggle for their own food, at least during certain seasons,\" and there Darwin says the process of \"natural selection\" will be \"hereafter more fully explained\" [6.46]. So the book, as far as these passages go, does not say.\n\nMy own view, outside the given text: Darwin's struggle for existence is usually taken to mean the competition among individuals of the same or different species, and against the conditions of life, for the resources needed to survive and reproduce. It is not only literal fighting. The given passages are consistent with that reading: the reproductive system is \"extremely sensitive to any change in the conditions\" [6.6], and man can select only from \"variations which are first given to him in some slight degree by nature\" [6.48], which suggests the wild counterpart is a filtering of slight differences by circumstances. But keep that as my gloss, not Darwin's definition here.",
+    "at": 1795356781916,
+    "sent": [
+     "6.6",
+     "6.13",
+     "6.15",
+     "6.21",
+     "6.24",
+     "6.32",
+     "6.35",
+     "6.46",
+     "6.48",
+     "7.0",
+     "7.3"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "friedrich-nietzsche_beyond-good-and-evil_helen-zimmern",
+  "scope": "ch9",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is Nietzsche attacking in earlier philosophers?",
+    "at": 1795356921309
+   },
+   {
+    "role": "assistant",
+    "text": "Nietzsche attacks earlier philosophers for defending prejudices they mistake for truths, and for assuming that opposite values cannot have a common origin. At bottom, they take their own instincts and valuations as the standard of truth while presenting this as pure, disinterested reasoning.\n\nHe names the central prejudice directly: the fundamental belief of metaphysicians is the belief in the antithesis of values [4.5]. They assume truth cannot come from error, or unselfishness from selfishness, and so invent a pure origin for the highest values. Nietzsche answers that it may be possible that what makes those good things valuable is precisely their hidden relation to their apparent opposites [4.5].\n\nHe also exposes the dishonesty of the method. Philosophers pose as though their opinions came from cold dialectic, but in fact a heart's desire, defended by arguments sought after the event, is what they call \"truth\" [4.11]. He gives Kant's \"categorical imperative\" and Spinoza's mathematical form as examples of this masquerade [4.11].\n\nA third target is the faith that conscious thinking is the pure core of philosophy. In fact the greater part of a philosopher's conscious thinking is secretly driven by his instincts, and behind logic sit physiological demands for maintaining a mode of life [4.6]. In the same spirit, belief in synthetic judgments a priori is necessary for creatures like us but need not be true [4.25], and \"free will\" and \"non-free will\" are both mythologies, since in real life it is only a question of strong and weak wills [4.46].\n\nEarlier in the book he states the broader charge: even the Will to Truth itself must be questioned, since the problem of the value of truth had never been properly raised [4.0]. The book does not say what specific further attacks appear in later chapters.",
+    "at": 1795356925407,
+    "sent": [
+     "4.0",
+     "4.5",
+     "4.6",
+     "4.11",
+     "4.15",
+     "4.25",
+     "4.42",
+     "4.43",
+     "4.46",
+     "5.20",
+     "5.37",
+     "5.41",
+     "5.43",
+     "6.6",
+     "8.0",
+     "9.0",
+     "9.4",
+     "9.6",
+     "9.8"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "epictetus_discourses_george-long",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How would Epictetus handle losing a job?",
+    "at": 1795356744647
+   },
+   {
+    "role": "assistant",
+    "text": "He would treat the job as an external, not his own, and put his effort into keeping his will conformable to nature; the loss itself would not make him lament or blame anyone. [5.5] [5.92]\n\nThe reasoning, in the book's own terms:\n\n- **Sort the thing first.** \"Externals are not in my power: will is in my power. Where shall I seek the good and the bad? Within, in the things which are my own.\" [6.24] A job belongs with land, health, and reputation, which philosophy does not promise to secure [5.88]. So on losing it, he would not call the event bad, since \"in what does not belong to you call nothing either good or bad, or profit or damage.\" [6.24]\n- **No blaming, no flattery.** Zeus's gift is the faculty of using appearances, and with it \"you will never be hindered, never meet with impediments; you will not lament, you will not blame, you will not flatter any person.\" [5.5] Losing a post is exactly the case where the book says people flatter and lament instead.\n- **Use what remains.** \"We must make the best use that we can of the things which are in our power, and use the rest according to their nature.\" [5.5] The weather is not yours to manage: \"God has not made you the manager of the winds.\" [5.5]\n- **Expect anxiety only where desire outruns power.** The anxious man \"wants something which is not in his power\" [6.70]. Epictetus's example: the lute player is calm alone and anxious in the theatre because he now wants applause [6.70]. Wanting to keep the job, or to please the one who decides, is the same structure.\n- **His own test case.** The man who swore he would stay out of the palace forgot it the moment Caesar's letters arrived [5.67]. Epictetus tells it to show how fast an external can pull a man back; the antidote is to know beforehand which things you admire and which have power over you, as Zeno did before Antigonus [6.71].\n- **Duties go on.** As a citizen of the world you act like a hand or foot with reference to the whole [6.52]. Losing a post removes one role, not the duty to act well in the roles that remain.\n\nOne limitation: the book does not say whether he would take practical steps to find other work. My own view: nothing in these passages forbids seeking work, since seeking is an action in your power, so long as the outcome is not made the condition of your peace [5.5] [6.24].",
+    "at": 1795356749054,
+    "sent": [
+     "5.5",
+     "5.18",
+     "5.21",
+     "5.33",
+     "5.60",
+     "5.67",
+     "5.71",
+     "5.72",
+     "5.88",
+     "5.92",
+     "5.151",
+     "5.152",
+     "6.23",
+     "6.24",
+     "6.52",
+     "6.67",
+     "6.70",
+     "6.71"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "epictetus_discourses_george-long",
+  "scope": "ch6",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is up to us and what is not?",
+    "at": 1795356739109
+   },
+   {
+    "role": "assistant",
+    "text": "Up to us are will and everything that depends on the will; not up to us are the body, its parts, possessions, parents, brothers, children, country, and generally all with whom we live in society [5.129]. Epictetus states this division as the core of education: learning to fit our natural preconceptions to particular things and then to separate what is in our power from what is not [6.0].\n\nThe reason the line falls there is that good and evil lie in the use of appearances, not in the things themselves. So caution belongs where the will is at work, and confidence belongs toward what does not depend on the will; being cautious about what is really bad is what makes us confident about what is not [6.0]. He applies the same rule to externals: call nothing outside your will good or bad, profit or damage, and keep your firmness while still being careful, the way a dice player is careful about the throw but not about the counters [6.24] wait, that citation is wrong. The dice image is in Book II chapter V, which the passages give without a usable id, so I will not cite it.\n\nTwo examples show the division in action. Agrippinus, told he is condemned to banishment, asks whether his property is taken, hears that it is not, and goes to Aricia to dine; he treats his life as something lent by another [5.10]. And the tyrant who says \"I am master of all\" cannot give you a desire free from hindrance or an aversion free from error, which is why Epictetus says to regard him like a fever [5.113].\n\nThe cause of what we do or do not do is never death, exile, or pain, but our own opinions and wills [5.73]. Zeus has given us what is our own free from hindrance and what is not our own subject to hindrance, with the order: keep what is your own, do not desire what belongs to others [5.143].",
+    "at": 1795356742928,
+    "sent": [
+     "5.10",
+     "5.44",
+     "5.73",
+     "5.87",
+     "5.113",
+     "5.118",
+     "5.125",
+     "5.129",
+     "5.134",
+     "5.143",
+     "5.152",
+     "6.0",
+     "6.17",
+     "6.23",
+     "6.24",
+     "6.36",
+     "6.39",
+     "6.41",
+     "6.44",
+     "6.45",
+     "6.51",
+     "6.55",
+     "6.61"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "leo-tolstoy_a-confession_aylmer-maude",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How does Tolstoy come to faith?",
+    "at": 1795356836825
+   },
+   {
+    "role": "assistant",
+    "text": "Tolstoy comes to faith by reasoning himself to a dead end: rational knowledge tells him life is meaningless, but the fact that millions of ordinary people live, endure, and die calmly forces him to admit that faith, not reason, is what makes life possible [10.10][10.12]. He then returns to the faith of his childhood, now consciously rather than by habit [13.15].\n\nThe path has these steps:\n\n1. **A faith in \"progress\" that collapses.** He first lives by the faith of educated people, \"progress,\" which he later sees is like answering \"whither to steer\" with \"we are being carried somewhere\" [4.0]. The Paris execution and his brother's death break this faith: the arbiter of good and evil is \"my heart and I,\" not progress [4.2].\n\n2. **Despair.** At fifty the question \"Why should I live?\" brings him to the verge of suicide, and he hides a cord and stops going out with a gun [5.2][6.5]. He sees that family and art, the \"two drops of honey,\" no longer distract him because the truth is death [5.8].\n\n3. **Science and philosophy give no answer.** Experimental science ignores the question and abstract science cannot answer it [6.5]. He is like a man lost in a forest: clear horizons in one direction where no home can be, deeper darkness in the other [7.0]. Strictly expressed, the reply is just \"0 equals 0\" [10.7].\n\n4. **He notices that he is the odd one out.** He asks why all humanity lives if life is senseless, and suspects his own ignorance is talking: \"Ignorance always says just what I am saying\" [8.15]. The reply of faith is indefinite in form but it alone introduces the relation of the finite to the infinite, without which there is no solution [10.7].\n\n5. **He looks at the poor and unlettered believers.** Their superstitions fit their lives and are a condition of them; their whole life confirms the meaning their faith gives, and they endure labour, illness, and death with tranquillity, in contrast to his own circle [11.10].\n\n6. **He reframes his own life.** He sees he has been a parasite, not producing sustenance for others, so his \"no use\" answer was correct only for a madman like himself [12.2].\n\n7. **The turn.** He notices he lives only when he believes in God and dies when he forgets Him: \"To know God and to live is one and the same thing. God is life\" [13.10]. He is saved from suicide, and the returned strength of life is not new but the same that carried him in childhood; now he knows he cannot live without it [13.15].\n\n8. **The boat image.** He had drifted with the current of people who said no other direction was possible, then remembers the shore, the oars, and the direction: \"That shore was God; that direction was tradition; the oars were the freedom given me to pull for the shore and unite with God\" [13.17].\n\nOne thing to keep clear: this is not faith reached by proof. He admits faith remained as irrational to him as before, but he could not deny that it alone answers the questions of life [10.10]. He also rejects the idea that the conception of God is God, since that is something he can evoke or refrain from evoking; what he seeks is that without which there can be no life [13.10].\n\n```mermaid\nflowchart TD\n    A[Faith in progress] --> B[Execution and brother's death]\n    B --> C[Despair near suicide]\n    C --> D[Science: no answer]\n    D --> E[Philosophy: 0 equals 0]\n    E --> F[Why does all humanity live?]\n    F --> G[Observe poor believers]\n    G --> H[God is life]\n    H --> I[Return to childhood faith, now conscious]\n    I --> J[Boat: shore God, oars freedom, direction tradition]\n```",
+    "at": 1795356842603,
+    "sent": [
+     "2.9",
+     "4.0",
+     "4.2",
+     "4.3",
+     "5.2",
+     "5.6",
+     "5.8",
+     "6.5",
+     "7.0",
+     "7.16",
+     "8.15",
+     "10.7",
+     "10.10",
+     "10.12",
+     "11.10",
+     "12.2",
+     "13.10",
+     "13.15",
+     "13.17"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "leo-tolstoy_a-confession_aylmer-maude",
+  "scope": "ch5",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What crisis does he describe here?",
+    "at": 1795356844256
+   },
+   {
+    "role": "assistant",
+    "text": "He describes a crisis in which life comes to a standstill: he can still breathe, eat, drink, and sleep, but \"there was no life, for there were no wishes the fulfillment of which I could consider reasonable\" [5.0]. The truth he arrives at is \"that life is meaningless,\" and he sees nothing ahead but suffering and complete annihilation [5.0].\n\nThe crisis is not caused by misfortune. He is not yet fifty, has a loving wife and good children, an estate that grows, fame, and unusual strength of body and mind; yet in that situation he could not live and had to use cunning with himself to avoid taking his own life [5.3]. He describes the pull toward self-destruction as a force contrary to his former striving to live, so natural that he hid a cord from himself and stopped going out shooting with a gun [5.2]. His life appears to him as \"a stupid and spiteful joke someone has played on me,\" as if someone watched him mature to the summit of life only to stand there \"like an arch-fool\" seeing that there is nothing in life [5.3].\n\nThis state grew out of the earlier questions \"What is it for? What does it lead to?\" which returned more and more often until he had to answer them [4.5], and which no achievement could answer: 6,000 desyatinas and 300 horses, or being more famous than all the writers in the world, and \"what of it?\" [4.12].",
+    "at": 1795356847070,
+    "sent": [
+     "2.5",
+     "4.3",
+     "4.5",
+     "4.12",
+     "5.0",
+     "5.2",
+     "5.3"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What did he learn about pride?",
+    "at": 1795356775238
+   },
+   {
+    "role": "assistant",
+    "text": "Franklin learned that pride is the hardest natural passion to subdue, and that even conquering it can feed it. He says so directly: \"there is, perhaps, no one of our natural passions so hard to subdue as pride,\" and \"even if I could conceive that I had completely overcome it, I should probably be proud of my humility\" [13.193].\n\nHe came to this through a specific event. A Quaker friend told him plainly that he was generally thought proud, that his pride showed often in conversation, and that he was not content to be in the right but was overbearing and insolent. The friend proved it with several instances [13.189]. Franklin's response was to add Humility to his list of virtues, which had held twelve, and to give the word an extensive meaning [13.189].\n\nHis own view of the outcome is modest. He notes that pride is \"still alive, and will every now and then peep out and show itself,\" and says the reader will see it \"perhaps, often in this history\" [13.193]. So what he learned is not a method that succeeded but a limit he kept admitting.\n\nThe passages you gave do not report how well the Humility rule worked in daily practice beyond that admission. My own view, not the book's: the value here is the honesty of the diagnosis rather than a cure.",
+    "at": 1795356777855,
+    "sent": [
+     "5.13",
+     "5.20",
+     "6.8",
+     "6.23",
+     "8.8",
+     "8.15",
+     "10.9",
+     "11.35",
+     "11.40",
+     "12.8",
+     "13.189",
+     "13.193",
+     "14.17",
+     "15.0",
+     "15.13",
+     "16.8",
+     "17.10",
+     "17.12",
+     "17.14"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+  "scope": "ch16",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How did Franklin choose his thirteen virtues?",
+    "at": 1795356770507
+   },
+   {
+    "role": "assistant",
+    "text": "Franklin says he gathered the moral virtues he had met with in his reading, found existing catalogues differed in how many ideas each name covered, and so chose \"rather more names, with fewer ideas annexed to each\" [13.0]. He ended with thirteen virtues, each with a short precept stating its full meaning [13.0].\n\nThe reasoning and the list:\n- The catalogue varied by writer. Temperance, for example, meant only eating and drinking to some, and the moderating of every pleasure and passion to others [13.0].\n- His thirteen were Temperance, Silence, Order, Resolution, Frugality, Industry, Sincerity, Justice, Moderation, Cleanliness, Tranquillity, Chastity, and Humility [13.0][13.10].\n- He did not attempt all at once. He fixed on one virtue at a time, arranging them so that acquiring one would ease the next: Temperance first for \"coolness and clearness of head,\" then Silence because knowledge comes \"rather by the use of the ears than of the tongue,\" then Order, then Resolution, then Frugality and Industry [13.10].\n- Humility was added late. The list first had twelve; a Quaker friend told him he was generally thought proud and overbearing, so he added Humility with \"an extensive meaning\" [13.189].\n\n```mermaid\nflowchart LR\nA[Read virtue lists] --> B[Split into 13 names, few ideas each]\nB --> C[Order them so one helps the next]\nC --> D[One week per virtue, marks in a book]\nD --> E[Quaker friend's remark]\nE --> F[Humility added]\n```\n\nA separate point: he deliberately kept the scheme free of any sect's tenets so it could serve people of all religions [13.187].",
+    "at": 1795356773585,
+    "sent": [
+     "5.11",
+     "5.17",
+     "7.13",
+     "8.15",
+     "9.8",
+     "10.21",
+     "11.30",
+     "13.0",
+     "13.10",
+     "13.19",
+     "13.185",
+     "13.187",
+     "13.189",
+     "13.206",
+     "14.17",
+     "15.0",
+     "16.0"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "fyodor-dostoevsky_notes-from-underground_constance-garnett",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is his argument about twice two making four?",
+    "at": 1795356875541
+   },
+   {
+    "role": "assistant",
+    "text": "His argument is that \"twice two makes four\" stands for mathematical and natural-scientific certainty, and he resents it because it leaves no room for his will or his caprice. He cannot knock the wall down, but he refuses to be reconciled to it just because it is a wall [5.4].\n\nThe reasoning, in his own examples:\n\n1. The stone wall is \"the laws of nature, the deductions of natural science, mathematics\" [5.4]. When they prove you are descended from a monkey, or that one drop of your own fat must be dearer to you than a hundred thousand fellow-creatures, you are told to accept it because \"twice two is a law of mathematics\" [5.4].\n2. He does not dispute the arithmetic. He disputes the consolation: \"what do I care for the laws of nature and arithmetic, when, for some reason I dislike those laws and the fact that twice two makes four?\" [5.4]\n3. He turns it against free will: if my will must of itself coincide with my \"normal interests,\" then \"what sort of free will is left when we come to tabulation and arithmetic?\" Twice two makes four \"without my will\" [10.5].\n4. He calls the four \"a pert coxcomb who stands with arms akimbo barring your path and spitting,\" and says \"twice two makes five is sometimes a very charming thing too\" [11.2].\n5. His deepest objection: certainty ends the search. Man loves \"the process of attaining, not the end of it,\" and a goal as positive as twice two makes four \"is not life … but is the beginning of death\" [11.2]. Once you have mathematical certainty \"there is nothing left to do or to understand,\" only to bottle up your five senses and contemplate; whereas with consciousness \"you can at least flog yourself at times\" [11.3].\n\nSo the formula is not really about arithmetic. It is his name for every conclusion that claims to be final and so cancels choice.\n\n```mermaid\nflowchart TD\n    A[Stone wall: laws of nature, math] --> B[Twice two makes four]\n    B --> C[No room for my will]\n    C --> D[No room for suffering or doubt]\n    D --> E[Nothing left to do or understand]\n    E --> F[Beginning of death]\n    B -.-> G[His refusal: not reconciled, though he cannot break it]\n```",
+    "at": 1795356879435,
+    "sent": [
+     "5.4",
+     "5.7",
+     "10.5",
+     "11.2",
+     "11.3",
+     "16.0",
+     "16.20",
+     "16.22",
+     "16.24",
+     "17.3",
+     "18.0",
+     "18.3",
+     "18.13",
+     "18.31",
+     "18.40",
+     "21.0",
+     "22.0",
+     "22.2",
+     "22.5"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "fyodor-dostoevsky_notes-from-underground_constance-garnett",
+  "scope": "ch16",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Why is the narrator so spiteful?",
+    "at": 1795356869998
+   },
+   {
+    "role": "assistant",
+    "text": "He is spiteful from wounded vanity, not from real malice: he says outright that he “was lying when I said just now that I was a spiteful official,” that he “never could become spiteful,” and that he was “simply amusing myself” [3.4]. The spite is a pose built on shame.\n\nThe cause is in Part II: “owing to my unbounded vanity and to the high standard I set for myself, I often looked at myself with furious discontent, which verged on loathing,” and so he “inwardly attributed the same feeling to everyone” [16.0]. He hated his own face and wanted it to look at least intelligent. With the clerks he “alternated between despising them and thinking them superior to myself” and always dropped his eyes first [16.2]. Spite is the counter-pressure he puts on that self-loathing.\n\nHe admits the same mechanism in Part I. In the moment of sharpest spleen he was “inwardly conscious with shame” that opposite feelings were “swarming in me” and that he “purposely would not let them come out” [3.4]. He cannot become anything, “neither spiteful nor kind,” and calls his spite a “spiteful and useless consolation” [3.6]. His refusal to see a doctor “from spite” shows the pattern: he knows he injures only himself [3.0].\n\nTo illustrate, he turns to toothache: the educated sufferer’s moans are “malignant,” and there is “a voluptuous pleasure” in knowing the family sees through him [6.0]. That is his spite in miniature, pleasure taken in his own humiliation.\n\n```mermaid\nflowchart LR\nA[Unbounded vanity] --> B[Loathing of self]\nB --> C[Assume others loathe him]\nC --> D[Dread of being ridiculous]\nD --> E[Spite as pose]\nE --> F[Self-injury, e.g. no doctor]\n```\n\nMy own view, not the book’s: the spite functions as a shield. If he strikes first, no one else can define him as base. The book does not say whether this changes.",
+    "at": 1795356873852,
+    "sent": [
+     "3.0",
+     "3.4",
+     "3.6",
+     "6.0",
+     "16.0",
+     "16.2"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "seneca_dialogues_aubrey-stewart",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "According to Seneca, how do people waste their lives?",
+    "at": 1795356733217
+   },
+   {
+    "role": "assistant",
+    "text": "Seneca says people waste life not because it is short but because they squander it on other things and never claim it as their own. \"We do not receive a short life, but we make it a short one\" [6.0].\n\nThe reasons he gives:\n\n- **No settled purpose.** Many are \"tossed from one new scheme to another by a rambling, inconsistent, dissatisfied, fickle habit of mind,\" and some care for nothing enough to try, lying \"lazily yawning until their fate comes upon them\" [6.5].\n- **Being busy for others.** A man is taken from himself by clients, defendants, candidates, legacy-hunters, and great friends who use him to swell their train; \"only a very few days, and only those which were useless for any other purpose, have been left to you\" [6.16].\n- **Deferring life to the future.** Men plan leisure for their fiftieth or sixtieth year, though few reach it, \"and choose that our lives shall begin at a point which few of us ever reach\" [6.8].\n- **Treating time as cheap because it is invisible.** Men haggle over money but \"are most prodigal\" with time, because it \"does not come before our eyes\" [6.8, 6.18]. They even promise parts of their years to loved ones, and lose them without the others gaining them [6.18].\n- **Drink and debauchery**, which he calls the most shameful way to be busy [6.16].\n\nThe image he uses: a man tossed by contrary winds has not travelled much, \"he has only been much tossed about\" [6.16]. And the long-lived man with wrinkles and grey hairs \"has not lived long, but has only been long alive\" [6.16].\n\nRelated to grief, elsewhere he says mourning is also self-encouraged, \"the measure of which depends not upon his sufferings, but upon his will\" [2.14].",
+    "at": 1795356737415,
+    "sent": [
+     "2.14",
+     "3.31",
+     "3.95",
+     "3.111",
+     "3.147",
+     "3.170",
+     "3.215",
+     "3.217",
+     "4.37",
+     "5.4",
+     "5.13",
+     "6.0",
+     "6.5",
+     "6.8",
+     "6.15",
+     "6.16",
+     "6.18"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "adam-smith_the-theory-of-moral-sentiments",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is the impartial spectator?",
+    "at": 1795356822624
+   },
+   {
+    "role": "assistant",
+    "text": "The impartial spectator is the imagined fair observer inside us whose feelings we consult to judge our own conduct. We approve or disapprove of ourselves by asking whether that spectator would sympathize with our motives, the same test we apply to other people [37.0].\n\nSmith builds it in steps:\n\n1. We judge others by whether we can enter into their situation and go along with their feelings [9.7].\n2. The person acting does the reverse: he looks at his own case as the bystanders would look at it, and that reflected feeling cools his passion [9.9].\n3. Turned on ourselves, this becomes self-judgment. We must \"remove ourselves, as it were, from our own natural station\" and view our motives with the eyes of others; whatever verdict we reach \"must always bear some secret reference\" to the judgment of others [37.0].\n\nWhat the spectator is not: it is not public opinion. Smith separates praiseworthiness from praise. The man who knows his conduct is right still approves of himself even if nobody ever learns of it, judging himself by how others would see him \"if they were better informed\" [38.6]. Likewise the dread of blameworthiness survives perfect secrecy: a man who has done something base \"still feels that he is the natural object of these sentiments\" [38.10].\n\n```mermaid\nflowchart LR\n  A[My passion] --> B[I imagine bystanders' view]\n  B --> C[Cooler reflected feeling]\n  C --> D[Impartial spectator's verdict]\n  D --> E[Self-approval or self-condemnation]\n```\n\nTwo uses in the book: it measures propriety of any passion, including resentment, which should be governed by \"the indignation which they naturally call forth in that part of the impartial spectator\" [10.4]; and it grounds merit, since actions deserve reward or punishment when \"the heart of every impartial spectator entirely sympathizes\" [24.0]. In the race for wealth he may strain every nerve, but if he justles a competitor, \"the indulgence of the spectators is entirely at an end\" [30.0].\n\nThis is my own view, not the book's: the device works as a regulative fiction. We can never fully leave our own station, so the spectator is a construct, which is why Smith calls it \"supposed\" and \"imaginary\" [37.0][9.7].",
+    "at": 1795356827073,
+    "sent": [
+     "9.7",
+     "9.9",
+     "10.4",
+     "10.9",
+     "14.9",
+     "24.0",
+     "29.0",
+     "30.0",
+     "30.5",
+     "34.0",
+     "34.5",
+     "34.11",
+     "37.0",
+     "38.4",
+     "38.6",
+     "38.10",
+     "38.11",
+     "38.13",
+     "38.16"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "adam-smith_the-wealth-of-nations",
+  "scope": "ch11",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Why does Smith think the division of labour makes a nation richer?",
+    "at": 1795356816056
+   },
+   {
+    "role": "assistant",
+    "text": "Smith's answer is that the division of labour multiplies the quantity of work the same number of people can perform, through three circumstances: greater dexterity in each worker, saving of time lost in passing between tasks, and the invention of machines that abridge labour [6.6]. The pin example shows the size of the effect, and the trucking propensity shows how the division of labour arises in the first place.\n\nThe three circumstances, in Smith's own examples:\n\n1. **Dexterity.** A common smith unused to nails might make two or three hundred bad nails a day; a smith whose sole business is nails can seldom make more than eight hundred or a thousand; boys who had never done any other trade could make upwards of two thousand three hundred nails a day [6.6].\n\n2. **Saving of time.** A country weaver who also farms a small plot loses much time passing from loom to field and back, and the habit of changing work and tools every half hour renders him \"almost always slothful and lazy\" [6.8].\n\n3. **Machinery.** The division of labour gives occasion to machines that \"enable one man to do the work of many\" [6.6].\n\nThe arithmetic of the pin factory makes the gain concrete: ten men making about twelve pounds of pins a day, at upwards of four thousand pins to the pound, come to upwards of forty-eight thousand pins, or four thousand eight hundred per person; working separately, each could perhaps not make one pin, and certainly not twenty [6.4]. So the same ten people produce far more, and that greater produce is the nation's greater wealth.\n\nWhy the division of labour happens at all: it is not the effect of human wisdom foreseeing general opulence, but the slow consequence of the propensity to truck, barter, and exchange [7.0]. The hunter who makes bows and arrows well finds he can get more cattle and venison by exchanging them than by hunting, so bow-making becomes his chief business, and the same for the house-carpenter, smith, and tanner [7.4].\n\nOne limit Smith states: the division of labour is bounded by the extent of the market, because a person must be able to exchange his surplus to be encouraged to devote himself to one employment [8.0]. Hence a porter can find work only in a great town, and in the Scottish Highlands there cannot be such a trade as a nailer, since a thousand nails a day for three hundred days would be three hundred thousand a year, of which not one thousand could be sold there [8.0]. Egypt, Bengal, and the eastern provinces of China improved early, in Smith's account, partly because of extensive inland navigation [8.7].\n\n```mermaid\nflowchart TD\n    A[Propensity to truck and barter] --> B[Division of labour]\n    B --> C[Dexterity]\n    B --> D[Time saved]\n    B --> E[Machinery]\n    C --> F[More work from same people]\n    D --> F\n    E --> F\n    G[Extent of market] --> B\n    F --> H[Greater opulence of the nation]\n```\n\nOn the distribution of that wealth, the passages you were given [11.0] and [11.8] show Smith noting that in the early and rude state the whole produce belongs to the labourer, but once stock has accumulated and land become private property, the labourer must share the produce with the owner of stock and the landlord. The book's later treatment of that division is not in the passages given.",
+    "at": 1795356820936,
+    "sent": [
+     "6.0",
+     "6.4",
+     "6.5",
+     "6.6",
+     "6.8",
+     "6.12",
+     "7.0",
+     "7.4",
+     "8.0",
+     "8.7",
+     "8.9",
+     "9.8",
+     "10.4",
+     "10.30",
+     "11.0",
+     "11.6",
+     "11.7",
+     "11.8",
+     "11.12"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "fyodor-dostoevsky_crime-and-punishment_constance-garnett",
+  "scope": "ch25",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is Raskolnikov's theory of extraordinary men?",
+    "at": 1795356881081
+   },
+   {
+    "role": "assistant",
+    "text": "The passages given do not state Raskolnikov's theory in his own words; it is only hinted at. The book does not say here how the theory is formulated. What the passages show is his idea that some people are permitted to \"carry out logically\" a principle to the point of killing [17.75], and his belief that ordinary rules do not bind everyone. In my own view, the chapter's drama is that Porfiry is testing whether Raskolnikov believes himself one of those exceptions, but the text you have does not spell the theory out.",
+    "at": 1795356883462,
+    "sent": [
+     "5.5",
+     "5.47",
+     "6.36",
+     "8.5",
+     "8.13",
+     "10.3",
+     "10.55",
+     "17.75",
+     "18.42",
+     "18.77",
+     "21.33",
+     "21.59",
+     "21.66",
+     "24.64",
+     "25.0",
+     "25.6",
+     "25.16",
+     "25.24",
+     "25.39",
+     "25.51",
+     "25.63",
+     "25.64"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ralph-waldo-emerson_essays",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does Emerson say about conformity?",
+    "at": 1795356800061
+   },
+   {
+    "role": "assistant",
+    "text": "Emerson says conformity is a surrender of self: society is \"in conspiracy against the manhood of every one of its members,\" and the virtue it most asks for is conformity, while self-reliance is its aversion [3.8]. He also says conforming to usages that have become dead to you scatters your force and blurs your character, so that your every truth becomes \"not quite true\" [3.13].\n\nHis examples: the boy in the parlor judges people freely and \"cumbers himself never about consequences,\" while the grown man is \"clapped into jail by his consciousness\" once he has acted or spoken with éclat [3.8]. The preacher who announces the expediency of his church's institution cannot say a new and spontaneous word; he is \"a retained attorney,\" pledged to look only at the permitted side [3.13]. Conformity also marks the body: we \"wear one cut of face and figure,\" acquire \"the gentlest asinine expression,\" and put on \"the foolish face of praise,\" the forced smile whose muscles \"grow tight about the outline of the face\" [3.13].\n\nHis remedy is to act singly and scorn appearances: \"Your conformity explains nothing\" [3.19], and he hopes \"we have heard the last of conformity and consistency,\" wishing to stand for humanity rather than please the great man at his table [3.20].",
+    "at": 1795356802714,
+    "sent": [
+     "2.47",
+     "2.50",
+     "3.8",
+     "3.13",
+     "3.19",
+     "3.20",
+     "3.28",
+     "4.27",
+     "5.5",
+     "5.19",
+     "5.33",
+     "5.38",
+     "6.5",
+     "7.7",
+     "7.23",
+     "8.13",
+     "13.3",
+     "13.5",
+     "13.6"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ralph-waldo-emerson_essays",
+  "scope": "ch4",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does self-reliance ask of a person in practice?",
+    "at": 1795356794958
+   },
+   {
+    "role": "assistant",
+    "text": "Self-reliance asks you to take your own portion as final and act from your own perception rather than from imitation or the opinions of others. \"Insist on yourself; never imitate\" [3.47].\n\nThe reasoning, with Emerson's own examples:\n\n- It begins as a conviction, not a mood: envy is ignorance, imitation is suicide, and \"no kernel of nourishing corn can come to him but through his toil bestowed on that plot of ground which is given to him to till\" [3.5].\n- In practice it means doing your own work rather than wearing a party's uniform. \"Do your work, and I shall know you\" [3.13]. Conformity scatters your force and makes \"their two is not the real two, their four not the real four\" [3.13].\n- It means trusting perceptions you did not choose. Perception \"is not whimsical, but fatal\" [3.23]. You are to treat your involuntary insights as facts, like day and night.\n- It means staying home in spirit. \"The soul is no traveller,\" and the traveller finds \"the sad self, unrelenting, identical, that I fled from\" [3.43].\n- It means measuring yourself by what you are, not what you have. \"It is only as a man puts off all foreign support and stands alone that I see him to be strong\" [3.53].\n- It is cumulative, not a single act. \"The force of character is cumulative,\" and the voyage of the best ship is \"a zigzag line of a hundred tacks\" that straightens into one tendency seen from a distance [3.19].\n\nA short picture of the practice:\n\n```mermaid\nflowchart TD\n  A[Own perception] --> B[Do your own work]\n  B --> C[Refuse imitation and conformity]\n  C --> D[Stand without foreign support]\n  D --> E[Cumulative character]\n  E --> A\n```\n\nThe book does not spell out a method or set of rules for this. In my own view, the passages describe an attitude and a habit of acting from what you actually see, tested by successive honest actions, rather than a technique you can copy.",
+    "at": 1795356798389,
+    "sent": [
+     "2.10",
+     "2.47",
+     "3.5",
+     "3.8",
+     "3.11",
+     "3.13",
+     "3.19",
+     "3.20",
+     "3.23",
+     "3.28",
+     "3.37",
+     "3.43",
+     "3.47",
+     "3.49",
+     "3.51",
+     "3.53",
+     "4.0"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "henry-david-thoreau_walden",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What did the experiment at the pond cost him, and what did he get for it?",
+    "at": 1795356706475
+   },
+   {
+    "role": "assistant",
+    "text": "The house cost $28.12½ in materials [2.75], and his total outgoes for the period came to $61.99¾ against $36.78 in income [2.135]. What he got for it was a claim about living: a shelter for a lifetime at no more than a year's rent [2.121], and the chance to live deliberately and front only the essential facts of life [3.18].\n\nThe account in detail:\n- House materials: $28.12½, all labor his own [2.75]\n- Farm, first season: $14.72½ out, $23.44 in, leaving $8.71½ plus produce on hand worth $4.50 [2.125]\n- Food for eight months: $8.74 [2.135]\n- Clothing and incidentals: $8.40¾; oil and utensils: $2.00 [2.135]\n- Earned by surveying, carpentry, and day labor: $13.34 [2.135]\n\nSo the money side was roughly a wash, and he says he did better than any farmer in Concord that year [2.125]. The real return was the experiment itself: he built the house himself, made his own lime from river shells, and learned where his materials came from [14.10]. He also reports that with his door never fastened he lost only a volume of Homer, and concludes that if all men lived as simply as he did, thieving and robbery would be unknown [9.3].\n\n```mermaid\nflowchart LR\n  A[House $28.12] --> D[Total outgoes $61.99]\n  B[Farm $14.72] --> D\n  C[Food, clothes, oil $19.14] --> D\n  E[Farm sales $23.44] --> F[Income $36.78]\n  G[Day labor $13.34] --> F\n```",
+    "at": 1795356710094,
+    "sent": [
+     "2.63",
+     "2.75",
+     "2.121",
+     "2.125",
+     "2.135",
+     "2.210",
+     "2.215",
+     "3.18",
+     "7.11",
+     "9.3",
+     "10.30",
+     "11.7",
+     "13.16",
+     "13.17",
+     "14.2",
+     "14.7",
+     "14.8",
+     "14.10"
+    ]
+   },
+   {
+    "role": "user",
+    "text": "Is he arguing that everyone should leave society?",
+    "at": 1795356711766
+   },
+   {
+    "role": "assistant",
+    "text": "No. He says plainly he is naturally no hermit [7.0], and he describes the most sweet and tender society in natural objects rather than in abandoning men [6.4].\n\nHis target is the cost and clutter of society, not society itself. He notes that society is commonly too cheap, that we meet too often to have acquired new value for each other, and that less frequency would suffice for hearty communication [6.14]. He still loves society and keeps three chairs, one for solitude, two for friendship, three for society [7.0]. He values the fine sediment of visitors his distance from town left him, and the Homeric woodchopper who came to his lodge [7.8]. His own reading of the jail episode is that men pursue you with their institutions wherever you go, and he preferred that society run amok against him rather than the reverse [9.3]. His remedy is simplicity, not separation: if all men lived as simply as he did, thieving and robbery would be unknown [9.3].\n\nThe book does not say he urges others to leave society. In my own view, he is arguing for distance enough to judge society, and for a village that funds its own culture instead of only its buildings [4.12].",
+    "at": 1795356714093,
+    "sent": [
+     "2.54",
+     "2.59",
+     "2.134",
+     "2.230",
+     "2.235",
+     "4.12",
+     "5.3",
+     "6.4",
+     "6.14",
+     "7.0",
+     "7.8",
+     "7.11",
+     "9.3",
+     "10.14",
+     "12.8",
+     "13.4",
+     "14.7",
+     "14.8",
+     "14.10"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "henry-david-thoreau_walden",
+  "scope": "ch4",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does Thoreau mean by \"quiet desperation\"?",
+    "at": 1795356702484
+   },
+   {
+    "role": "assistant",
+    "text": "\"Quiet desperation\" is the half-conscious despair in which most people live: they call it resignation, but it is confirmed desperation, and it runs under their work and even their amusements [2.12].\n\nThoreau's point is that the desperation is quiet, not loud. People do not announce it; it shows as a stereotyped but unconscious despair hidden even under what are called games and amusements, which have \"no play in them, for this comes after work\" [2.12]. The desperate condition is not confined to the city or the country: \"From the desperate city you go into the desperate country, and have to console yourself with the bravery of minks and muskrats\" [2.12]. And it is self-inflicted, which is why he calls the worst case the man who is \"the slave-driver of himself,\" since \"public opinion is a weak tyrant compared with our own private opinion\" [2.12]. His remedy is stated in the same passage: \"it is a characteristic of wisdom not to do desperate things\" [2.12].",
+    "at": 1795356704781,
+    "sent": [
+     "2.11",
+     "2.12",
+     "2.25",
+     "2.35",
+     "2.42",
+     "2.50",
+     "2.73",
+     "2.121",
+     "2.122",
+     "2.134",
+     "2.230",
+     "2.234",
+     "2.236",
+     "2.237",
+     "3.18",
+     "3.24",
+     "4.0",
+     "4.3"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "william-james_pragmatism",
+  "scope": "ch8",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does James mean by the cash-value of an idea?",
+    "at": 1795356885117
+   },
+   {
+    "role": "assistant",
+    "text": "James means the practical difference an idea makes in experience: what you would do or expect differently if you believed it. He says you must bring out of each word its \"practical cash-value\" and set it at work within the stream of experience, so a theory becomes \"an instrument\" rather than \"an answer to an enigma\" in which we rest [6.14].\n\nThe clearest worked example in the passages is the squirrel dispute. \"Going round\" the squirrel has no single answer; its cash-value depends on what you practically mean by the phrase, and once you make that distinction \"there is no occasion for any farther dispute\" [6.0]. The word did not settle anything by itself; the difference in practice did.\n\nFor a religious idea, James gives the same treatment. The Absolute's cash-value is the \"moral holiday\" it licenses, the right to drop the worry of finite responsibility [6.45]. He then tests it against his other beliefs and finds the supernumerary features clash, so he gives up the Absolute but keeps the holidays [6.51].\n\nTwo related points from the same lecture. Truth on this view is \"one species of good\": an idea is true so far as believing it profits life, as certain foods are good for teeth and stomach [6.47]. And an idea settles into belief by grafting onto the old stock of opinions with minimal disturbance [6.25]. So cash-value is what the idea buys you in conduct and expectation, not a picture of something behind experience. As he puts it about substance, a group of attributes is its \"sole cash-value for our actual experience\" [7.3].",
+    "at": 1795356887986,
+    "sent": [
+     "5.38",
+     "6.0",
+     "6.14",
+     "6.23",
+     "6.25",
+     "6.35",
+     "6.45",
+     "6.47",
+     "6.51",
+     "7.3",
+     "7.4",
+     "7.6",
+     "7.8",
+     "7.21",
+     "7.43",
+     "8.0",
+     "8.3",
+     "8.5",
+     "8.9",
+     "8.12",
+     "8.13"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "jean-jacques-rousseau_the-social-contract_g-d-h-cole",
+  "scope": "ch12",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does \"man is born free, and everywhere he is in chains\" mean?",
+    "at": 1795356915225
+   },
+   {
+    "role": "assistant",
+    "text": "Rousseau means that human beings are naturally free, but existing civil societies hold them in subjection, and his task is to ask what could make such subjection legitimate. The famous line is the opening of Book I, where he states the problem: \"Man is born free; and everywhere he is in chains\" [7.0].\n\nThe reasoning runs in three steps.\n\n1. The freedom is natural, not granted by society. Rousseau says \"This common liberty results from the nature of man\" and that once a person reaches years of discretion \"he is the sole judge of the proper means of preserving himself, and consequently becomes his own master\" [8.0]. The family is the only natural society, and even it dissolves into convention once the children no longer need the father [8.0]. So freedom is the baseline, and chains are the departure from it.\n\n2. The chains are the existing social order, and he does not claim to know how they arose. He writes: \"How did this change come about? I do not know. What can make it legitimate? That question I think I can answer\" [7.0]. The question is not historical but normative. And he denies that the social order rests on nature: \"this right does not come from nature, and must therefore be founded on conventions\" [7.0].\n\n3. Force cannot justify the chains. In Book I, chapter III he argues that \"force creates no right\" and that to yield to force is \"an act of necessity, not of will\" [9.0]. In chapter IV he adds that to renounce liberty \"is to renounce being a man,\" and that the words \"slave\" and \"right\" contradict each other [10.6] [10.14]. So the chains are real, but no existing power makes them right.\n\n```mermaid\nflowchart LR\nA[Natural liberty] --> B[Chains: existing subjection]\nB --> C{How made legitimate?}\nC -->|Force| D[No right: force creates no right]\nC -->|Convention| E[Social compact to be sought]\n```\n\nRead this way, the line is a statement of the problem the rest of the book addresses, not a verdict that all society is illegitimate. The answer he promises is the social compact, which he frames as finding a form of association in which each \"may still obey himself alone, and remain as free as before\" [12.0]. So the chains are the thing to be replaced by a legitimate bond, and the measure of legitimacy will be whether freedom is preserved under it.\n\nOne limit: \"everywhere he is in chains\" is asserted, not demonstrated with examples in these chapters. The book does not say which particular societies he has in mind at that point.",
+    "at": 1795356919658,
+    "sent": [
+     "6.0",
+     "7.0",
+     "8.0",
+     "8.7",
+     "9.0",
+     "10.0",
+     "10.6",
+     "10.9",
+     "10.12",
+     "10.14",
+     "11.0",
+     "12.0"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "leo-tolstoy_anna-karenina_constance-garnett",
+  "scope": "ch58",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How does the book open the marriage of Stiva and Dolly?",
+    "at": 1795356848760
+   },
+   {
+    "role": "assistant",
+    "text": "The book opens it as a sudden, discovered betrayal at the very first chapter: the narrator says Stiva has been \"unexpectedly caught in something very disgraceful\" and his involuntary smile sets off Dolly's fury [3.12]. Later chapters fill in the history through Dolly's own account: she says she was \"more than innocent, I was stupid,\" believed herself \"the only woman he had known\" for eight years, and learned of the affair through \"a letter … his letter to his mistress, my governess\" [21.27].\n\nThe opening does not begin with the marriage's past but with its rupture. The passages give two distinct reactions. First, Stiva's reflex smile, which he calls \"that idiotic smile\" and which Dolly meets \"as though at physical pain\" [3.12]. Second, once he weeps and begs, his fault is put in his own words: \"I am to blame, no words can express how much I am to blame!\" [6.16]. Dolly's reply names the ground of the injury: \"my husband, the father of my children, enters into a love affair with his own children's governess,\" and she calls him \"a stranger\" [6.16].\n\nThe book then frames the marriage as an unresolved standoff rather than a finished break. Anna tells Stiva to \"go, and God help you,\" and the narrator notes \"there was no talk now of separation\" and that Stiva \"saw the possibility of explanation and reconciliation\" [22.0]. Anna's own reading, offered to Dolly, holds that such men keep \"their home and wife … sacred\" and that \"this has not been an infidelity of the heart\" [21.44], a claim Dolly resists by asking, \"could you forgive it?\" [21.44].\n\n```mermaid\nflowchart LR\nA[Discovery: the letter] --> B[Dolly's rage: \"a stranger\"]\nA --> C[Stiva's reflex smile and tears]\nB --> D[Standoff: no talk of separation]\nC --> D\nD --> E[Anna urges forgiveness]\nE --> F[Dolly: \"could you forgive it?\"]\n```\n\nSo the marriage is opened at the point of exposure, with the facts of the betrayal revealed first and the eight years of assumed happiness supplied afterward by Dolly herself. What the book does not yet say, in these passages, is whether she forgives him.",
+    "at": 1795356852528,
+    "sent": [
+     "3.12",
+     "6.16",
+     "14.7",
+     "21.27",
+     "21.44",
+     "22.0",
+     "22.24",
+     "22.36",
+     "28.2",
+     "29.0",
+     "30.0",
+     "30.9",
+     "30.26",
+     "39.26",
+     "51.9",
+     "56.0",
+     "58.0",
+     "58.8",
+     "58.16"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "marcus-aurelius_meditations_george-long",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does Marcus mean by the ruling faculty of the mind?",
+    "at": 1795356688579
+   },
+   {
+    "role": "assistant",
+    "text": "The ruling faculty is the mind's leading, governing part: the power that forms opinions and judgments, and that decides what to pursue or avoid. Marcus says everything depends on it, since it alone determines whether an opinion contrary to nature arises in it [4.7].\n\nIts main work is judgment about appearances. Pain from an external thing comes not from the thing but from your own judgment about it, and you can wipe that judgment out now [9.49]. \"Things stand outside of us... What is it, then, which does judge about them? The ruling faculty\" [10.10].\n\nIt is self-governing and cannot be hurt from outside. Another person can frighten or pain the body, but the ruling faculty will not turn itself into such ways by its own opinion [8.13]. It is \"invincible, when self-collected it is satisfied with itself\" [9.49]. Wrongdoing by another does not make your ruling faculty worse than it was [8.18].\n\nIt also rules the body's feelings without merging with them: when pleasure or pain rises up, the ruling part must not add the opinion that it is good or bad [6.23]. So the faculty is the seat of both freedom and responsibility: \"Wipe out imagination; check desire; extinguish appetite; keep the ruling faculty in its own power\" [10.4].\n\nThe book does not say precisely what this faculty is made of or how it relates to the body. My own view: Marcus treats it as the point where choice and judgment live, which is why he can say a man's good and evil lie in activity, not passivity [10.10].",
+    "at": 1795356691831,
+    "sent": [
+     "4.7",
+     "5.7",
+     "6.8",
+     "6.23",
+     "7.32",
+     "7.42",
+     "8.13",
+     "8.18",
+     "8.31",
+     "8.62",
+     "9.49",
+     "9.60",
+     "10.4",
+     "10.10",
+     "10.21",
+     "10.38",
+     "11.10",
+     "11.13",
+     "11.20"
+    ]
+   },
+   {
+    "role": "user",
+    "text": "Why is he not afraid of death?",
+    "at": 1795356693534
+   },
+   {
+    "role": "assistant",
+    "text": "He is not afraid of death because death is a natural change, not an evil, and the ruling faculty can meet it without being made worse. The passages give several supports.\n\nDeath does not make a man better or worse. It happens equally to good and bad, so it is neither good nor evil [3.11]. Dissolution is according to nature, \"and nothing is evil which is according to nature\" [3.17]. He asks plainly: if the elements take no harm in changing into one another, why should a man fear the change and dissolution of all the elements? [3.17]\n\nHe also shrinks the interval. Between birth and death the span is small, and looking at the immensity of time behind and before, there is no difference between living three days and three generations [5.52]. Viewed in itself, death is an operation of nature, and only a child fears an operation of nature [3.12].\n\nBut the fear he targets is not only of dying. He treats death as either extinction or change, so there is nothing to dread in either case [8.31]. He calls it a cessation of sense impressions, of the appetites' pull, of thought's movements, and of service to the flesh [7.24]. And he refuses to despise it: one should wait for it as one of nature's operations, as a woman waits for the child to come out [10.2].\n\nThe discipline behind this is his own. He notices that trouble is not outside but within and in his opinions [10.10], and that the ruling faculty is not made worse by pain [8.31]. So the work is to keep the judgment about death clean rather than to feel nothing out of insensibility.\n\nThe book does not say whether he ever felt fear and overcame it. My own view: the argument is less \"death is fine\" than \"your opinion about death is yours to govern,\" which is why he pairs it with the ruling faculty [10.10].",
+    "at": 1795356696802,
+    "sent": [
+     "3.11",
+     "3.12",
+     "3.17",
+     "4.0",
+     "5.45",
+     "5.52",
+     "7.24",
+     "8.18",
+     "8.31",
+     "8.43",
+     "9.31",
+     "10.0",
+     "10.2",
+     "10.10",
+     "10.21",
+     "10.41",
+     "11.10",
+     "11.13",
+     "11.20"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "marcus-aurelius_meditations_george-long",
+  "scope": "ch11",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How should I deal with people who annoy me?",
+    "at": 1795356682548
+   },
+   {
+    "role": "assistant",
+    "text": "Deal with them by first judging their annoying behavior as neither your own badness nor a harm to the common good, then correcting your own reaction rather than them. [6.38] If they injure the common weal, try to persuade them; if force blocks you, use the hindrance to practice another virtue. [7.49]\n\nThe reasoning in the passages:\n\n1. Correct your judgment first. \"If this is neither my own badness, nor an effect of my own badness, and the common weal is not injured, why am I troubled about it?\" [6.38] Things themselves have no power to form your judgments; only your opinion does. [7.49]\n\n2. Expect the annoyance. \"It is a shame to be surprised if the fig-tree produces figs,\" so do not be surprised when the world produces such people; ask what opinions they hold about good and bad, and you will see their conduct follows from those opinions. [9.8]\n\n3. Meet them with kinship and pity, not anger. What comes from men \"should be dear to us by reason of kinship,\" and their ignorance of good and bad deserves pity. [3.12] The same passage says men do wrong involuntarily, and \"to endure is a part of justice.\" [5.0]\n\n4. If you can, instruct them kindly; if you cannot, blame not even yourself. [11.4] And remember that no one can hinder you from living according to your own nature. [7.49]\n\n5. Do not let annoyance remake you. \"Take care that thou art not made into a Caesar,\" keep yourself simple and good, and do not be \"dyed\" by their dye. [7.30]\n\nIn short: \"Judge every word and deed which are according to nature to be fit for thee; and be not diverted by the blame which follows from any people.\" [6.3]\n\n```mermaid\nflowchart TD\n    A[Someone annoys you] --> B{Is it your badness or harm to the common good?}\n    B -- No --> C[Drop the opinion; be quiet]\n    B -- Yes --> D[Try to persuade them]\n    D --> E{Force blocks you?}\n    E -- Yes --> F[Practice another virtue within the hindrance]\n    E -- No --> G[Act justly and continue]\n```",
+    "at": 1795356686634,
+    "sent": [
+     "2.0",
+     "3.11",
+     "3.12",
+     "5.0",
+     "5.34",
+     "5.52",
+     "6.3",
+     "6.38",
+     "7.30",
+     "7.46",
+     "7.49",
+     "8.43",
+     "9.8",
+     "9.45",
+     "10.30",
+     "10.41",
+     "11.0",
+     "11.4",
+     "11.7",
+     "11.8",
+     "11.9",
+     "11.10",
+     "11.13",
+     "11.20"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "marcus-aurelius_meditations_george-long",
+  "scope": "ch3",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is he reminding himself to do in the morning?",
+    "at": 1795356698476
+   },
+   {
+    "role": "assistant",
+    "text": "He reminds himself to expect difficult people and to meet them without anger or hatred. Begin the morning by naming the busybody, the ungrateful, the arrogant, the deceitful, the envious, the unsocial, and then recall that they act this way from ignorance of good and evil [3.0].\n\nThe reasoning he gives is that the wrongdoer is akin to him, sharing the same intelligence and a portion of the divinity, so no one can fix what is ugly on him, and he cannot hate his kinsman [3.0]. His own image for why is that we are made for cooperation, like feet, hands, eyelids, and the rows of upper and lower teeth; to be vexed and turn away is to act against nature [3.0].",
+    "at": 1795356700792,
+    "sent": [
+     "2.7",
+     "2.9",
+     "2.14",
+     "2.16",
+     "2.17",
+     "3.0",
+     "3.3"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "jane-austen_persuasion",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Why did Anne refuse Wentworth the first time?",
+    "at": 1795356865737
+   },
+   {
+    "role": "assistant",
+    "text": "Anne refused Wentworth because Lady Russell persuaded her against the match. The book gives this as the general report: \"papa and mamma always think it was her great friend Lady Russell's doing, that she did not. They think Charles might not be learned and bookish enough to please Lady Russell, and that therefore, she persuaded Anne to refuse him\" [11.27].\n\nThose Musgrove parents are talking about Charles, not Wentworth, but the same friend's influence is the reason given for her refusal there, and it is the only account of Anne refusing a suitor in these passages.\n\nWhy did she yield to that persuasion? The book does not say here. My own view: the passages show Anne as easily talked out of her own judgment by those she trusts, and Louisa's summary is only hearsay from people who were at school at the time, so treat it as the neighborhood's version rather than Anne's inner account [11.27].",
+    "at": 1795356868359,
+    "sent": [
+     "8.17",
+     "9.0",
+     "9.17",
+     "10.5",
+     "11.27",
+     "11.36",
+     "12.8",
+     "12.12",
+     "12.20",
+     "13.17",
+     "13.29",
+     "13.57",
+     "15.25",
+     "21.42",
+     "21.47",
+     "22.44",
+     "24.27",
+     "24.31",
+     "24.35"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "jane-austen_pride-and-prejudice",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How does Austen separate pride from vanity?",
+    "at": 1795356859607
+   },
+   {
+    "role": "assistant",
+    "text": "Austen separates them by ownership: pride is what you think of yourself, vanity is what you want others to think of you. Mary states the distinction directly: \"Pride relates more to our opinion of ourselves, vanity to what we would have others think of us\" [6.20].\n\nThe novel then tests the distinction in the characters.\n\n- **Darcy** defends pride as a virtue and calls vanity the weakness: \"vanity is a weakness indeed. But pride — where there is a real superiority of mind, pride will be always under good regulation\" [12.19]. Charlotte grants the same point socially: his pride \"does not offend me so much as pride often does, because there is an excuse for it,\" since he \"has a right to be proud\" [6.8]. Wickham goes further, saying pride has been \"his best friend,\" driving him to be generous, hospitable to tenants, and a careful guardian of his sister [17.39]. Even so, Elizabeth's complaint is wounded self-regard, not moral judgment: \"I could easily forgive his pride, if he had not mortified mine\" [6.8].\n- **Elizabeth** convicts herself of vanity, not pride, at the turn: \"But vanity, not love, has been my folly. Pleased with the preference of one, and offended by the neglect of the other\" [37.8]. Her pride in her own discernment is what the discovery humbles.\n- **Jane** turns the mirror on her sex: \"It is very often nothing but our own vanity that deceives us. Women fancy admiration means more than it does\" [25.13].\n- **Lydia** shows vanity without pride of the regulated kind: she \"has been given up to nothing but amusement and vanity\" [48.10].\n- **Mr. Collins** shows vanity in its purest comic form: he treats five shillings as \"a mere trifle\" and credits \"Lady Catherine de Bourgh\" for placing him above \"little matters\" [17.48]. He cares about how he appears, not about any standard of his own.\n\nSo the pattern is: pride is a private estimate of oneself, which can be well or badly regulated; vanity is dependence on others' opinion, which makes people blind and ridiculous. The test case is Darcy's conduct toward Elizabeth's family: Elizabeth expects \"every kind of pride must revolt from the connection\" [53.5], yet he acts against that pride for her sake, and she is \"proud of him\" [53.5]. Pride, on Austen's showing, can be overcome by principle; vanity is what misleads judgment in the first place.\n\nThe book does not say explicitly whether Austen endorses Mary's definition as final; that is my reading of how the plot uses it.",
+    "at": 1795356864063,
+    "sent": [
+     "6.8",
+     "6.20",
+     "7.0",
+     "7.15",
+     "12.19",
+     "17.14",
+     "17.39",
+     "17.48",
+     "25.13",
+     "34.28",
+     "34.38",
+     "35.29",
+     "37.8",
+     "39.10",
+     "48.10",
+     "53.5",
+     "56.13",
+     "56.20",
+     "56.25"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "jane-austen_pride-and-prejudice",
+  "scope": "ch26",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Why is Elizabeth so set against Darcy?",
+    "at": 1795356854143
+   },
+   {
+    "role": "assistant",
+    "text": "Elizabeth is set against Darcy because he slights her at the first ball and because she believes his treatment of Wickham. Her dislike then hardens each time she sees him.\n\nAt the Meryton assembly Darcy dances only with Mrs. Hurst and Miss Bingley, declines introduction to any other lady, and is judged \"the proudest, most disagreeable man in the world\"; Mrs. Bennet's resentment is \"sharpened into particular resentment by his having slighted one of her daughters\" [4.6]. Elizabeth overhears Darcy say there is no woman in the room it would not be \"a punishment\" to stand up with, and he calls her sister the only handsome girl present [4.6]. Mrs. Bennet later reports he thought Lizzy \"not handsome enough to dance with\" and calls him \"a most disagreeable, horrid man\" [4.16].\n\nHer prejudice is then confirmed by Wickham. At the Netherfield ball she looks in vain for him, and Denny's hint that Wickham wished \"to avoid a certain gentleman here\" makes her certain Darcy drove him away: \"every feeling of displeasure against the former was so sharpened by immediate disappointment\" [19.0]. When she dances with Darcy she raises Wickham deliberately; Darcy's cold remark that Wickham makes friends easily but may not keep them, and his silence when she says Wickham lost his friendship, only confirm her view [19.15].\n\nShe also reads his manner as pride. He boasts that his good opinion \"once lost is lost forever,\" which she calls \"implacable resentment\" [12.19]. Yet the book shows her judgment is not fully fair: when Miss Bingley attacks Wickham and his low descent, Elizabeth sees \"nothing in it but your own wilful ignorance and the malice of Mr. Darcy\" [19.45]. So her opposition rests on a real slight plus an account of Wickham she has not yet tested.",
+    "at": 1795356857966,
+    "sent": [
+     "4.6",
+     "4.16",
+     "8.33",
+     "9.50",
+     "12.19",
+     "14.8",
+     "14.30",
+     "19.0",
+     "19.8",
+     "19.15",
+     "19.40",
+     "19.45",
+     "20.0",
+     "23.0",
+     "25.0",
+     "25.10",
+     "26.0",
+     "26.4"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "mark-twain_the-adventures-of-huckleberry-finn",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How does Huck feel about Jim by now?",
+    "at": 1795356927063
+   },
+   {
+    "role": "assistant",
+    "text": "Huck sees Jim as a friend he is loyal to and would protect, but he also believes that protecting him is wrong.\n\nThe clearest sign is the moment Huck is paddling off to turn Jim in. Jim calls him \"de bes' fren' Jim's ever had\" and \"de on'y white genlman dat ever kep' his promise to ole Jim,\" and Huck says \"I just felt sick\" [20.14]. When the men with guns ask whether the man on the raft is white or black, Huck cannot say the words and lies that he is white [20.14]. Afterward he calls this doing wrong and says his conscience gives him no better feeling for doing right, so he decides to \"always do whichever come handiest at the time\" [20.41].\n\nHe also credits Jim with feeling and with sense. When Jim mourns his wife and children, Huck says he \"do believe he cared just as much for his people as white folks does for their'n,\" and calls him \"a mighty good nigger\" [27.23]. He is glad to find Jim on the island and says \"I warn't lonesome now\" [12.25]. When Jim tells him he ran off, Huck promises not to tell even though people would call him \"a lowdown Abolitionist\" [12.45].\n\nTheir arguments show respect mixed with disagreement. Jim rejects Huck's explanation of Solomon's judgment and Huck calls him stubborn, yet Jim holds his ground [18.19] [18.24]. In the fog, Huck plays a trick on Jim, and when Jim is deeply relieved to see him alive, Huck lets him believe he dreamed it [19.13] [19.38].\n\nHuck's care is practical too. He stays quiet while Jim hides in the river under the stern oar until the men are out of sight [20.41]. He notes that Jim often lets him sleep through his watch [27.23].\n\nSo by these passages Huck's feeling is settled friendship, alongside a conscience that still tells him helping a runaway is wrong.",
+    "at": 1795356931354,
+    "sent": [
+     "12.25",
+     "12.45",
+     "18.19",
+     "18.24",
+     "19.9",
+     "19.13",
+     "19.21",
+     "19.38",
+     "20.14",
+     "20.41",
+     "20.49",
+     "24.39",
+     "27.10",
+     "27.23",
+     "27.32",
+     "30.4",
+     "31.9",
+     "31.11",
+     "31.14"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "aristotle_nicomachean-ethics_f-h-peters",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is the doctrine of the mean?",
+    "at": 1795356910291
+   },
+   {
+    "role": "assistant",
+    "text": "The doctrine of the mean is Aristotle's account of moral virtue: virtue is a trained faculty of choice that hits the intermediate amount between excess and deficiency, in feelings and in actions, as a prudent person would determine it [6.59].\n\nThree points make it precise.\n\n1. **The mean is relative to us, not arithmetical.** The absolute mean is equidistant from both extremes and is one and the same for all; the mean relative to us is neither too much nor too little for us, and is not the same for all [6.43]. Ten pounds of food may be too much and two too little, but six is not therefore right: it may be too little for Milo and too much for the beginner [6.54].\n\n2. **Virtue is a mean, and by that very fact an extreme.** In its essence virtue is a middle state between two vices; viewed in relation to what is best and right it is the extreme of perfection [6.59]. So courage sits between cowardice and foolhardiness, temperance between insensibility and profligacy [6.89].\n\n3. **Some things admit no mean.** Malevolence, shamelessness, envy, and among acts adultery, theft, murder, are bad in themselves; there is no right person, occasion, or manner for them, so no moderation applies [6.59]. Rightness and wrongness there does not depend on how it is done.\n\nTwo consequences follow. Hitting the mean is hard, because anyone can be angry but to be angry with the right person, to the right extent, at the right time, for the right object, in the right manner is not easy [6.96]. And the extremes are more opposed to each other than to the mean, since they are further apart; yet one extreme is usually more opposed to the mean than the other, and we must first avoid the one we are naturally prone to, bending ourselves the other way like straightening a bent stick [6.89][6.96]. Aristotle also notes that many of these means have no recognized name, which is why the extremes seem to fight over an empty place [8.117].\n\n```mermaid\nflowchart LR\n  A[Deficiency] --- B[Mean: virtue]\n  B --- C[Excess]\n  A -.- C\n```",
+    "at": 1795356913545,
+    "sent": [
+     "5.50",
+     "5.54",
+     "5.144",
+     "6.43",
+     "6.54",
+     "6.59",
+     "6.76",
+     "6.82",
+     "6.89",
+     "6.96",
+     "8.117",
+     "8.136",
+     "8.143",
+     "9.44",
+     "9.69",
+     "9.77",
+     "10.36",
+     "10.46",
+     "10.53"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "aristotle_nicomachean-ethics_f-h-peters",
+  "scope": "ch6",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How does Aristotle define happiness?",
+    "at": 1795356905242
+   },
+   {
+    "role": "assistant",
+    "text": "Aristotle defines happiness as the exercise of man's faculties in accordance with perfect excellence or virtue, pursued over a full term of years. This is the definition given at the close of Book I: the happy man is \"one who exercises his faculties in accordance with perfect excellence, being duly furnished with external goods, not for any chance time, but for a full term of years\" [5.144].\n\nThe reasoning behind it:\n- Happiness is the final end, chosen always for itself and never as a means; honour, pleasure, and virtue are chosen partly for themselves and partly for happiness, but no one chooses happiness for anything else [5.79].\n- It is self-sufficing: by itself it makes life desirable and in want of nothing [5.79].\n- Man's function is a kind of life, exercise of his faculties with reason; doing it well means doing it in accordance with the proper excellence of that thing, so the human good is such exercise in accordance with virtue, or the best and most complete virtue [5.95].\n- It needs duration: one swallow does not make a spring, nor one day a happy man [5.95].\n- It also needs external goods such as friends, wealth, and political influence; it is impossible, or not easy, to act nobly without some furniture of fortune [5.113].\n- Because it is the principle and cause of all good, we do not praise it but call it blessed and divine [5.155].\n\n```mermaid\nflowchart TD\n    A[Final end, self-sufficing] --> B[Happiness]\n    B --> C[Exercise of faculties with reason]\n    C --> D[In accordance with perfect virtue]\n    B --> E[Full term of years]\n    B --> F[External goods as instruments]\n```\n\nThe passage in Book II you supplied does not itself state this definition; it says excellence is of two kinds, intellectual and moral, and that moral excellence comes by habit, not nature [6.0].",
+    "at": 1795356908647,
+    "sent": [
+     "5.0",
+     "5.63",
+     "5.70",
+     "5.79",
+     "5.95",
+     "5.100",
+     "5.113",
+     "5.123",
+     "5.129",
+     "5.134",
+     "5.139",
+     "5.144",
+     "5.149",
+     "5.155",
+     "5.163",
+     "5.171",
+     "6.0"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How does Seneca say we should prepare for death?",
+    "at": 1795356720388
+   },
+   {
+    "role": "assistant",
+    "text": "Seneca says we should prepare for death by rehearsing it in advance and by stripping fear down to what it actually is. Death is the last of many deaths, and it is nothing to fear because we have already known nonexistence.\n\n- **Die daily by reckoning time.** Every day takes a little of our life; past time is already in death's hands [5.0]. \"The very day which we are now spending is shared between ourselves and death\" [28.11]. The final hour only completes a process long underway: \"Not single is the death which comes; the death / Which takes us off is but the last of all\" [28.11].\n- **Practice, not just talk.** \"Prove by the result whether that which you have heard and uttered is true\" [28.6]. Seneca repeats the charge that his school deals in words rather than deeds [28.6], and he mocks Zeno's syllogism as unable to help a dying man laugh [86.7]. Strength of heart comes \"from constant study, provided that you practise, not with the tongue but with the soul, and provided that you prepare yourself to meet death\" [86.7].\n- **Strip the mask from death.** What frightens us is the theatrical show, not the thing. \"Strip the mask, not only from men, but from things, and restore to each object its own aspect\" [28.6]. Behind the swords and executioners there is only Death, whom yesterday a servant despised, and Pain, which a gout-ridden man and a woman in childbirth bear [28.6]. \"You will then comprehend that they contain nothing fearful except the actual fear\" [28.6].\n- **Learn contempt of death as the one skill useful against every foe.** Birth in Parthia teaches archery, in Germany the spear; for us the universal discipline is \"contempt of death\" [40.5]. \"In death there is nothing harmful; for there must exist something to which it is harmful\" [40.5].\n- **Recall that you have already died once.** \"Death is nonexistence, and I know already what that means. What was before me will happen again after me\" [58.3]. \"We mortals also are lighted and extinguished... on either side there is a deep peace\" [58.3].\n- **Welcome death, or invite it.** \"Ponder and practise this — how to welcome death, or even, if circumstances commend that course, to invite it\" [73.0]. Since death is certain and its terms include everyone, fear is misplaced: \"He who does not wish to die cannot have wished to live\" [34.7]. If one death is torture and another easy, choose the easy one, \"just as I shall select my ship when I am about to go on a voyage\" [74.8]. \"The best form of death is the one we like\" [74.8].\n- **Stop chasing length and aim at fullness.** \"We should strive, not to live long, but to live rightly\" [97.0]. The man of eighty years \"has not lived; he has merely tarried awhile in life... he has simply been a long time dying\" [97.0].\n- **Fix your mind on what outlasts the body.** Thinking on the heavenly light \"order[s] us to meet the gods' approval, to prepare ourselves to join them at some future time, and to plan for immortality\" [106.11].\n\n```mermaid\nflowchart TD\n    A[Count each day as dying] --> B[Rehearse death in deed not words]\n    B --> C[Strip the mask: only fear is fearful]\n    C --> D[Death is return to prior nonexistence]\n    D --> E[Welcome or invite death]\n    E --> F[Aim at a full life, not a long one]\n```\n\nThe book does not give a single fixed drill beyond this: it says no general rule can be laid down whether to anticipate death or await it, since arguments pull both ways [74.8].\n\nMy own view, not Seneca's: the practical core is the daily accounting in [5.0] and the mask-stripping in [28.6], because both are repeatable exercises rather than doctrines to agree with.",
+    "at": 1795356725656,
+    "sent": [
+     "5.0",
+     "28.6",
+     "28.11",
+     "33.4",
+     "34.7",
+     "40.5",
+     "58.3",
+     "72.5",
+     "73.0",
+     "74.8",
+     "86.7",
+     "86.18",
+     "92.12",
+     "97.0",
+     "97.9",
+     "106.11",
+     "124.0",
+     "124.4",
+     "124.6"
+    ]
+   },
+   {
+    "role": "user",
+    "text": "What does he think of wealth?",
+    "at": 1795356727313
+   },
+   {
+    "role": "assistant",
+    "text": "Seneca thinks wealth is not a good in itself, and that the only reliable wealth is having enough. He does not forbid possessing it, but he refuses to let it count as happiness or virtue.\n\n- **The limit of wealth is need plus enough.** \"Do you ask what is the proper limit to wealth? It is, first, to have what is necessary, and, second, to have what is enough\" [6.4]. \"It is not the man who has too little, but the man who craves more, that is poor\" [6.4]. Epicurus is quoted to the same end: the man who does not regard what he has as most ample wealth is unhappy though he rule the world [13.10].\n- **Riches bring anxiety, not enjoyment.** \"He who needs riches least, enjoys riches most\" [18.9]. \"He who craves riches feels fear on their account\" [18.9]. The rich man turns over his ledger and \"ceases to be master and becomes a steward\" [18.9].\n- **You should possess it dauntlessly, not depend on it.** \"I do not forbid you to possess it, but I would have you reach the point at which you possess it dauntlessly,\" by persuading yourself you can live happily without it and by treating riches \"always as likely to elude you\" [22.8]. Seneca advises setting aside days to \"establish business relations with poverty\" [22.8].\n- **Riches are not a good, because base men get them.** Wealth falls to the pander and the trainer of gladiators, and to Chelidon and Natalis [91.10]. \"Money tumbles into the hands of certain men as a shilling tumbles down a sewer\" [91.10]. Owners of great estates \"are only accessories and incidentals to their possessions\" [91.10]. We regard nothing as good that can be put to wrong use, and many put riches to wrong use [124.0].\n- **Greed is its own punishment.** \"Greed is wretched in that which it craves and wretched in that which it wins\" [119.14]. \"The possession of riches means even greater agony of spirit than the acquisition of riches\" [119.14]. Public opinion has made poverty \"a hissing and a reproach\" [119.8], and poets and parents feed the craving for gold [119.8].\n- **What to value instead.** The soul \"casts no backward glance at wealth,\" valuing gold by \"the mire of ancient days\" whence greed dug it out [96.15]. The wise man is \"the keenest seeker for the riches of nature,\" and such wealth \"can never fail\" [123.4]. Virtue \"neither craves overmuch nor fears to excess\" what is called good or bad [91.10].\n\nThe book does not say that wealth is evil in itself; Seneca explicitly permits possession [22.8]. My own view, not Seneca's: his position is a test of dependence, not a rule about amounts. The question to ask of any sum is whether losing it would disturb your peace, and [40.4] gives the standard, a spirit that \"feels neither loss nor gain.\"",
+    "at": 1795356731527,
+    "sent": [
+     "6.4",
+     "13.10",
+     "18.9",
+     "21.4",
+     "22.8",
+     "40.4",
+     "78.10",
+     "91.10",
+     "91.22",
+     "96.15",
+     "98.33",
+     "114.10",
+     "119.8",
+     "119.14",
+     "119.16",
+     "123.4",
+     "124.0",
+     "124.4",
+     "124.6"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+  "scope": "ch124",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What is Seneca telling Lucilius about how to spend his time?",
+    "at": 1795356715805
+   },
+   {
+    "role": "assistant",
+    "text": "Seneca tells Lucilius that time is the one thing he truly owns, so he should grasp it firmly and use it well rather than let it slip away [5.0]. The reasoning is that the largest part of life passes while we do ill, or nothing, or what is not to the purpose, and whatever years lie behind us are already in death's hands [5.0]. So he urges: \"hold every hour in your grasp. Lay hold of today's task, and you will not need to depend so much upon tomorrow's\" [5.0].\n\nHe also ties the use of time to keeping death in view. Epicurus's \"Think on death\" means learning to die, and he who has learned to die has unlearned slavery and is above external power [30.5]. The same letter asks that the good in life not depend on its length but on the use we make of it, and that we be reminded daily that we may not wake again [53.7].\n\n```mermaid\nflowchart LR\n    A[Hold each hour] --> B[Do today's task]\n    B --> C[Think on death]\n    C --> D[Freedom from slavery]\n```\n\nTime is also the one loan a grateful recipient cannot repay [5.0]. The book does not say in these passages exactly which daily schedule Lucilius should follow; that is my own reading of the advice as a discipline of attention rather than a timetable.",
+    "at": 1795356718688,
+    "sent": [
+     "5.0",
+     "28.0",
+     "28.4",
+     "30.0",
+     "30.5",
+     "46.4",
+     "50.0",
+     "53.0",
+     "53.7",
+     "66.0",
+     "71.0",
+     "72.5",
+     "99.0",
+     "108.11",
+     "108.13",
+     "121.16",
+     "124.0",
+     "124.4",
+     "124.6"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What does he say about religion and slaveholders?",
+    "at": 1795356900200
+   },
+   {
+    "role": "assistant",
+    "text": "He says religion in the South is a cover for cruelty, and that religious slaveholders are the worst of all. He writes that \"the religion of the south is a mere covering for the most horrid crimes,\" a justifier of barbarity and a shelter for the foulest deeds, and that next to slavery itself he would regard being the slave of a religious master as the greatest calamity [14.19].\n\nHis examples are the slaveholders he knew directly:\n\n- Captain Auld experiences religion at a Methodist camp-meeting in August 1832. Douglass hopes this will make him humane or lead him to emancipate his slaves. It does neither: \"If it had any effect on his character, it made him more cruel and hateful in all his ways,\" because he now found \"religious sanction and support for his slaveholding cruelty.\" He prays morning, noon, and night, becomes a class-leader and exhorter, and keeps a house of prayer, while he starves his slaves and stuffs the preachers [13.2].\n- Mr. Covey is \"a professor of religion, a pious soul, a member and a class-leader in the Methodist church,\" and this adds weight to his reputation as a \"nigger-breaker\" [13.6]. He makes a short prayer in the morning and a long one at night, and Douglass believes he sometimes deceived himself into thinking he was a sincere worshipper, while compelling his woman slave Caroline to commit adultery [14.4].\n- The Rev. Daniel Weeden keeps a woman slave's back \"literally raw\" for weeks with the lash, on the maxim that a master should occasionally whip a slave to remind him of authority [14.19].\n- The Rev. Rigby Hopkins whips slaves \"in advance of deserving it,\" keeping at least one to whip every Monday morning, and finds an excuse in a look, a word, or a mistake, while making the loudest professions of religion and praying \"earlier, later, louder, and longer\" than anyone [14.20].\n\nOne contrast: Mr. Freeland, his next master, makes no pretensions to religion, and Douglass calls this \"truly a great advantage\" [14.19]. Among the preachers, Mr. Cookman is the exception the slaves loved, because he showed sympathy for them [13.2].\n\nThe book does not say whether Douglass later changed this view of Southern religion. My own view: he is not attacking belief itself here but the use of pious reputation as protection for cruelty.",
+    "at": 1795356903597,
+    "sent": [
+     "7.4",
+     "7.6",
+     "10.4",
+     "11.5",
+     "13.2",
+     "13.6",
+     "14.4",
+     "14.12",
+     "14.17",
+     "14.19",
+     "14.20",
+     "14.24",
+     "15.6",
+     "15.15",
+     "15.17",
+     "15.18",
+     "15.20"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+  "scope": "ch9",
+  "turns": [
+   {
+    "role": "user",
+    "text": "How did Douglass learn to read?",
+    "at": 1795356895757
+   },
+   {
+    "role": "assistant",
+    "text": "The passages do not say. This chapter covers his childhood on Colonel Lloyd's plantation and his departure for Baltimore, and it never describes learning to read.\n\nWhat chapter V does show is the condition he left: hunger, cold, and near nakedness, with a single tow linen shirt and a corn-meal trough shared \"like so many pigs\" [9.0]. The one hope of reward mentioned is not learning but a pair of trousers, which Mrs. Lucretia promised if he washed the dirt off before going to Baltimore [9.4]. He says he \"went at it in good earnest, working for the first time with the hope of reward\" [9.4]. That is the closest the chapter comes to the subject, and it is about cleanliness, not letters.\n\nMy own view, outside the text: the account of how he learned to read comes later in the book, after this point in his life.",
+    "at": 1795356898564,
+    "sent": [
+     "5.3",
+     "5.8",
+     "5.9",
+     "6.0",
+     "6.5",
+     "6.8",
+     "6.11",
+     "6.12",
+     "7.3",
+     "7.4",
+     "7.6",
+     "8.0",
+     "8.3",
+     "8.7",
+     "8.10",
+     "9.0",
+     "9.4"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "john-stuart-mill_on-liberty",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "Why does Mill defend opinions he thinks are wrong?",
+    "at": 1795356832360
+   },
+   {
+    "role": "assistant",
+    "text": "Mill defends wrong opinions because suppressing them robs the human race: if the opinion is right we lose the chance to exchange error for truth, and if it is wrong we lose the clearer perception of truth that comes from its collision with error [7.0].\n\nThe reasoning rests on human fallibility. Ages are no more infallible than individuals, and many opinions now general will be rejected by future ages [7.5]. So we cannot assume an opinion false and forbid its refutation; the very condition that justifies acting on our opinion is complete liberty to contradict and disprove it [7.7]. Even a wrong opinion has use: on any disputed subject the truth depends on striking a balance between conflicting reasons, and one who knows only his own side knows little of that, so if opponents of important truths do not exist it is indispensable to imagine them [7.24]. The harm of a ban falls most on those who are not heretics, whose mental development is cramped by fear of heresy [7.21]. He also rejects the argument that persecution is a useful ordeal for truth, noting that on that theory the reward for discovering a new truth would be martyrdom, as with the Locrian proposer of a new law who stood with a halter round his neck [7.16].",
+    "at": 1795356835145,
+    "sent": [
+     "6.13",
+     "7.0",
+     "7.5",
+     "7.6",
+     "7.7",
+     "7.16",
+     "7.21",
+     "7.24",
+     "8.0",
+     "8.6",
+     "9.6",
+     "9.7",
+     "9.13",
+     "9.14",
+     "9.19",
+     "10.22",
+     "10.23",
+     "10.24"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "john-stuart-mill_on-liberty",
+  "scope": "ch6",
+  "turns": [
+   {
+    "role": "user",
+    "text": "State the harm principle in plain words.",
+    "at": 1795356828721
+   },
+   {
+    "role": "assistant",
+    "text": "The passages given do not state the harm principle. The book does not say it here. [6.0] only defines the essay's subject as civil or social liberty: \"the nature and limits of the power which can be legitimately exercised by society over the individual,\" and describes the older struggle of subjects to set limits on rulers through rights and constitutional checks. The exact formula about preventing harm to others comes later in the chapter, outside what I was given.\n\nIn my own view, outside the text: the harm principle says society may restrict a person's liberty only to prevent harm to others, not for the person's own good.",
+    "at": 1795356830702,
+    "sent": [
+     "6.0"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "charles-darwin_the-voyage-of-the-beagle",
+  "scope": "book",
+  "turns": [
+   {
+    "role": "user",
+    "text": "What did Darwin notice about the animals so far?",
+    "at": 1795356789999
+   },
+   {
+    "role": "assistant",
+    "text": "Darwin's notices of animals so far are mostly about tameness, strange habits, and local abundance. He watched capybaras let him come within three yards, found the tucutuco often blind yet able to move about a room, and heard the butterfly Papilio feronia make a clicking noise [8.20][8.22][7.27].\n\n- **Capybara:** near Maldonado they were very tame, which he guessed was because the jaguar had been banished and the Gaucho did not hunt them. He approached four old ones within three yards; they gave a low abrupt grunt and rushed into the water with their bark [8.20].\n- **Tucutuco:** many are found blind. He put his finger half an inch from a live one's head and it took no notice, yet it made its way about the room nearly as well as the others [8.22].\n- **Papilio feronia:** it alights head downwards with wings horizontal, runs with its legs, and makes a clicking noise he heard at about twenty yards while a pair chased each other [7.27].\n- **Agouti:** it is the commonest quadruped of the desert, weighs twenty to twenty-five pounds, has only three toes behind, and uses the bizcacha's burrows where the bizcacha lives but digs its own where it does not [9.13].\n- **Carrion hawks:** the Carrancha and Chimango attend estancias and slaughtering-houses; the Chimango repeatedly swoops at the larger Carrancha, which mostly just bobs its head [8.27].\n- **Fireflies:** the light was a well-marked green, flashes came most when the insect was irritated, and the rings stayed bright after decapitation [7.21].\n\nThe book does not say what larger pattern Darwin draws from these animals at this stage.",
+    "at": 1795356793289,
+    "sent": [
+     "6.5",
+     "6.17",
+     "6.19",
+     "6.22",
+     "6.29",
+     "6.32",
+     "6.33",
+     "7.13",
+     "7.21",
+     "7.27",
+     "8.7",
+     "8.20",
+     "8.22",
+     "8.27",
+     "9.0",
+     "9.11",
+     "9.12",
+     "9.13"
+    ]
+   }
+  ]
+ }
+]

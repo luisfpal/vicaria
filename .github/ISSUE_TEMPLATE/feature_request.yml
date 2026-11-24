@@ -1,0 +1,10 @@
+name: Idea
+description: Something Vicaria could do
+labels: [idea]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do
+      description: The situation first, then the change you imagine.
+    validations: { required: true }

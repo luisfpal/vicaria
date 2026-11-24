@@ -1,0 +1,1504 @@
+{
+ "labels": {
+  "yellow": "Key idea",
+  "green": "Try this",
+  "blue": "Question",
+  "pink": "Beautiful",
+  "purple": "Quote to keep",
+  "orange": "Disagree"
+ },
+ "books": {
+  "marcus-aurelius_meditations_george-long": {
+   "pos": 0.55,
+   "hoursAgo": 0.2
+  },
+  "henry-david-thoreau_walden": {
+   "pos": 0.7,
+   "hoursAgo": 5
+  },
+  "seneca_moral-letters-to-lucilius_richard-m-gummere": {
+   "pos": 0.4,
+   "hoursAgo": 20
+  },
+  "seneca_dialogues_aubrey-stewart": {
+   "pos": 0.25,
+   "hoursAgo": 110
+  },
+  "epictetus_discourses_george-long": {
+   "pos": 0.35,
+   "hoursAgo": 70
+  },
+  "niccolo-machiavelli_the-prince_w-k-marriott": {
+   "pos": 1,
+   "hoursAgo": 48
+  },
+  "sun-tzu_the-art-of-war_lionel-giles": {
+   "pos": 1,
+   "hoursAgo": 200
+  },
+  "benjamin-franklin_the-autobiography-of-benjamin-franklin": {
+   "pos": 0.8,
+   "hoursAgo": 60
+  },
+  "charles-darwin_the-origin-of-species": {
+   "pos": 0.45,
+   "hoursAgo": 26
+  },
+  "charles-darwin_the-voyage-of-the-beagle": {
+   "pos": 0.15,
+   "hoursAgo": 140
+  },
+  "ralph-waldo-emerson_essays": {
+   "pos": 0.6,
+   "hoursAgo": 36
+  },
+  "plato_dialogues_benjamin-jowett": {
+   "pos": 0.3,
+   "hoursAgo": 90
+  },
+  "adam-smith_the-wealth-of-nations": {
+   "pos": 0.12,
+   "hoursAgo": 160
+  },
+  "adam-smith_the-theory-of-moral-sentiments": {
+   "pos": 0.1,
+   "hoursAgo": 170
+  },
+  "john-stuart-mill_on-liberty": {
+   "pos": 1,
+   "hoursAgo": 96
+  },
+  "leo-tolstoy_a-confession_aylmer-maude": {
+   "pos": 1,
+   "hoursAgo": 120
+  },
+  "leo-tolstoy_anna-karenina_constance-garnett": {
+   "pos": 0.22,
+   "hoursAgo": 12
+  },
+  "jane-austen_pride-and-prejudice": {
+   "pos": 0.9,
+   "hoursAgo": 3
+  },
+  "jane-austen_persuasion": {
+   "pos": 0.5,
+   "hoursAgo": 240
+  },
+  "fyodor-dostoevsky_notes-from-underground_constance-garnett": {
+   "pos": 0.66,
+   "hoursAgo": 300
+  },
+  "fyodor-dostoevsky_crime-and-punishment_constance-garnett": {
+   "pos": 0.3,
+   "hoursAgo": 15
+  },
+  "william-james_pragmatism": {
+   "pos": 0.4,
+   "hoursAgo": 130
+  },
+  "virginia-woolf_to-the-lighthouse": {
+   "pos": 0.18,
+   "hoursAgo": 40
+  },
+  "frederick-douglass_narrative-of-the-life-of-frederick-douglass": {
+   "pos": 1,
+   "hoursAgo": 150
+  },
+  "aristotle_nicomachean-ethics_f-h-peters": {
+   "pos": 0.5,
+   "hoursAgo": 72
+  },
+  "jean-jacques-rousseau_the-social-contract_g-d-h-cole": {
+   "pos": 0.45,
+   "hoursAgo": 210
+  },
+  "friedrich-nietzsche_beyond-good-and-evil_helen-zimmern": {
+   "pos": 0.25,
+   "hoursAgo": 180
+  },
+  "mark-twain_the-adventures-of-huckleberry-finn": {
+   "pos": 0.6,
+   "hoursAgo": 8
+  },
+  "henry-david-thoreau_essays": {
+   "pos": 0.3,
+   "hoursAgo": 100
+  }
+ },
+ "highlights": [
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "Remember, however, that thou art formed by nature to bear everything, with respect to which it depends on thy own opinion to make it endurable and tolerable, by thinking that it is either thy interest or thy duty to do this.",
+   "color": "yellow",
+   "tags": [
+    "judgment",
+    "virtue"
+   ],
+   "note": "Write this on a card. Most of the book is a footnote to it.",
+   "loved": true,
+   "hoursAgo": 229
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "Book II Book II Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial.",
+   "color": "green",
+   "tags": [
+    "virtue",
+    "time"
+   ],
+   "note": "Tried this for a week. The day goes differently when the difficult people are already expected.",
+   "loved": false,
+   "hoursAgo": 283
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "No longer talk at all about the kind of man that a good man ought to be, but be such.",
+   "color": "purple",
+   "tags": [
+    "time",
+    "judgment"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 466
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "Nature which governs the whole will soon change all things which thou seest, and out of their substance will make other things, and again other things from the substance of them, in order that the world may be ever new.",
+   "color": "pink",
+   "tags": [
+    "judgment",
+    "virtue"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 235
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "quote": "The mass of men lead lives of quiet desperation.",
+   "color": "yellow",
+   "tags": [
+    "simplicity",
+    "work"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 256
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "quote": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.",
+   "color": "pink",
+   "tags": [
+    "work",
+    "time"
+   ],
+   "note": "The whole book in one sentence.",
+   "loved": true,
+   "hoursAgo": 296
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "quote": "Time is but the stream I go a-fishing in.",
+   "color": "pink",
+   "tags": [
+    "time",
+    "simplicity"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 94
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "quote": "Most men, even in this comparatively free country, through mere ignorance and mistake, are so occupied with the factitious cares and superfluously coarse labors of life that its finer fruits cannot be plucked by them.",
+   "color": "yellow",
+   "tags": [
+    "simplicity",
+    "work"
+   ],
+   "note": "Compare Seneca on how people spend their days.",
+   "loved": false,
+   "hoursAgo": 258
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "quote": "I never found the companion that was so companionable as solitude.",
+   "color": "purple",
+   "tags": [
+    "work",
+    "time"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 318
+  },
+  {
+   "slug": "henry-david-thoreau_essays",
+   "quote": "It costs me less in every sense to incur the penalty of disobedience to the State, than it would to obey.",
+   "color": "blue",
+   "tags": [
+    "justice",
+    "duty"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 400
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "quote": "What man can you show me who places any value on his time, who reckons the worth of each day, who understands that he is dying daily?",
+   "color": "yellow",
+   "tags": [
+    "time",
+    "death"
+   ],
+   "note": "The question of the whole book.",
+   "loved": true,
+   "hoursAgo": 48
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "quote": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
+   "color": "yellow",
+   "tags": [
+    "death",
+    "time"
+   ],
+   "note": "Anxiety audit: how many of this week's worries actually happened?",
+   "loved": false,
+   "hoursAgo": 154
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "quote": "Associate with those who will make a better man of you.",
+   "color": "green",
+   "tags": [
+    "time",
+    "death"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 47
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "quote": "Each day acquire something that will fortify you against poverty, against death, indeed against other misfortunes as well; and after you have run over many thoughts, select one to be thoroughly digested that day.",
+   "color": "green",
+   "tags": [
+    "death",
+    "time"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 408
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "quote": "You should therefore force yourself to maintain to the very end of life’s drama the character which you assumed at the beginning.",
+   "color": "pink",
+   "tags": [
+    "time",
+    "death"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 350
+  },
+  {
+   "slug": "seneca_dialogues_aubrey-stewart",
+   "quote": "Life is long enough, if you know how to use it.",
+   "color": "yellow",
+   "tags": [
+    "time",
+    "attention"
+   ],
+   "note": "Pairs with Thoreau on the price of a thing.",
+   "loved": true,
+   "hoursAgo": 22
+  },
+  {
+   "slug": "epictetus_discourses_george-long",
+   "quote": "As then it was fit to be so, that which is best of all and supreme over all is the only thing which the gods have placed in our power, the right use of appearances; but all other things they have not placed in our power.",
+   "color": "yellow",
+   "tags": [
+    "judgment",
+    "virtue"
+   ],
+   "note": "The dichotomy of control. Marcus uses it constantly.",
+   "loved": true,
+   "hoursAgo": 495
+  },
+  {
+   "slug": "epictetus_discourses_george-long",
+   "quote": "We must make the best use that we can of the things which are in our power, and use the rest according to their nature.",
+   "color": "green",
+   "tags": [
+    "virtue",
+    "judgment"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 486
+  },
+  {
+   "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+   "quote": "Upon this a question arises: whether it be better to be loved than feared or feared than loved?",
+   "color": "yellow",
+   "tags": [
+    "power",
+    "strategy"
+   ],
+   "note": "Still disagree, but the argument is cleverer than its reputation.",
+   "loved": true,
+   "hoursAgo": 330
+  },
+  {
+   "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+   "quote": "Nor will there ever be wanting to a prince legitimate reasons to excuse this nonobservance.",
+   "color": "orange",
+   "tags": [
+    "strategy",
+    "luck"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 311
+  },
+  {
+   "slug": "sun-tzu_the-art-of-war_lionel-giles",
+   "quote": "If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
+   "color": "purple",
+   "tags": [
+    "strategy",
+    "power"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 80
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "quote": "Plan for Attaining Moral Perfection IX Plan for Attaining Moral Perfection It was about this time I conceived the bold and arduous project of arriving at moral perfection.",
+   "color": "yellow",
+   "tags": [
+    "habit",
+    "pride"
+   ],
+   "note": "A system for character. I tried the checklist for two weeks.",
+   "loved": true,
+   "hoursAgo": 9
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "quote": "Let all your things have their places; let each part of your business have its time.",
+   "color": "green",
+   "tags": [
+    "pride",
+    "work"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 267
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "quote": "In reality, there is, perhaps, no one of our natural passions so hard to subdue as pride .",
+   "color": "pink",
+   "tags": [
+    "work",
+    "habit"
+   ],
+   "note": "The honest bit: he admits he only ever acted humble.",
+   "loved": true,
+   "hoursAgo": 31
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "quote": "I determined endeavouring to cure myself, if I could, of this vice or folly among the rest, and I added Humility to my list, giving an extensive meaning to the word.",
+   "color": "blue",
+   "tags": [
+    "habit",
+    "pride"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 97
+  },
+  {
+   "slug": "charles-darwin_the-origin-of-species",
+   "quote": "In these several senses, which pass into each other, I use for convenience sake the general term of “struggle for existence.",
+   "color": "yellow",
+   "tags": [
+    "nature",
+    "change"
+   ],
+   "note": "Selection explained in one paragraph. Read it twice.",
+   "loved": true,
+   "hoursAgo": 123
+  },
+  {
+   "slug": "charles-darwin_the-origin-of-species",
+   "quote": "This preservation of favourable individual differences and variations, and the destruction of those which are injurious, I have called Natural Selection, or the Survival of the Fittest.",
+   "color": "yellow",
+   "tags": [
+    "change",
+    "nature"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 16
+  },
+  {
+   "slug": "charles-darwin_the-origin-of-species",
+   "quote": "When we look at the plants and bushes clothing an entangled bank, we are tempted to attribute their proportional numbers and kinds to what we call chance.",
+   "color": "pink",
+   "tags": [
+    "nature",
+    "change"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 234
+  },
+  {
+   "slug": "charles-darwin_the-voyage-of-the-beagle",
+   "quote": "The flora of the Galapagos Archipelago is the subject of a separate memoir by him, in the Linnean Transactions .",
+   "color": "blue",
+   "tags": [
+    "nature",
+    "change"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 223
+  },
+  {
+   "slug": "ralph-waldo-emerson_essays",
+   "quote": "Trust thyself: every heart vibrates to that iron string.",
+   "color": "yellow",
+   "tags": [
+    "self-reliance",
+    "nature"
+   ],
+   "note": "Compare Thoreau: the same instinct, different temper.",
+   "loved": true,
+   "hoursAgo": 425
+  },
+  {
+   "slug": "ralph-waldo-emerson_essays",
+   "quote": "A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines.",
+   "color": "purple",
+   "tags": [
+    "nature",
+    "virtue"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 262
+  },
+  {
+   "slug": "ralph-waldo-emerson_essays",
+   "quote": "Nothing is at last sacred but the integrity of your own mind.",
+   "color": "pink",
+   "tags": [
+    "virtue",
+    "self-reliance"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 323
+  },
+  {
+   "slug": "plato_dialogues_benjamin-jowett",
+   "quote": "Will he not fancy that the shadows which he formerly saw are truer than the objects which are now shown to him?",
+   "color": "yellow",
+   "tags": [
+    "knowledge",
+    "virtue"
+   ],
+   "note": "The cave. Still the best picture of what a book can do for you.",
+   "loved": true,
+   "hoursAgo": 252
+  },
+  {
+   "slug": "plato_dialogues_benjamin-jowett",
+   "quote": "I dare say that what I am saying is nonsense, I replied; and yet if a man has any feeling of what is due to himself, he cannot let the thought which comes into his mind pass away unheeded and unexamined.",
+   "color": "blue",
+   "tags": [
+    "virtue",
+    "knowledge"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 334
+  },
+  {
+   "slug": "adam-smith_the-wealth-of-nations",
+   "quote": "It is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest.",
+   "color": "purple",
+   "tags": [
+    "money",
+    "work"
+   ],
+   "note": "The famous line is about dinner, not greed.",
+   "loved": true,
+   "hoursAgo": 231
+  },
+  {
+   "slug": "adam-smith_the-theory-of-moral-sentiments",
+   "quote": "We endeavour to examine our own conduct as we imagine any other fair and impartial spectator would examine it.",
+   "color": "yellow",
+   "tags": [
+    "money",
+    "virtue"
+   ],
+   "note": "The other half of Smith that people forget.",
+   "loved": false,
+   "hoursAgo": 141
+  },
+  {
+   "slug": "john-stuart-mill_on-liberty",
+   "quote": "That principle is, that the sole end for which mankind are warranted, individually or collectively, in interfering with the liberty of action of any of their number, is self-protection.",
+   "color": "yellow",
+   "tags": [
+    "freedom",
+    "justice"
+   ],
+   "note": "The harm principle, stated plainly.",
+   "loved": true,
+   "hoursAgo": 503
+  },
+  {
+   "slug": "john-stuart-mill_on-liberty",
+   "quote": "He who knows only his own side of the case, knows little of that.",
+   "color": "yellow",
+   "tags": [
+    "justice",
+    "knowledge"
+   ],
+   "note": "A rule for reading too: never trust a view you cannot argue against.",
+   "loved": true,
+   "hoursAgo": 502
+  },
+  {
+   "slug": "john-stuart-mill_on-liberty",
+   "quote": "It is desirable, in short, that in things which do not primarily concern others, individuality should assert itself.",
+   "color": "green",
+   "tags": [
+    "knowledge",
+    "freedom"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 424
+  },
+  {
+   "slug": "leo-tolstoy_a-confession_aylmer-maude",
+   "quote": "And I seized on these believers and questioned them as to their beliefs and their understanding of the meaning of life.",
+   "color": "pink",
+   "tags": [
+    "meaning",
+    "death"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 357
+  },
+  {
+   "slug": "leo-tolstoy_anna-karenina_constance-garnett",
+   "quote": "I I Happy families are all alike; every unhappy family is unhappy in its own way.",
+   "color": "pink",
+   "tags": [
+    "family",
+    "happiness"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 160
+  },
+  {
+   "slug": "jane-austen_pride-and-prejudice",
+   "quote": "I I It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+   "color": "pink",
+   "tags": [
+    "marriage",
+    "pride"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 117
+  },
+  {
+   "slug": "jane-austen_pride-and-prejudice",
+   "quote": "“That is very true,” replied Elizabeth, “and I could easily forgive his pride, if he had not mortified mine .",
+   "color": "yellow",
+   "tags": [
+    "pride",
+    "money"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 146
+  },
+  {
+   "slug": "jane-austen_pride-and-prejudice",
+   "quote": "Vanity and pride are different things, though the words are often used synonymously.",
+   "color": "yellow",
+   "tags": [
+    "money",
+    "marriage"
+   ],
+   "note": "Austen on the difference: pride is about us, vanity about what others think.",
+   "loved": true,
+   "hoursAgo": 36
+  },
+  {
+   "slug": "jane-austen_persuasion",
+   "quote": "I should deserve utter contempt if I dared to suppose that true attachment and constancy were known only by woman.",
+   "color": "blue",
+   "tags": [
+    "marriage",
+    "family"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 386
+  },
+  {
+   "slug": "fyodor-dostoevsky_notes-from-underground_constance-garnett",
+   "quote": "I I 1 I am a sick man.﻿ ﻿… I am a spiteful man.",
+   "color": "pink",
+   "tags": [
+    "suffering",
+    "solitude"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 202
+  },
+  {
+   "slug": "fyodor-dostoevsky_notes-from-underground_constance-garnett",
+   "quote": "Merciful Heavens! but what do I care for the laws of nature and arithmetic, when, for some reason I dislike those laws and the fact that twice two makes four?",
+   "color": "yellow",
+   "tags": [
+    "solitude",
+    "suffering"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 427
+  },
+  {
+   "slug": "fyodor-dostoevsky_crime-and-punishment_constance-garnett",
+   "quote": "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
+   "color": "yellow",
+   "tags": [
+    "guilt",
+    "suffering"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 195
+  },
+  {
+   "slug": "fyodor-dostoevsky_crime-and-punishment_constance-garnett",
+   "quote": "But extraordinary men have a right to commit any crime and to transgress the law in any way, just because they are extraordinary.",
+   "color": "blue",
+   "tags": [
+    "suffering",
+    "power"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 483
+  },
+  {
+   "slug": "william-james_pragmatism",
+   "quote": "You must bring out of each word its practical cash-value, set it at work within the stream of your experience.",
+   "color": "yellow",
+   "tags": [
+    "knowledge",
+    "meaning"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 427
+  },
+  {
+   "slug": "william-james_pragmatism",
+   "quote": "Truth is what we say about them, and when we say that they have come, truth is satisfied by the plain additive formula.",
+   "color": "yellow",
+   "tags": [
+    "meaning",
+    "knowledge"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 1
+  },
+  {
+   "slug": "virginia-woolf_to-the-lighthouse",
+   "quote": "“But this is what I see; this is what I see,” and so to clasp some miserable remnant of her vision to her breast, which a thousand forces did their best to pluck from her.",
+   "color": "pink",
+   "tags": [
+    "family",
+    "attention"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 106
+  },
+  {
+   "slug": "virginia-woolf_to-the-lighthouse",
+   "quote": "Turning, she looked across the bay, and there, sure enough, coming regularly across the waves, first two quick strokes and then one long steady stroke, was the light of the Lighthouse.",
+   "color": "pink",
+   "tags": [
+    "attention",
+    "family"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 459
+  },
+  {
+   "slug": "frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+   "quote": "You have seen how a man was made a slave; you shall see how a slave was made a man.",
+   "color": "yellow",
+   "tags": [
+    "freedom",
+    "justice"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 237
+  },
+  {
+   "slug": "frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+   "quote": "It was the bloodstained gate, the entrance to the hell of slavery, through which I was about to pass.",
+   "color": "yellow",
+   "tags": [
+    "justice",
+    "freedom"
+   ],
+   "note": "The turn of the whole narrative. A good reason to keep reading.",
+   "loved": true,
+   "hoursAgo": 494
+  },
+  {
+   "slug": "aristotle_nicomachean-ethics_f-h-peters",
+   "quote": "If then there be only one final end, this will be what we are seeking﻿—or if there be more than one, then the most final of them.",
+   "color": "yellow",
+   "tags": [
+    "virtue",
+    "habit"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 201
+  },
+  {
+   "slug": "aristotle_nicomachean-ethics_f-h-peters",
+   "quote": "IX This has led people to ask whether happiness is attained by learning, or the formation of habits, or any other kind of training, or comes by some divine dispensation or even by chance.",
+   "color": "blue",
+   "tags": [
+    "habit",
+    "happiness"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 38
+  },
+  {
+   "slug": "jean-jacques-rousseau_the-social-contract_g-d-h-cole",
+   "quote": "Subject of the First Book I Subject of the First Book Man is born free; and everywhere he is in chains.",
+   "color": "yellow",
+   "tags": [
+    "freedom",
+    "justice"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 318
+  },
+  {
+   "slug": "jean-jacques-rousseau_the-social-contract_g-d-h-cole",
+   "quote": "In order then that the social compact may not be an empty formula, it tacitly includes the undertaking, which alone can give force to the rest, that whoever refuses to obey the general will shall be compelled to do so by the whole body.",
+   "color": "orange",
+   "tags": [
+    "justice",
+    "freedom"
+   ],
+   "note": "Chilling if you read it slowly.",
+   "loved": false,
+   "hoursAgo": 393
+  },
+  {
+   "slug": "friedrich-nietzsche_beyond-good-and-evil_helen-zimmern",
+   "quote": "And if thou gaze long into an abyss, the abyss will also gaze into thee. 147 From old Florentine novels﻿—moreover, from life:",
+   "color": "pink",
+   "tags": [
+    "power",
+    "knowledge"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 137
+  },
+  {
+   "slug": "friedrich-nietzsche_beyond-good-and-evil_helen-zimmern",
+   "quote": "Their “knowing” is creating , their creating is a law-giving, their will to truth is﻿— Will to Power .﻿—Are there at present such philosophers?",
+   "color": "yellow",
+   "tags": [
+    "knowledge",
+    "suffering"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 45
+  },
+  {
+   "slug": "mark-twain_the-adventures-of-huckleberry-finn",
+   "quote": "By that time everything we had in the world was on our raft, and she was ready to be shoved out from the willow cove where she was hid.",
+   "color": "pink",
+   "tags": [
+    "freedom",
+    "nature"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 168
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "All these things happen to them by reason of their ignorance of what is good and evil.",
+   "color": "yellow",
+   "tags": [
+    "virtue",
+    "time"
+   ],
+   "note": "Nobody does wrong knowingly. Same claim as Socrates in the Dialogues.",
+   "loved": false,
+   "hoursAgo": 30
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "For we are made for cooperation, like feet, like hands, like eyelids, like the rows of the upper and lower teeth.",
+   "color": "pink",
+   "tags": [
+    "time",
+    "judgment"
+   ],
+   "note": "",
+   "loved": true,
+   "hoursAgo": 29
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "To act against one another then is contrary to nature; and it is acting against one another to be vexed and to turn away.",
+   "color": "purple",
+   "tags": [
+    "judgment",
+    "virtue"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 28
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "quote": "I love to have mine before my window, and the more chips the better to remind me of my pleasing work.",
+   "color": "yellow",
+   "tags": [
+    "time",
+    "simplicity"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 67
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "quote": "As for me, Lucilius, my time is free; it is indeed free, and wherever I am, I am master of myself.",
+   "color": "green",
+   "tags": [
+    "death",
+    "time"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 69
+  },
+  {
+   "slug": "seneca_dialogues_aubrey-stewart",
+   "quote": "He, therefore, had time enough: whereas those who gave up a great part of their lives to the people of necessity had not enough.",
+   "color": "blue",
+   "tags": [
+    "attention",
+    "time"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 139
+  },
+  {
+   "slug": "epictetus_discourses_george-long",
+   "quote": "Learn my opinions, show me yours, and then say that you have visited me.",
+   "color": "purple",
+   "tags": [
+    "judgment",
+    "virtue"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 345
+  },
+  {
+   "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+   "quote": "Without that opportunity their powers of mind would have been extinguished, and without those powers the opportunity would have come in vain.",
+   "color": "yellow",
+   "tags": [
+    "luck",
+    "power"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 200
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "quote": "I had lived near what was called the Jersey Market, and saw with pain the inhabitants wading in mud while purchasing their provisions.",
+   "color": "pink",
+   "tags": [
+    "pride",
+    "work"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 68
+  },
+  {
+   "slug": "ralph-waldo-emerson_essays",
+   "quote": "But it is as impossible for a man to be cheated by anyone but himself, as for a thing to be and not to be at the same time.",
+   "color": "green",
+   "tags": [
+    "self-reliance",
+    "nature"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 347
+  },
+  {
+   "slug": "adam-smith_the-theory-of-moral-sentiments",
+   "quote": "In estimating our own merit, in judging of our own character and conduct, there are two different standards to which we naturally compare them.",
+   "color": "blue",
+   "tags": [
+    "virtue",
+    "money"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 169
+  },
+  {
+   "slug": "adam-smith_the-theory-of-moral-sentiments",
+   "quote": "It is to erect his own judgment into the supreme standard of right and wrong.",
+   "color": "blue",
+   "tags": [
+    "money",
+    "virtue"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 3
+  },
+  {
+   "slug": "john-stuart-mill_on-liberty",
+   "quote": "If the teachers of mankind are to be cognisant of all that they ought to know, everything must be free to be written and published without restraint.",
+   "color": "green",
+   "tags": [
+    "freedom",
+    "justice"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 425
+  },
+  {
+   "slug": "leo-tolstoy_a-confession_aylmer-maude",
+   "quote": "I wished to know why I live, and for this purpose studied all that is outside me.",
+   "color": "pink",
+   "tags": [
+    "death",
+    "suffering"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 60
+  },
+  {
+   "slug": "leo-tolstoy_a-confession_aylmer-maude",
+   "quote": "That meaning, if one can put it into words, was as follows: Every man has come into this world by the will of God.",
+   "color": "blue",
+   "tags": [
+    "suffering",
+    "meaning"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 22
+  },
+  {
+   "slug": "fyodor-dostoevsky_notes-from-underground_constance-garnett",
+   "quote": "Leave us alone without books and we shall be lost and in confusion at once.",
+   "color": "purple",
+   "tags": [
+    "suffering",
+    "solitude"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 291
+  },
+  {
+   "slug": "william-james_pragmatism",
+   "quote": "In respect of the knowledge it contains the world does genuinely change and grow.",
+   "color": "yellow",
+   "tags": [
+    "knowledge",
+    "meaning"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 277
+  },
+  {
+   "slug": "frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+   "quote": "You, too, publish your declaration of freedom with danger compassing you around.",
+   "color": "blue",
+   "tags": [
+    "freedom",
+    "justice"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 427
+  },
+  {
+   "slug": "aristotle_nicomachean-ethics_f-h-peters",
+   "quote": "Our conclusion, then, is that happiness is a kind of speculation or contemplation.",
+   "color": "yellow",
+   "tags": [
+    "happiness",
+    "virtue"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 83
+  },
+  {
+   "slug": "jean-jacques-rousseau_the-social-contract_g-d-h-cole",
+   "quote": "In any case, the moment a people allows itself to be represented, it is no longer free: it no longer exists.",
+   "color": "yellow",
+   "tags": [
+    "freedom",
+    "justice"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 64
+  },
+  {
+   "slug": "friedrich-nietzsche_beyond-good-and-evil_helen-zimmern",
+   "quote": "It is difficult and painful for the ear to listen to anything new; we hear strange music badly.",
+   "color": "blue",
+   "tags": [
+    "suffering",
+    "power"
+   ],
+   "note": "",
+   "loved": false,
+   "hoursAgo": 72
+  }
+ ],
+ "bookmarks": [
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "Book II Book II Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial.",
+   "name": "Morning rule"
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "quote": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.",
+   "name": "Why he went"
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "quote": "What man can you show me who places any value on his time, who reckons the worth of each day, who understands that he is dying daily?",
+   "name": "On time"
+  },
+  {
+   "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+   "quote": "Upon this a question arises: whether it be better to be loved than feared or feared than loved?",
+   "name": "Fear or love"
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "quote": "Plan for Attaining Moral Perfection IX Plan for Attaining Moral Perfection It was about this time I conceived the bold and arduous project of arriving at moral perfection.",
+   "name": "The checklist"
+  },
+  {
+   "slug": "ralph-waldo-emerson_essays",
+   "quote": "Trust thyself: every heart vibrates to that iron string.",
+   "name": "Trust thyself"
+  },
+  {
+   "slug": "john-stuart-mill_on-liberty",
+   "quote": "That principle is, that the sole end for which mankind are warranted, individually or collectively, in interfering with the liberty of action of any of their number, is self-protection.",
+   "name": "The harm principle"
+  },
+  {
+   "slug": "jane-austen_pride-and-prejudice",
+   "quote": "Vanity and pride are different things, though the words are often used synonymously.",
+   "name": "Pride and vanity"
+  },
+  {
+   "slug": "charles-darwin_the-origin-of-species",
+   "quote": "When we look at the plants and bushes clothing an entangled bank, we are tempted to attribute their proportional numbers and kinds to what we call chance.",
+   "name": "Entangled bank"
+  },
+  {
+   "slug": "frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+   "quote": "You have seen how a man was made a slave; you shall see how a slave was made a man.",
+   "name": "Turning point"
+  },
+  {
+   "slug": "aristotle_nicomachean-ethics_f-h-peters",
+   "quote": "If then there be only one final end, this will be what we are seeking﻿—or if there be more than one, then the most final of them.",
+   "name": "Final end"
+  },
+  {
+   "slug": "epictetus_discourses_george-long",
+   "quote": "As then it was fit to be so, that which is best of all and supreme over all is the only thing which the gods have placed in our power, the right use of appearances; but all other things they have not placed in our power.",
+   "name": "The dichotomy"
+  }
+ ],
+ "stickies": [
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "quote": "Nature which governs the whole will soon change all things which thou seest, and out of their substance will make other things, and again other things from the substance of them, in order that the world may be ever new.",
+   "text": "Reread on bad days.",
+   "tint": "yellow"
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "quote": "I never found the companion that was so companionable as solitude.",
+   "text": "Walk, no phone, tomorrow.",
+   "tint": "green"
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "quote": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
+   "text": "Write down fears, check on Friday.",
+   "tint": "pink"
+  },
+  {
+   "slug": "plato_dialogues_benjamin-jowett",
+   "quote": "Will he not fancy that the shadows which he formerly saw are truer than the objects which are now shown to him?",
+   "text": "Compare: Emerson on conformity.",
+   "tint": "purple"
+  }
+ ],
+ "asks": [
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "scope": "chapter",
+   "q": "How should I deal with people who annoy me?"
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "scope": "book",
+   "q": "What does Marcus mean by the ruling faculty of the mind?"
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "scope": "book",
+   "q": "Why is he not afraid of death?"
+  },
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "scope": "chapter",
+   "q": "What is he reminding himself to do in the morning?",
+   "at": 0.1
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "scope": "chapter",
+   "q": "What does Thoreau mean by \"quiet desperation\"?",
+   "at": 0.1
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "scope": "book",
+   "q": "What did the experiment at the pond cost him, and what did he get for it?"
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "scope": "book",
+   "q": "Is he arguing that everyone should leave society?"
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "scope": "chapter",
+   "q": "What is Seneca telling Lucilius about how to spend his time?"
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "scope": "book",
+   "q": "How does Seneca say we should prepare for death?"
+  },
+  {
+   "slug": "seneca_moral-letters-to-lucilius_richard-m-gummere",
+   "scope": "book",
+   "q": "What does he think of wealth?"
+  },
+  {
+   "slug": "seneca_dialogues_aubrey-stewart",
+   "scope": "book",
+   "q": "According to Seneca, how do people waste their lives?"
+  },
+  {
+   "slug": "epictetus_discourses_george-long",
+   "scope": "chapter",
+   "q": "What is up to us and what is not?"
+  },
+  {
+   "slug": "epictetus_discourses_george-long",
+   "scope": "book",
+   "q": "How would Epictetus handle losing a job?"
+  },
+  {
+   "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+   "scope": "chapter",
+   "q": "Why does Machiavelli say it is safer to be feared than loved?",
+   "at": 0.7
+  },
+  {
+   "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+   "scope": "book",
+   "q": "What role does fortune play in his argument?"
+  },
+  {
+   "slug": "sun-tzu_the-art-of-war_lionel-giles",
+   "scope": "chapter",
+   "q": "What does Sun Tzu mean by winning without fighting?",
+   "at": 0.1
+  },
+  {
+   "slug": "sun-tzu_the-art-of-war_lionel-giles",
+   "scope": "book",
+   "q": "Which of his advice would help in a negotiation?"
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "scope": "chapter",
+   "q": "How did Franklin choose his thirteen virtues?",
+   "at": 0.7
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "scope": "book",
+   "q": "What did he learn about pride?"
+  },
+  {
+   "slug": "charles-darwin_the-origin-of-species",
+   "scope": "chapter",
+   "q": "What does Darwin mean by the struggle for existence?",
+   "at": 0.1
+  },
+  {
+   "slug": "charles-darwin_the-origin-of-species",
+   "scope": "book",
+   "q": "Which objections does Darwin expect, and how does he answer them?"
+  },
+  {
+   "slug": "charles-darwin_the-voyage-of-the-beagle",
+   "scope": "book",
+   "q": "What did Darwin notice about the animals so far?"
+  },
+  {
+   "slug": "ralph-waldo-emerson_essays",
+   "scope": "chapter",
+   "q": "What does self-reliance ask of a person in practice?",
+   "at": 0.1
+  },
+  {
+   "slug": "ralph-waldo-emerson_essays",
+   "scope": "book",
+   "q": "What does Emerson say about conformity?"
+  },
+  {
+   "slug": "plato_dialogues_benjamin-jowett",
+   "scope": "chapter",
+   "q": "What is Socrates arguing in this dialogue?"
+  },
+  {
+   "slug": "plato_dialogues_benjamin-jowett",
+   "scope": "book",
+   "q": "What does Socrates mean when he says he knows nothing?"
+  },
+  {
+   "slug": "adam-smith_the-wealth-of-nations",
+   "scope": "chapter",
+   "q": "Why does Smith think the division of labour makes a nation richer?"
+  },
+  {
+   "slug": "adam-smith_the-theory-of-moral-sentiments",
+   "scope": "book",
+   "q": "What is the impartial spectator?"
+  },
+  {
+   "slug": "john-stuart-mill_on-liberty",
+   "scope": "chapter",
+   "q": "State the harm principle in plain words.",
+   "at": 0.1
+  },
+  {
+   "slug": "john-stuart-mill_on-liberty",
+   "scope": "book",
+   "q": "Why does Mill defend opinions he thinks are wrong?"
+  },
+  {
+   "slug": "leo-tolstoy_a-confession_aylmer-maude",
+   "scope": "book",
+   "q": "How does Tolstoy come to faith?"
+  },
+  {
+   "slug": "leo-tolstoy_a-confession_aylmer-maude",
+   "scope": "chapter",
+   "q": "What crisis does he describe here?",
+   "at": 0.3
+  },
+  {
+   "slug": "leo-tolstoy_anna-karenina_constance-garnett",
+   "scope": "chapter",
+   "q": "How does the book open the marriage of Stiva and Dolly?"
+  },
+  {
+   "slug": "jane-austen_pride-and-prejudice",
+   "scope": "chapter",
+   "q": "Why is Elizabeth so set against Darcy?",
+   "at": 0.4
+  },
+  {
+   "slug": "jane-austen_pride-and-prejudice",
+   "scope": "book",
+   "q": "How does Austen separate pride from vanity?"
+  },
+  {
+   "slug": "jane-austen_persuasion",
+   "scope": "book",
+   "q": "Why did Anne refuse Wentworth the first time?"
+  },
+  {
+   "slug": "fyodor-dostoevsky_notes-from-underground_constance-garnett",
+   "scope": "chapter",
+   "q": "Why is the narrator so spiteful?",
+   "at": 0.15
+  },
+  {
+   "slug": "fyodor-dostoevsky_notes-from-underground_constance-garnett",
+   "scope": "book",
+   "q": "What is his argument about twice two making four?"
+  },
+  {
+   "slug": "fyodor-dostoevsky_crime-and-punishment_constance-garnett",
+   "scope": "chapter",
+   "q": "What is Raskolnikov's theory of extraordinary men?"
+  },
+  {
+   "slug": "william-james_pragmatism",
+   "scope": "chapter",
+   "q": "What does James mean by the cash-value of an idea?"
+  },
+  {
+   "slug": "virginia-woolf_to-the-lighthouse",
+   "scope": "chapter",
+   "q": "What does the lighthouse stand for in this part?"
+  },
+  {
+   "slug": "frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+   "scope": "chapter",
+   "q": "How did Douglass learn to read?",
+   "at": 0.3
+  },
+  {
+   "slug": "frederick-douglass_narrative-of-the-life-of-frederick-douglass",
+   "scope": "book",
+   "q": "What does he say about religion and slaveholders?"
+  },
+  {
+   "slug": "aristotle_nicomachean-ethics_f-h-peters",
+   "scope": "chapter",
+   "q": "How does Aristotle define happiness?",
+   "at": 0.1
+  },
+  {
+   "slug": "aristotle_nicomachean-ethics_f-h-peters",
+   "scope": "book",
+   "q": "What is the doctrine of the mean?"
+  },
+  {
+   "slug": "jean-jacques-rousseau_the-social-contract_g-d-h-cole",
+   "scope": "chapter",
+   "q": "What does \"man is born free, and everywhere he is in chains\" mean?",
+   "at": 0.05
+  },
+  {
+   "slug": "friedrich-nietzsche_beyond-good-and-evil_helen-zimmern",
+   "scope": "chapter",
+   "q": "What is Nietzsche attacking in earlier philosophers?"
+  },
+  {
+   "slug": "mark-twain_the-adventures-of-huckleberry-finn",
+   "scope": "book",
+   "q": "How does Huck feel about Jim by now?"
+  }
+ ],
+ "cards": [
+  {
+   "slug": "marcus-aurelius_meditations_george-long",
+   "at": 0.1
+  },
+  {
+   "slug": "henry-david-thoreau_walden",
+   "at": 0.1
+  },
+  {
+   "slug": "niccolo-machiavelli_the-prince_w-k-marriott",
+   "at": 0.7
+  },
+  {
+   "slug": "john-stuart-mill_on-liberty",
+   "at": 0.1
+  },
+  {
+   "slug": "benjamin-franklin_the-autobiography-of-benjamin-franklin",
+   "at": 0.7
+  },
+  {
+   "slug": "charles-darwin_the-origin-of-species",
+   "at": 0.1
+  },
+  {
+   "slug": "fyodor-dostoevsky_crime-and-punishment_constance-garnett",
+   "at": 0.1
+  },
+  {
+   "slug": "leo-tolstoy_a-confession_aylmer-maude",
+   "at": 0.3
+  }
+ ]
+}

@@ -63,6 +63,7 @@ async function api(e, req, u) {
 self.addEventListener("fetch", e => {
   const req = e.request, u = new URL(req.url);
   if (u.origin !== location.origin) return;  // AI providers: straight from the browser
+  if (u.pathname.startsWith(BASE + "/next/")) return;  // the new reader has its own service worker
   if (u.pathname.startsWith(BASE + "/api/")) return e.respondWith(api(e, req, u));
   if (req.method !== "GET") return;
   if (req.mode === "navigate") return e.respondWith(caches.match(BASE + "/index.html", { cacheName: SHELL }).then(r => r || fetch(BASE + "/index.html")));

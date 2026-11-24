@@ -19,6 +19,23 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 standalone/build.py --base /vicaria
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
+      - run: npm run build
+        working-directory: app
+        env:
+          VIC_BASE: /vicaria/next/
+      - run: cp -r app/dist standalone/dist/next
+      - name: Get Vicaria page and installer
+        run: |
+          mkdir standalone/dist/get
+          cp -r get/index.html get/pick.mjs get/media standalone/dist/get/
+          cp get/install.sh standalone/dist/install.sh
       - uses: actions/upload-pages-artifact@v3
         with:
           path: standalone/dist

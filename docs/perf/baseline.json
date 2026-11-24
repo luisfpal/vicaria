@@ -1,0 +1,15 @@
+{
+  "what": "The 0.x app (Pyodide build of 7f70ae0), served locally, headless Chromium with CPU slowed 4x, no network delay. Milliseconds.",
+  "measured": "2026-11-21",
+  "library": {
+    "cold_first_visit": { "fcp": [332, 164, 172], "library_visible": [4835, 3103, 3131] },
+    "warm_reload": { "fcp": [72, 108, 144], "library_visible": [219, 212, 270] }
+  },
+  "open_chapter_full_page_load": {
+    "first_open": [2081, 2233, 2320],
+    "next_chapter": [2025, 2132, 2076],
+    "reopen_cached_answer": [181, 217, 151]
+  },
+  "transfer_bytes_first_visit_gzip": { "pyodide.asm.wasm": 3582490, "python_stdlib.zip": 2545550, "app.zip": 78549, "mermaid.min.js": 752576, "app.js": 42107 },
+  "scripts": ["app/bench/baseline-old.mjs", "app/bench/baseline-old-open.mjs"]
+}

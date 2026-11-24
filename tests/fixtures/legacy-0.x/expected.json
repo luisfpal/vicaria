@@ -1,0 +1,2495 @@
+{
+ "library": "cp-4f410e3e201aa41a",
+ "books": {
+  "meditations": {
+   "file": "meditations-se.epub",
+   "highlights": [
+    {
+     "id": "dfixture001-35",
+     "chapter": 2,
+     "block": 5,
+     "start": 231,
+     "end": 260,
+     "quote": "want little, and to work with",
+     "device": "Linux",
+     "t": 1790856240000
+    },
+    {
+     "id": "dfixture001-811",
+     "chapter": 2,
+     "block": 11,
+     "start": 14,
+     "end": 162,
+     "quote": "I learned to observe what envy, and duplicity, and hypocrisy are in a tyrant, and that generally those among us who are called Patricians are rather",
+     "device": "Linux",
+     "t": 1790856540000
+    },
+    {
+     "id": "dfixture001-517",
+     "chapter": 2,
+     "block": 17,
+     "start": 3265,
+     "end": 3289,
+     "quote": "to philosophy, I did not",
+     "device": "Linux",
+     "t": 1790856360000
+    },
+    {
+     "id": "dfixture001-435",
+     "chapter": 3,
+     "block": 5,
+     "start": 480,
+     "end": 597,
+     "quote": "to thee. Thou seest how few the things are, the which if a man lays hold of, he is able to live a life which flows in",
+     "device": "Linux",
+     "t": 1790858640000
+    },
+    {
+     "id": "dfixture001-344",
+     "chapter": 4,
+     "block": 4,
+     "start": 1575,
+     "end": 1643,
+     "quote": "soul everything which happens and is assigned to him as his portion;",
+     "device": "Linux",
+     "t": 1790858100000
+    },
+    {
+     "id": "dfixture001-165",
+     "chapter": 5,
+     "block": 5,
+     "start": 73,
+     "end": 107,
+     "quote": "we are rational beings, is common:",
+     "device": "Linux",
+     "t": 1790857020000
+    },
+    {
+     "id": "dfixture001-2310",
+     "chapter": 5,
+     "block": 10,
+     "start": 4,
+     "end": 24,
+     "quote": "nature of that which",
+     "device": "Linux",
+     "t": 1790857440000
+    },
+    {
+     "id": "dfixture001-2927",
+     "chapter": 5,
+     "block": 27,
+     "start": 132,
+     "end": 153,
+     "quote": "his own just acts and",
+     "device": "Linux",
+     "t": 1790857800000
+    },
+    {
+     "id": "dfixture001-3338",
+     "chapter": 5,
+     "block": 38,
+     "start": 277,
+     "end": 401,
+     "quote": "will be. But thou art thinking only of seeds which are cast into the earth or into a womb: but this is a very vulgar notion.",
+     "device": "Linux",
+     "t": 1790858040000
+    },
+    {
+     "id": "dfixture001-177",
+     "chapter": 6,
+     "block": 7,
+     "start": 135,
+     "end": 177,
+     "quote": "not to pray at all, or we ought to pray in",
+     "device": "Linux",
+     "t": 1790857080000
+    },
+    {
+     "id": "dfixture001-398",
+     "chapter": 6,
+     "block": 8,
+     "start": 2083,
+     "end": 2143,
+     "quote": "thee, and in a manner had reference to thee, originally from",
+     "device": "Linux",
+     "t": 1790858400000
+    },
+    {
+     "id": "dfixture001-1011",
+     "chapter": 6,
+     "block": 11,
+     "start": 249,
+     "end": 325,
+     "quote": "a feeble woman, or of a tyrant, or of a domestic animal, or of a wild beast?",
+     "device": "Linux",
+     "t": 1790856660000
+    },
+    {
+     "id": "dfixture001-727",
+     "chapter": 6,
+     "block": 27,
+     "start": 138,
+     "end": 250,
+     "quote": "him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide,",
+     "device": "Linux",
+     "t": 1790856480000
+    },
+    {
+     "id": "dfixture001-1129",
+     "chapter": 6,
+     "block": 29,
+     "start": 70,
+     "end": 125,
+     "quote": "power to live here. But if men do not permit thee, then",
+     "device": "Linux",
+     "t": 1790856720000
+    },
+    {
+     "id": "dfixture001-2242",
+     "chapter": 6,
+     "block": 42,
+     "start": 109,
+     "end": 136,
+     "quote": "objects of great concern to",
+     "device": "Linux",
+     "t": 1790857380000
+    },
+    {
+     "id": "dfixture001-2842",
+     "chapter": 6,
+     "block": 42,
+     "start": 206,
+     "end": 340,
+     "quote": "was once a fortunate man, but I lost it, I know not how.﻿—But fortunate means that a man has assigned to himself a good fortune: and a",
+     "device": "Linux",
+     "t": 1790857740000
+    },
+    {
+     "id": "dfixture001-428",
+     "chapter": 7,
+     "block": 28,
+     "start": 105,
+     "end": 168,
+     "quote": "the appetites, and of the discursive movements of the thoughts,",
+     "device": "Linux",
+     "t": 1790856300000
+    },
+    {
+     "id": "dfixture001-4928",
+     "chapter": 7,
+     "block": 28,
+     "start": 120,
+     "end": 151,
+     "quote": "and of the discursive movements",
+     "device": "Linux",
+     "t": 1790859000000
+    },
+    {
+     "id": "dfixture001-2529",
+     "chapter": 7,
+     "block": 29,
+     "start": 54,
+     "end": 78,
+     "quote": "this life, when thy body",
+     "device": "Linux",
+     "t": 1790857560000
+    },
+    {
+     "id": "dfixture001-1840",
+     "chapter": 7,
+     "block": 40,
+     "start": 300,
+     "end": 364,
+     "quote": "to think, that, if thou dost live and act according to its will,",
+     "device": "Linux",
+     "t": 1790857140000
+    },
+    {
+     "id": "dfixture001-2714",
+     "chapter": 8,
+     "block": 14,
+     "start": 175,
+     "end": 197,
+     "quote": "that what has happened",
+     "device": "Linux",
+     "t": 1790857680000
+    },
+    {
+     "id": "dfixture001-3240",
+     "chapter": 8,
+     "block": 40,
+     "start": 32,
+     "end": 66,
+     "quote": "my children,\nThere is a reason for",
+     "device": "Linux",
+     "t": 1790857980000
+    },
+    {
+     "id": "dfixture001-4859",
+     "chapter": 8,
+     "block": 59,
+     "start": 434,
+     "end": 502,
+     "quote": "upon the right way of making use of the things which happen to thee?",
+     "device": "Linux",
+     "t": 1790858940000
+    },
+    {
+     "id": "dfixture001-965",
+     "chapter": 8,
+     "block": 65,
+     "start": 642,
+     "end": 707,
+     "quote": "the having no appetite. When then thou art discontented about any",
+     "device": "Linux",
+     "t": 1790856600000
+    },
+    {
+     "id": "dfixture001-464",
+     "chapter": 9,
+     "block": 4,
+     "start": 35,
+     "end": 88,
+     "quote": "things nevertheless, even though thou shouldst burst.",
+     "device": "Linux",
+     "t": 1790858820000
+    },
+    {
+     "id": "dfixture001-445",
+     "chapter": 9,
+     "block": 5,
+     "start": 234,
+     "end": 314,
+     "quote": "on thy business look at it, and at the same time remembering that it is thy duty",
+     "device": "Linux",
+     "t": 1790858700000
+    },
+    {
+     "id": "dfixture001-3625",
+     "chapter": 9,
+     "block": 25,
+     "start": 56,
+     "end": 118,
+     "quote": "of mankind. Does anything happen to me? I receive it and refer",
+     "device": "Linux",
+     "t": 1790858220000
+    },
+    {
+     "id": "dfixture001-4225",
+     "chapter": 9,
+     "block": 25,
+     "start": 98,
+     "end": 149,
+     "quote": "receive it and refer it to the gods, and the source",
+     "device": "Linux",
+     "t": 1790858580000
+    },
+    {
+     "id": "dfixture001-1954",
+     "chapter": 9,
+     "block": 54,
+     "start": 32,
+     "end": 73,
+     "quote": "thee in pieces, curse thee. What then can",
+     "device": "Linux",
+     "t": 1790857200000
+    },
+    {
+     "id": "dfixture001-2657",
+     "chapter": 9,
+     "block": 57,
+     "start": 267,
+     "end": 299,
+     "quote": "him who is willing to draw it to",
+     "device": "Linux",
+     "t": 1790857620000
+    },
+    {
+     "id": "dfixture001-661",
+     "chapter": 9,
+     "block": 61,
+     "start": 216,
+     "end": 283,
+     "quote": "wilt be a different kind of living being and thou wilt not cease to",
+     "device": "Linux",
+     "t": 1790856420000
+    },
+    {
+     "id": "dfixture001-372",
+     "chapter": 10,
+     "block": 2,
+     "start": 443,
+     "end": 547,
+     "quote": "such corruption and change of this atmosphere which surrounds us. For this corruption is a pestilence of",
+     "device": "Linux",
+     "t": 1790858280000
+    },
+    {
+     "id": "dfixture001-4029",
+     "chapter": 10,
+     "block": 29,
+     "start": 113,
+     "end": 207,
+     "quote": "will continue to change forever, and these again forever. For if a man reflects on the changes",
+     "device": "Linux",
+     "t": 1790858460000
+    },
+    {
+     "id": "dfixture001-4136",
+     "chapter": 10,
+     "block": 36,
+     "start": 355,
+     "end": 407,
+     "quote": "gods to rectify these things, but the world has been",
+     "device": "Linux",
+     "t": 1790858520000
+    },
+    {
+     "id": "dfixture001-3141",
+     "chapter": 10,
+     "block": 41,
+     "start": 915,
+     "end": 960,
+     "quote": "thou pray thus: How shall I not desire to lie",
+     "device": "Linux",
+     "t": 1790857920000
+    },
+    {
+     "id": "dfixture001-133",
+     "chapter": 11,
+     "block": 3,
+     "start": 142,
+     "end": 189,
+     "quote": "so far as thou art a rational animal, shall not",
+     "device": "Linux",
+     "t": 1790856840000
+    },
+    {
+     "id": "dfixture001-474",
+     "chapter": 11,
+     "block": 4,
+     "start": 65,
+     "end": 170,
+     "quote": "formed by nature to bear it, or as thou art not formed by nature to bear it. If, then, it happens to thee",
+     "device": "Linux",
+     "t": 1790858880000
+    },
+    {
+     "id": "dfixture001-211",
+     "chapter": 12,
+     "block": 1,
+     "start": 105,
+     "end": 289,
+     "quote": "it chooses; the fruit which it bears itself enjoys﻿—for the fruits of plants and that in animals which corresponds to fruits others enjoy﻿—it obtains its own end, wherever the limit of",
+     "device": "Linux",
+     "t": 1790857320000
+    },
+    {
+     "id": "dfixture001-351",
+     "chapter": 12,
+     "block": 1,
+     "start": 287,
+     "end": 330,
+     "quote": "of life may be fixed. Not as in a dance and",
+     "device": "Linux",
+     "t": 1790858160000
+    },
+    {
+     "id": "dfixture001-452",
+     "chapter": 12,
+     "block": 2,
+     "start": 168,
+     "end": 266,
+     "quote": "to each, if thou art mastered by this; for thou wilt be prevented by shame from confessing it: and",
+     "device": "Linux",
+     "t": 1790858760000
+    },
+    {
+     "id": "dfixture001-142",
+     "chapter": 12,
+     "block": 2,
+     "start": 201,
+     "end": 352,
+     "quote": "this; for thou wilt be prevented by shame from confessing it: and in the matter of dancing, if at each movement and attitude thou wilt do the same; and",
+     "device": "Linux",
+     "t": 1790856900000
+    },
+    {
+     "id": "dfixture001-2021",
+     "chapter": 12,
+     "block": 21,
+     "start": 376,
+     "end": 488,
+     "quote": "honestly, like the great Phocion, unless indeed he only assumed it. For the interior parts ought to be such, and",
+     "device": "Linux",
+     "t": 1790857260000
+    },
+    {
+     "id": "dfixture001-3047",
+     "chapter": 12,
+     "block": 47,
+     "start": 19,
+     "end": 38,
+     "quote": "nor in reading wilt",
+     "device": "Linux",
+     "t": 1790857860000
+    },
+    {
+     "id": "dfixture001-1226",
+     "chapter": 13,
+     "block": 26,
+     "start": 771,
+     "end": 832,
+     "quote": "termination of life for every man is no evil, because neither",
+     "device": "Linux",
+     "t": 1790856780000
+    },
+    {
+     "id": "dfixture001-1531",
+     "chapter": 13,
+     "block": 31,
+     "start": 43,
+     "end": 109,
+     "quote": "gods or how dost thou comprehend that they exist and so worshipest",
+     "device": "Linux",
+     "t": 1790856960000
+    },
+    {
+     "id": "dfixture001-3834",
+     "chapter": 13,
+     "block": 34,
+     "start": 21,
+     "end": 133,
+     "quote": "to continue to exist? Well, dost thou wish to have sensation? movement? growth? and then again to cease to grow?",
+     "device": "Linux",
+     "t": 1790858340000
+    },
+    {
+     "id": "dfixture001-2439",
+     "chapter": 13,
+     "block": 39,
+     "start": 486,
+     "end": 649,
+     "quote": "sayest well, but in life the three acts are the whole drama; for what shall be a complete drama is determined by him who was once the cause of its composition, and",
+     "device": "Linux",
+     "t": 1790857500000
+    }
+   ],
+   "position": {
+    "chapter": 4,
+    "block": 1,
+    "offset": 0,
+    "quote": "We ought to consider not only that our life is d",
+    "y": 200,
+    "percent": 12,
+    "device": "Linux",
+    "t": 1790859240000,
+    "dev": "dfixture001",
+    "devices": {
+     "dfixture001": {
+      "chapter": 4,
+      "block": 1,
+      "offset": 0,
+      "quote": "We ought to consider not only that our life is d",
+      "y": 200,
+      "percent": 12,
+      "device": "Linux",
+      "t": 1790859240000
+     }
+    }
+   }
+  },
+  "the-art-of-war": {
+   "file": "pg132.epub",
+   "highlights": [
+    {
+     "id": "dfixture001-10283",
+     "chapter": 4,
+     "block": 83,
+     "start": 230,
+     "end": 431,
+     "quote": "Lu’s accession, and gathered experience, though only in the capacity of a subordinate officer, during the intense military activity which marked the first half of the prince’s reign. [35] If he rose to",
+     "device": "Linux",
+     "t": 1790862180000
+    },
+    {
+     "id": "dfixture001-795",
+     "chapter": 5,
+     "block": 5,
+     "start": 675,
+     "end": 734,
+     "quote": "get to Sun Tzŭ’s original work. This is what will hereafter",
+     "device": "Linux",
+     "t": 1790860800000
+    },
+    {
+     "id": "dfixture001-891",
+     "chapter": 11,
+     "block": 1,
+     "start": 37,
+     "end": 90,
+     "quote": "of the Chinese for the title of this chapter, says it",
+     "device": "Linux",
+     "t": 1790861400000
+    },
+    {
+     "id": "dfixture001-852",
+     "chapter": 11,
+     "block": 2,
+     "start": 3,
+     "end": 37,
+     "quote": "Sun Tzŭ said: The art of war is of",
+     "device": "Linux",
+     "t": 1790861160000
+    },
+    {
+     "id": "dfixture001-585",
+     "chapter": 11,
+     "block": 5,
+     "start": 3,
+     "end": 36,
+     "quote": "These are: (1) The Moral Law; (2)",
+     "device": "Linux",
+     "t": 1790859540000
+    },
+    {
+     "id": "dfixture001-988",
+     "chapter": 11,
+     "block": 8,
+     "start": 188,
+     "end": 218,
+     "quote": "and irresolute when the crisis",
+     "device": "Linux",
+     "t": 1790861940000
+    },
+    {
+     "id": "dfixture001-933",
+     "chapter": 12,
+     "block": 3,
+     "start": 200,
+     "end": 360,
+     "quote": "latter were light, but this seems hardly probable. It is interesting to note the analogies between early Chinese warfare and that of the Homeric Greeks. In each",
+     "device": "Linux",
+     "t": 1790861640000
+    },
+    {
+     "id": "dfixture001-7218",
+     "chapter": 12,
+     "block": 18,
+     "start": 29,
+     "end": 51,
+     "quote": "here as \"war material\"",
+     "device": "Linux",
+     "t": 1790860380000
+    },
+    {
+     "id": "dfixture001-9621",
+     "chapter": 12,
+     "block": 21,
+     "start": 17,
+     "end": 47,
+     "quote": "hand, the proximity of an army",
+     "device": "Linux",
+     "t": 1790861820000
+    },
+    {
+     "id": "dfixture001-6928",
+     "chapter": 12,
+     "block": 28,
+     "start": 43,
+     "end": 151,
+     "quote": "in the process of transporting one cartload to the front. A picul is a unit of measure equal to 133.3 pounds",
+     "device": "Linux",
+     "t": 1790860200000
+    },
+    {
+     "id": "dfixture001-6131",
+     "chapter": 12,
+     "block": 31,
+     "start": 237,
+     "end": 293,
+     "quote": "ours. The captured soldiers should be kindly treated and",
+     "device": "Linux",
+     "t": 1790859720000
+    },
+    {
+     "id": "dfixture001-6724",
+     "chapter": 13,
+     "block": 24,
+     "start": 46,
+     "end": 93,
+     "quote": "mastery of the Empire, and thus, without losing",
+     "device": "Linux",
+     "t": 1790860080000
+    },
+    {
+     "id": "dfixture001-9925",
+     "chapter": 13,
+     "block": 25,
+     "start": 98,
+     "end": 138,
+     "quote": "of quite a different meaning: \"And thus,",
+     "device": "Linux",
+     "t": 1790862000000
+    },
+    {
+     "id": "dfixture001-8442",
+     "chapter": 13,
+     "block": 42,
+     "start": 143,
+     "end": 191,
+     "quote": "This causes restlessness in the soldier’s minds.",
+     "device": "Linux",
+     "t": 1790861100000
+    },
+    {
+     "id": "dfixture001-909",
+     "chapter": 14,
+     "block": 9,
+     "start": 12,
+     "end": 109,
+     "quote": "against defeat implies defensive tactics; ability to defeat the enemy means taking the offensive.",
+     "device": "Linux",
+     "t": 1790861460000
+    },
+    {
+     "id": "dfixture001-7522",
+     "chapter": 15,
+     "block": 22,
+     "start": 110,
+     "end": 142,
+     "quote": "bent cross-bow until released by",
+     "device": "Linux",
+     "t": 1790860560000
+    },
+    {
+     "id": "dfixture001-6024",
+     "chapter": 15,
+     "block": 24,
+     "start": 85,
+     "end": 260,
+     "quote": "the various signals agreed upon, the separating and joining, the dispersing and collecting which will take place in the course of a battle, may give the appearance of disorder",
+     "device": "Linux",
+     "t": 1790859660000
+    },
+    {
+     "id": "dfixture001-649",
+     "chapter": 16,
+     "block": 9,
+     "start": 3,
+     "end": 71,
+     "quote": "well supplied with food, he can starve him out; if quietly encamped,",
+     "device": "Linux",
+     "t": 1790859900000
+    },
+    {
+     "id": "dfixture001-10160",
+     "chapter": 16,
+     "block": 60,
+     "start": 30,
+     "end": 58,
+     "quote": "unto water; for water in its",
+     "device": "Linux",
+     "t": 1790862120000
+    },
+    {
+     "id": "dfixture001-8766",
+     "chapter": 16,
+     "block": 66,
+     "start": 0,
+     "end": 21,
+     "quote": "34. The five elements",
+     "device": "Linux",
+     "t": 1790861280000
+    },
+    {
+     "id": "dfixture001-8110",
+     "chapter": 17,
+     "block": 10,
+     "start": 50,
+     "end": 93,
+     "quote": "an undisciplined multitude, most dangerous.",
+     "device": "Linux",
+     "t": 1790860920000
+    },
+    {
+     "id": "dfixture001-6313",
+     "chapter": 17,
+     "block": 13,
+     "start": 285,
+     "end": 323,
+     "quote": "lengthy march being undertaken without",
+     "device": "Linux",
+     "t": 1790859840000
+    },
+    {
+     "id": "dfixture001-10016",
+     "chapter": 17,
+     "block": 16,
+     "start": 37,
+     "end": 80,
+     "quote": "an advantage, the leaders of all your three",
+     "device": "Linux",
+     "t": 1790862060000
+    },
+    {
+     "id": "dfixture001-6519",
+     "chapter": 17,
+     "block": 19,
+     "start": 109,
+     "end": 148,
+     "quote": "and only half your force will reach the",
+     "device": "Linux",
+     "t": 1790859960000
+    },
+    {
+     "id": "dfixture001-8346",
+     "chapter": 17,
+     "block": 46,
+     "start": 279,
+     "end": 374,
+     "quote": "Pan Ch’ao who penetrated to the Caspian, and in more recent years, those of Fu-k’ang-an and Tso",
+     "device": "Linux",
+     "t": 1790861040000
+    },
+    {
+     "id": "dfixture001-7677",
+     "chapter": 17,
+     "block": 77,
+     "start": 0,
+     "end": 51,
+     "quote": "34. Do not pursue an enemy who simulates flight; do",
+     "device": "Linux",
+     "t": 1790860620000
+    },
+    {
+     "id": "dfixture001-6815",
+     "chapter": 18,
+     "block": 15,
+     "start": 82,
+     "end": 102,
+     "quote": "of tactics knows how",
+     "device": "Linux",
+     "t": 1790860140000
+    },
+    {
+     "id": "dfixture001-9727",
+     "chapter": 18,
+     "block": 27,
+     "start": 311,
+     "end": 470,
+     "quote": "deceit, and thus sow dissension between the ruler and his ministers. By means of every artful contrivance, cause deterioration amongst his men and waste of his",
+     "device": "Linux",
+     "t": 1790861880000
+    },
+    {
+     "id": "dfixture001-7044",
+     "chapter": 18,
+     "block": 44,
+     "start": 356,
+     "end": 464,
+     "quote": "of the war, which will be the consequence. A mistaken feeling of pity will often induce a general to relieve",
+     "device": "Linux",
+     "t": 1790860260000
+    },
+    {
+     "id": "dfixture001-7816",
+     "chapter": 19,
+     "block": 16,
+     "start": 0,
+     "end": 94,
+     "quote": "[See supra, § 2. The repetition of these words in connection with water is very awkward. Chang",
+     "device": "Linux",
+     "t": 1790860740000
+    },
+    {
+     "id": "dfixture001-9526",
+     "chapter": 19,
+     "block": 26,
+     "start": 68,
+     "end": 126,
+     "quote": "a marsh on its left, and a hill or tumulus on its right.\"]",
+     "device": "Linux",
+     "t": 1790861760000
+    },
+    {
+     "id": "dfixture001-8083",
+     "chapter": 19,
+     "block": 83,
+     "start": 40,
+     "end": 104,
+     "quote": "begin by drinking themselves, the army is suffering from thirst.",
+     "device": "Linux",
+     "t": 1790860860000
+    },
+    {
+     "id": "dfixture001-92114",
+     "chapter": 19,
+     "block": 114,
+     "start": 138,
+     "end": 267,
+     "quote": "Cf. Wu Tzŭ, ch. 4 init.: \"The ideal commander unites culture with a warlike temper; the profession of arms requires a combination",
+     "device": "Linux",
+     "t": 1790861580000
+    },
+    {
+     "id": "dfixture001-8627",
+     "chapter": 20,
+     "block": 27,
+     "start": 36,
+     "end": 147,
+     "quote": "campaign in 621 A.D. against the two rebels, Tou Chien-te, King of Hsia, and Wang Shih-ch’ung, Prince of Cheng,",
+     "device": "Linux",
+     "t": 1790861220000
+    },
+    {
+     "id": "dfixture001-9127",
+     "chapter": 20,
+     "block": 27,
+     "start": 320,
+     "end": 351,
+     "quote": "T’ang Shu, ch. 2, fol. 5 verso,",
+     "device": "Linux",
+     "t": 1790861520000
+    },
+    {
+     "id": "dfixture001-6241",
+     "chapter": 20,
+     "block": 41,
+     "start": 74,
+     "end": 95,
+     "quote": "at the same time does",
+     "device": "Linux",
+     "t": 1790859780000
+    },
+    {
+     "id": "dfixture001-10343",
+     "chapter": 20,
+     "block": 43,
+     "start": 118,
+     "end": 314,
+     "quote": "twice; if his moves are made without vacillation, the soldiers will not be in two minds about doing their duty.\" General Baden-Powell says, italicizing the words: \"The secret of getting successful",
+     "device": "Linux",
+     "t": 1790862240000
+    },
+    {
+     "id": "dfixture001-5969",
+     "chapter": 21,
+     "block": 69,
+     "start": 407,
+     "end": 435,
+     "quote": "rich are not thrown in their",
+     "device": "Linux",
+     "t": 1790859600000
+    },
+    {
+     "id": "dfixture001-6688",
+     "chapter": 21,
+     "block": 88,
+     "start": 330,
+     "end": 371,
+     "quote": "his army at Waterloo as \"the worst he had",
+     "device": "Linux",
+     "t": 1790860020000
+    },
+    {
+     "id": "dfixture001-57116",
+     "chapter": 21,
+     "block": 116,
+     "start": 5,
+     "end": 100,
+     "quote": "there are means of communication on all four sides, the ground is one of intersecting highways.",
+     "device": "Linux",
+     "t": 1790859480000
+    },
+    {
+     "id": "dfixture001-77125",
+     "chapter": 21,
+     "block": 125,
+     "start": 12,
+     "end": 50,
+     "quote": "ground, I would keep a vigilant eye on",
+     "device": "Linux",
+     "t": 1790860680000
+    },
+    {
+     "id": "dfixture001-71159",
+     "chapter": 21,
+     "block": 159,
+     "start": 23,
+     "end": 45,
+     "quote": "is gained by carefully",
+     "device": "Linux",
+     "t": 1790860320000
+    },
+    {
+     "id": "dfixture001-88173",
+     "chapter": 21,
+     "block": 173,
+     "start": 38,
+     "end": 77,
+     "quote": "plans being ratified by the sovereign.]",
+     "device": "Linux",
+     "t": 1790861340000
+    },
+    {
+     "id": "dfixture001-82175",
+     "chapter": 21,
+     "block": 175,
+     "start": 31,
+     "end": 103,
+     "quote": "whole sentence to mean: Take the strictest precautions to ensure secrecy",
+     "device": "Linux",
+     "t": 1790860980000
+    },
+    {
+     "id": "dfixture001-9430",
+     "chapter": 22,
+     "block": 30,
+     "start": 29,
+     "end": 72,
+     "quote": "daytime lasts long, but a night breeze soon",
+     "device": "Linux",
+     "t": 1790861700000
+    },
+    {
+     "id": "dfixture001-7351",
+     "chapter": 22,
+     "block": 51,
+     "start": 22,
+     "end": 74,
+     "quote": "the tiger’s lair, you cannot get hold of the tiger’s",
+     "device": "Linux",
+     "t": 1790860440000
+    },
+    {
+     "id": "dfixture001-7434",
+     "chapter": 23,
+     "block": 34,
+     "start": 4,
+     "end": 79,
+     "quote": "Hence it is that with none in the whole army are more intimate relations to",
+     "device": "Linux",
+     "t": 1790860500000
+    }
+   ],
+   "position": {
+    "chapter": 5,
+    "block": 1,
+    "offset": 0,
+    "quote": "I have found it difficult to glean much about th",
+    "y": 200,
+    "percent": 12,
+    "device": "Linux",
+    "t": 1790862480000,
+    "dev": "dfixture001",
+    "devices": {
+     "dfixture001": {
+      "chapter": 5,
+      "block": 1,
+      "offset": 0,
+      "quote": "I have found it difficult to glean much about th",
+      "y": 200,
+      "percent": 12,
+      "device": "Linux",
+      "t": 1790862480000
+     }
+    }
+   }
+  },
+  "don-quijote": {
+   "file": "pg2000.epub",
+   "highlights": [
+    {
+     "id": "dfixture001-12436",
+     "chapter": 1,
+     "block": 36,
+     "start": 41,
+     "end": 93,
+     "quote": "Dorotea, con otras cosas de mucho gusto y pasatiempo",
+     "device": "Linux",
+     "t": 1790863500000
+    },
+    {
+     "id": "dfixture001-15272",
+     "chapter": 1,
+     "block": 72,
+     "start": 31,
+     "end": 73,
+     "quote": "su escudero, con otros sucesos famosísimos",
+     "device": "Linux",
+     "t": 1790865180000
+    },
+    {
+     "id": "dfixture001-13397",
+     "chapter": 1,
+     "block": 97,
+     "start": 41,
+     "end": 90,
+     "quote": "reprehensor, con otros graves y graciosos sucesos",
+     "device": "Linux",
+     "t": 1790864040000
+    },
+    {
+     "id": "dfixture001-13027",
+     "chapter": 12,
+     "block": 27,
+     "start": 17,
+     "end": 104,
+     "quote": "brazo, le tornó a atar a la encina, donde le dio tantos azotes, que le dejó por muerto.",
+     "device": "Linux",
+     "t": 1790863860000
+    },
+    {
+     "id": "dfixture001-12941",
+     "chapter": 12,
+     "block": 41,
+     "start": 77,
+     "end": 116,
+     "quote": "sino de mi caballo, estoy aquí tendido.",
+     "device": "Linux",
+     "t": 1790863800000
+    },
+    {
+     "id": "dfixture001-14418",
+     "chapter": 15,
+     "block": 18,
+     "start": 125,
+     "end": 175,
+     "quote": "y quitadas las barbas a cuantos imaginaren tocarme",
+     "device": "Linux",
+     "t": 1790864700000
+    },
+    {
+     "id": "dfixture001-15148",
+     "chapter": 26,
+     "block": 48,
+     "start": 20,
+     "end": 69,
+     "quote": "don Quijote—, fuera de la cordal, todas enteras y",
+     "device": "Linux",
+     "t": 1790865120000
+    },
+    {
+     "id": "dfixture001-14151",
+     "chapter": 26,
+     "block": 51,
+     "start": 15,
+     "end": 134,
+     "quote": "parte de abajo —dijo Sancho— no tiene vuestra merced más de dos muelas y media, y en la de arriba, ni media ni ninguna,",
+     "device": "Linux",
+     "t": 1790864520000
+    },
+    {
+     "id": "dfixture001-11228",
+     "chapter": 30,
+     "block": 28,
+     "start": 9,
+     "end": 90,
+     "quote": "Quijote al cuarto, que era un hombre de venerable rostro con una barba blanca que",
+     "device": "Linux",
+     "t": 1790862780000
+    },
+    {
+     "id": "dfixture001-12535",
+     "chapter": 33,
+     "block": 35,
+     "start": 51,
+     "end": 104,
+     "quote": "el infierno nunca sale dél, ni puede. Lo cual será al",
+     "device": "Linux",
+     "t": 1790863560000
+    },
+    {
+     "id": "dfixture001-15347",
+     "chapter": 33,
+     "block": 47,
+     "start": 59,
+     "end": 115,
+     "quote": "parte, con mucho sosiego comenzó a escribir la carta; y,",
+     "device": "Linux",
+     "t": 1790865240000
+    },
+    {
+     "id": "dfixture001-12327",
+     "chapter": 34,
+     "block": 27,
+     "start": 218,
+     "end": 242,
+     "quote": "mí más mercedes me haga.",
+     "device": "Linux",
+     "t": 1790863440000
+    },
+    {
+     "id": "dfixture001-1422",
+     "chapter": 36,
+     "block": 2,
+     "start": 307,
+     "end": 380,
+     "quote": "intención, pues me darán lugar para que con quejas comunique mi desgracia",
+     "device": "Linux",
+     "t": 1790864580000
+    },
+    {
+     "id": "dfixture001-11740",
+     "chapter": 38,
+     "block": 40,
+     "start": 133,
+     "end": 161,
+     "quote": "o vuestra merced en obrallo.",
+     "device": "Linux",
+     "t": 1790863080000
+    },
+    {
+     "id": "dfixture001-14545",
+     "chapter": 42,
+     "block": 45,
+     "start": 9,
+     "end": 37,
+     "quote": "a llamarle, señora mía —dijo",
+     "device": "Linux",
+     "t": 1790864760000
+    },
+    {
+     "id": "dfixture001-15716",
+     "chapter": 50,
+     "block": 16,
+     "start": 8,
+     "end": 90,
+     "quote": "digo —respondió el cura— que yo lo trazaré de modo que todos quedemos satisfechos.",
+     "device": "Linux",
+     "t": 1790865480000
+    },
+    {
+     "id": "dfixture001-14945",
+     "chapter": 52,
+     "block": 45,
+     "start": 0,
+     "end": 52,
+     "quote": "— ¡Ah don ladrón, que aquí os tengo! ¡Venga mi bacía",
+     "device": "Linux",
+     "t": 1790865000000
+    },
+    {
+     "id": "dfixture001-1140",
+     "chapter": 53,
+     "block": 0,
+     "start": 45,
+     "end": 71,
+     "quote": "duda del yelmo de Mambrino",
+     "device": "Linux",
+     "t": 1790862900000
+    },
+    {
+     "id": "dfixture001-13630",
+     "chapter": 53,
+     "block": 30,
+     "start": 312,
+     "end": 418,
+     "quote": "de don Luis también se estuvieron quedos, viendo cuán poco les iba en no estarlo. Sólo el ventero porfiaba",
+     "device": "Linux",
+     "t": 1790864220000
+    },
+    {
+     "id": "dfixture001-11635",
+     "chapter": 60,
+     "block": 35,
+     "start": 110,
+     "end": 193,
+     "quote": "habéis sacado de vuestras escuderías?, ¿qué saboyana me traes a mí?, ¿qué zapaticos",
+     "device": "Linux",
+     "t": 1790863020000
+    },
+    {
+     "id": "dfixture001-15558",
+     "chapter": 60,
+     "block": 58,
+     "start": 415,
+     "end": 472,
+     "quote": "le corona el aula\ndo Belona preside, y dél se precia,\nmás",
+     "device": "Linux",
+     "t": 1790865360000
+    },
+    {
+     "id": "dfixture001-14031",
+     "chapter": 67,
+     "block": 31,
+     "start": 76,
+     "end": 146,
+     "quote": "y así me ayude Dios como fue buena mi intención, y que no debe vuestra",
+     "device": "Linux",
+     "t": 1790864460000
+    },
+    {
+     "id": "dfixture001-1325",
+     "chapter": 76,
+     "block": 5,
+     "start": 0,
+     "end": 119,
+     "quote": "— Por cierto, Sancho —dijo don Quijote—, que siempre traes tus refranes tan a pelo de lo que tratamos cuanto me dé Dios",
+     "device": "Linux",
+     "t": 1790863980000
+    },
+    {
+     "id": "dfixture001-1565",
+     "chapter": 79,
+     "block": 5,
+     "start": 41,
+     "end": 133,
+     "quote": "que me contento con el gobierno de alguna ínsula; y él es tan noble y tan liberal, que me le",
+     "device": "Linux",
+     "t": 1790865420000
+    },
+    {
+     "id": "dfixture001-13119",
+     "chapter": 83,
+     "block": 19,
+     "start": 396,
+     "end": 421,
+     "quote": "donde les demos de comer.",
+     "device": "Linux",
+     "t": 1790863920000
+    },
+    {
+     "id": "dfixture001-1276",
+     "chapter": 84,
+     "block": 6,
+     "start": 2,
+     "end": 176,
+     "quote": "Recebid, señora, con vuestro sólito agrado al señor don Quijote de la Mancha, que es el que tenéis delante, andante caballero y el más valiente y el más discreto que tiene el",
+     "device": "Linux",
+     "t": 1790863680000
+    },
+    {
+     "id": "dfixture001-13431",
+     "chapter": 84,
+     "block": 31,
+     "start": 115,
+     "end": 149,
+     "quote": "loco, lleno de lúcidos intervalos.",
+     "device": "Linux",
+     "t": 1790864100000
+    },
+    {
+     "id": "dfixture001-12050",
+     "chapter": 84,
+     "block": 50,
+     "start": 208,
+     "end": 382,
+     "quote": "que hacer otra cosa sino dejar a una parte la senda de la poesía, algo estrecha, y tomar la estrechísima de la andante caballería, bastante para hacerle emperador en daca las",
+     "device": "Linux",
+     "t": 1790863260000
+    },
+    {
+     "id": "dfixture001-14828",
+     "chapter": 88,
+     "block": 28,
+     "start": 117,
+     "end": 261,
+     "quote": "primo dijo a don Quijote que desde allí a la cueva de Montesinos no había más de dos leguas, y que si llevaba determinado de entrar en ella, era",
+     "device": "Linux",
+     "t": 1790864940000
+    },
+    {
+     "id": "dfixture001-12631",
+     "chapter": 89,
+     "block": 31,
+     "start": 239,
+     "end": 329,
+     "quote": "indubitablemente que su señor estaba fuera de juicio y loco de todo punto; y así, le dijo:",
+     "device": "Linux",
+     "t": 1790863620000
+    },
+    {
+     "id": "dfixture001-1380",
+     "chapter": 93,
+     "block": 0,
+     "start": 25,
+     "end": 115,
+     "quote": "da cuenta quiénes eran maese Pedro y su mono, con el mal suceso que don Quijote tuvo en la",
+     "device": "Linux",
+     "t": 1790864340000
+    },
+    {
+     "id": "dfixture001-12114",
+     "chapter": 94,
+     "block": 14,
+     "start": 23,
+     "end": 68,
+     "quote": "Sancho, que os la prometí? —dijo don Quijote.",
+     "device": "Linux",
+     "t": 1790863320000
+    },
+    {
+     "id": "dfixture001-11834",
+     "chapter": 98,
+     "block": 34,
+     "start": 0,
+     "end": 103,
+     "quote": "— ¡Válame Dios! —dando una gran voz, dijo a este instante el duque—. ¿Quién ha sido el que tanto mal ha",
+     "device": "Linux",
+     "t": 1790863140000
+    },
+    {
+     "id": "dfixture001-1469",
+     "chapter": 99,
+     "block": 9,
+     "start": 230,
+     "end": 263,
+     "quote": "allí a dos días dijo el rey desde",
+     "device": "Linux",
+     "t": 1790864820000
+    },
+    {
+     "id": "dfixture001-13939",
+     "chapter": 100,
+     "block": 39,
+     "start": 105,
+     "end": 228,
+     "quote": "ruedas, y luego se oyó otro, no ruido, sino un son de una suave y concertada música formado, con que Sancho se alegró, y lo",
+     "device": "Linux",
+     "t": 1790864400000
+    },
+    {
+     "id": "dfixture001-12843",
+     "chapter": 100,
+     "block": 43,
+     "start": 0,
+     "end": 19,
+     "quote": "— Luz da el fuego y",
+     "device": "Linux",
+     "t": 1790863740000
+    },
+    {
+     "id": "dfixture001-11518",
+     "chapter": 104,
+     "block": 18,
+     "start": 392,
+     "end": 428,
+     "quote": "que favorezca y ayude a vuesa merced",
+     "device": "Linux",
+     "t": 1790862960000
+    },
+    {
+     "id": "dfixture001-13750",
+     "chapter": 107,
+     "block": 50,
+     "start": 36,
+     "end": 115,
+     "quote": "Panza—, sólo sé decir que si la señora Magallanes o Magalona se contentó destas",
+     "device": "Linux",
+     "t": 1790864280000
+    },
+    {
+     "id": "dfixture001-15420",
+     "chapter": 110,
+     "block": 20,
+     "start": 135,
+     "end": 222,
+     "quote": "reposada ni de mejor paso que Clavileño; y no sé yo qué le pudo mover a Malambruno para",
+     "device": "Linux",
+     "t": 1790865300000
+    },
+    {
+     "id": "dfixture001-1356",
+     "chapter": 112,
+     "block": 6,
+     "start": 14,
+     "end": 131,
+     "quote": "fue, porque no fuese notado de los que allí le viesen. No se hubo bien apartado, cuando, volviendo en sí la desmayada",
+     "device": "Linux",
+     "t": 1790864160000
+    },
+    {
+     "id": "dfixture001-14757",
+     "chapter": 113,
+     "block": 57,
+     "start": 2,
+     "end": 30,
+     "quote": "Querría, señor —respondió el",
+     "device": "Linux",
+     "t": 1790864880000
+    },
+    {
+     "id": "dfixture001-12265",
+     "chapter": 113,
+     "block": 65,
+     "start": 198,
+     "end": 226,
+     "quote": "uno de los cuales le sucedió",
+     "device": "Linux",
+     "t": 1790863380000
+    },
+    {
+     "id": "dfixture001-11330",
+     "chapter": 114,
+     "block": 30,
+     "start": 498,
+     "end": 661,
+     "quote": "que era una compasión; y, aunque don Quijote se la tenía, no se meneaba del lecho, y no sabía qué podía ser aquello, y estábase quedo y callando, y aun temiendo no",
+     "device": "Linux",
+     "t": 1790862840000
+    },
+    {
+     "id": "dfixture001-11971",
+     "chapter": 115,
+     "block": 71,
+     "start": 57,
+     "end": 133,
+     "quote": "el deseo de ver mundo, que no se estendía a más que a ver las calles de este",
+     "device": "Linux",
+     "t": 1790863200000
+    },
+    {
+     "id": "dfixture001-14341",
+     "chapter": 116,
+     "block": 41,
+     "start": 39,
+     "end": 83,
+     "quote": "pobre! ¡Gobiernito tenemos! ¡No, sino tómese",
+     "device": "Linux",
+     "t": 1790864640000
+    },
+    {
+     "id": "dfixture001-11140",
+     "chapter": 125,
+     "block": 40,
+     "start": 0,
+     "end": 44,
+     "quote": "— Por lo que he oído hablar, amigo —dijo don",
+     "device": "Linux",
+     "t": 1790862720000
+    },
+    {
+     "id": "dfixture001-15075",
+     "chapter": 126,
+     "block": 75,
+     "start": 23,
+     "end": 80,
+     "quote": "más es para frade que para bandolero: si de aquí adelante",
+     "device": "Linux",
+     "t": 1790865060000
+    }
+   ],
+   "position": {
+    "chapter": 3,
+    "block": 1,
+    "offset": 0,
+    "quote": "Yo, Juan Gallo de Andrada, escribano de Cámara d",
+    "y": 200,
+    "percent": 12,
+    "device": "Linux",
+    "t": 1790865720000,
+    "dev": "dfixture001",
+    "devices": {
+     "dfixture001": {
+      "chapter": 3,
+      "block": 1,
+      "offset": 0,
+      "quote": "Yo, Juan Gallo de Andrada, escribano de Cámara d",
+      "y": 200,
+      "percent": 12,
+      "device": "Linux",
+      "t": 1790865720000
+     }
+    }
+   }
+  },
+  "a-first-course-in-linear-algebra": {
+   "file": "idpf-linear-algebra.epub",
+   "highlights": [
+    {
+     "id": "dfixture001-19411",
+     "chapter": 18,
+     "block": 11,
+     "start": 336,
+     "end": 448,
+     "quote": "can review the basic properties of complex numbers in Section CNO, but these facts will not be critical until we",
+     "device": "Linux",
+     "t": 1790867700000
+    },
+    {
+     "id": "dfixture001-18523",
+     "chapter": 18,
+     "block": 23,
+     "start": 13,
+     "end": 43,
+     "quote": "Three typical systems\nConsider",
+     "device": "Linux",
+     "t": 1790867160000
+    },
+    {
+     "id": "dfixture001-19946",
+     "chapter": 19,
+     "block": 46,
+     "start": 0,
+     "end": 24,
+     "quote": "We can also say that any",
+     "device": "Linux",
+     "t": 1790868000000
+    },
+    {
+     "id": "dfixture001-176185",
+     "chapter": 19,
+     "block": 185,
+     "start": 53,
+     "end": 111,
+     "quote": ", , , which clearly has only one possible solution. We can",
+     "device": "Linux",
+     "t": 1790866620000
+    },
+    {
+     "id": "dfixture001-18123",
+     "chapter": 21,
+     "block": 23,
+     "start": 232,
+     "end": 338,
+     "quote": "variables. Thus, the homogeneous system has just one solution, which must be the trivial solution. This is",
+     "device": "Linux",
+     "t": 1790866920000
+    },
+    {
+     "id": "dfixture001-20837",
+     "chapter": 21,
+     "block": 37,
+     "start": 71,
+     "end": 156,
+     "quote": "that contains only the trivial solution, so the null space has only a single element,",
+     "device": "Linux",
+     "t": 1790868540000
+    },
+    {
+     "id": "dfixture001-20960",
+     "chapter": 21,
+     "block": 60,
+     "start": 105,
+     "end": 255,
+     "quote": "a square matrix. Determine if these matrices are nonsingular, or singular. Comment on the null space of each matrix.\nArchetype A\nArchetype B\nArchetype",
+     "device": "Linux",
+     "t": 1790868600000
+    },
+    {
+     "id": "dfixture001-17076",
+     "chapter": 21,
+     "block": 76,
+     "start": 4,
+     "end": 95,
+     "quote": "Contributed by  Robert Beezer Statement [ 233]\nThe matrix is not square, so neither term is",
+     "device": "Linux",
+     "t": 1790866260000
+    },
+    {
+     "id": "dfixture001-19086",
+     "chapter": 21,
+     "block": 86,
+     "start": 178,
+     "end": 246,
+     "quote": "matrices, and , are also row-equivalent matrices. This says that the",
+     "device": "Linux",
+     "t": 1790867460000
+    },
+    {
+     "id": "dfixture001-210101",
+     "chapter": 23,
+     "block": 101,
+     "start": 33,
+     "end": 94,
+     "quote": "set of vectors so that the span of equals the null space of ,",
+     "device": "Linux",
+     "t": 1790868660000
+    },
+    {
+     "id": "dfixture001-182164",
+     "chapter": 23,
+     "block": 164,
+     "start": 49,
+     "end": 76,
+     "quote": "there are scalars such that",
+     "device": "Linux",
+     "t": 1790866980000
+    },
+    {
+     "id": "dfixture001-20294",
+     "chapter": 24,
+     "block": 94,
+     "start": 54,
+     "end": 140,
+     "quote": "vectors and (all by Theorem GSP). Of course, as a by-product of orthogonality, the set",
+     "device": "Linux",
+     "t": 1790868180000
+    },
+    {
+     "id": "dfixture001-17476",
+     "chapter": 26,
+     "block": 76,
+     "start": 0,
+     "end": 98,
+     "quote": "Theorem  MMIP\nMatrix Multiplication and Inner Products\nIf we consider the vectors as matrices then",
+     "device": "Linux",
+     "t": 1790866500000
+    },
+    {
+     "id": "dfixture001-189104",
+     "chapter": 27,
+     "block": 104,
+     "start": 68,
+     "end": 91,
+     "quote": "Theorem CINM). Then use",
+     "device": "Linux",
+     "t": 1790867400000
+    },
+    {
+     "id": "dfixture001-20346",
+     "chapter": 29,
+     "block": 46,
+     "start": 108,
+     "end": 280,
+     "quote": "leading 1’s in this reduced matrix, and grab the corresponding columns of the original matrix. But it is still important to study the proof of Theorem BS and its motivation",
+     "device": "Linux",
+     "t": 1790868240000
+    },
+    {
+     "id": "dfixture001-19850",
+     "chapter": 29,
+     "block": 50,
+     "start": 42,
+     "end": 129,
+     "quote": "so . To construct a set that spans , just grab the columns of indicated by the set , so",
+     "device": "Linux",
+     "t": 1790867940000
+    },
+    {
+     "id": "dfixture001-18075",
+     "chapter": 29,
+     "block": 75,
+     "start": 321,
+     "end": 393,
+     "quote": "of equations. OK, here is the second primary definition of this section.",
+     "device": "Linux",
+     "t": 1790866860000
+    },
+    {
+     "id": "dfixture001-20779",
+     "chapter": 29,
+     "block": 79,
+     "start": 160,
+     "end": 200,
+     "quote": "square of size , both and are subsets of",
+     "device": "Linux",
+     "t": 1790868480000
+    },
+    {
+     "id": "dfixture001-206124",
+     "chapter": 29,
+     "block": 124,
+     "start": 170,
+     "end": 199,
+     "quote": "we determined that the vector",
+     "device": "Linux",
+     "t": 1790868420000
+    },
+    {
+     "id": "dfixture001-2116",
+     "chapter": 32,
+     "block": 6,
+     "start": 37,
+     "end": 116,
+     "quote": "theorem whose proof presages the style of subsequent proofs in this subsection.",
+     "device": "Linux",
+     "t": 1790868720000
+    },
+    {
+     "id": "dfixture001-1869",
+     "chapter": 32,
+     "block": 9,
+     "start": 33,
+     "end": 141,
+     "quote": "column is entirely similar, or could be derived from an application of Theorem DT employing the transpose of",
+     "device": "Linux",
+     "t": 1790867220000
+    },
+    {
+     "id": "dfixture001-17333",
+     "chapter": 32,
+     "block": 33,
+     "start": 144,
+     "end": 306,
+     "quote": "so all we need to do is track the multiplicative changes to the determinant as the algorithm proceeds. Further, for a square matrix of size this approach requires",
+     "device": "Linux",
+     "t": 1790866440000
+    },
+    {
+     "id": "dfixture001-19266",
+     "chapter": 32,
+     "block": 66,
+     "start": 88,
+     "end": 113,
+     "quote": "matrices such that . Then",
+     "device": "Linux",
+     "t": 1790867580000
+    },
+    {
+     "id": "dfixture001-16785",
+     "chapter": 34,
+     "block": 85,
+     "start": 228,
+     "end": 265,
+     "quote": "in Example ESMS4, the matrix has only",
+     "device": "Linux",
+     "t": 1790866080000
+    },
+    {
+     "id": "dfixture001-20085",
+     "chapter": 34,
+     "block": 85,
+     "start": 231,
+     "end": 279,
+     "quote": "Example ESMS4, the matrix has only real entries,",
+     "device": "Linux",
+     "t": 1790868060000
+    },
+    {
+     "id": "dfixture001-19661",
+     "chapter": 36,
+     "block": 61,
+     "start": 35,
+     "end": 49,
+     "quote": "and we need to",
+     "device": "Linux",
+     "t": 1790867820000
+    },
+    {
+     "id": "dfixture001-1879",
+     "chapter": 37,
+     "block": 9,
+     "start": 34,
+     "end": 95,
+     "quote": "examine a linear transformation that is not surjective first.",
+     "device": "Linux",
+     "t": 1790867280000
+    },
+    {
+     "id": "dfixture001-17146",
+     "chapter": 37,
+     "block": 46,
+     "start": 18,
+     "end": 81,
+     "quote": "that and . Is ? If , then there is a vector such that . Because",
+     "device": "Linux",
+     "t": 1790866320000
+    },
+    {
+     "id": "dfixture001-172132",
+     "chapter": 37,
+     "block": 132,
+     "start": 51,
+     "end": 82,
+     "quote": "of a spanning set of the domain",
+     "device": "Linux",
+     "t": 1790866380000
+    },
+    {
+     "id": "dfixture001-20199",
+     "chapter": 38,
+     "block": 99,
+     "start": 118,
+     "end": 179,
+     "quote": "we see that . Then the original relation of linear dependence",
+     "device": "Linux",
+     "t": 1790868120000
+    },
+    {
+     "id": "dfixture001-193166",
+     "chapter": 38,
+     "block": 166,
+     "start": 28,
+     "end": 75,
+     "quote": "injective. With we employ Theorem RPNDD to find",
+     "device": "Linux",
+     "t": 1790867640000
+    },
+    {
+     "id": "dfixture001-197198",
+     "chapter": 38,
+     "block": 198,
+     "start": 113,
+     "end": 145,
+     "quote": "connection. Compare with Theorem",
+     "device": "Linux",
+     "t": 1790867880000
+    },
+    {
+     "id": "dfixture001-18821",
+     "chapter": 42,
+     "block": 21,
+     "start": 12,
+     "end": 70,
+     "quote": "JB\nJordan Block\nGiven the scalar , the Jordan block is the",
+     "device": "Linux",
+     "t": 1790867340000
+    },
+    {
+     "id": "dfixture001-17516",
+     "chapter": 43,
+     "block": 16,
+     "start": 89,
+     "end": 198,
+     "quote": "of , any vector chosen from can be written as a linear combination of and . Suppose that , and then check the",
+     "device": "Linux",
+     "t": 1790866560000
+    },
+    {
+     "id": "dfixture001-183102",
+     "chapter": 43,
+     "block": 102,
+     "start": 51,
+     "end": 71,
+     "quote": "and Section NLT into",
+     "device": "Linux",
+     "t": 1790867040000
+    },
+    {
+     "id": "dfixture001-195104",
+     "chapter": 43,
+     "block": 104,
+     "start": 8,
+     "end": 61,
+     "quote": "Notice first that every subspace of is invariant with",
+     "device": "Linux",
+     "t": 1790867760000
+    },
+    {
+     "id": "dfixture001-17750",
+     "chapter": 44,
+     "block": 50,
+     "start": 202,
+     "end": 260,
+     "quote": "can apply Theorem CFNLT about representations of nilpotent",
+     "device": "Linux",
+     "t": 1790866680000
+    },
+    {
+     "id": "dfixture001-17990",
+     "chapter": 44,
+     "block": 90,
+     "start": 37,
+     "end": 103,
+     "quote": "Suppose is a square matrix with characteristic polynomial . Then .",
+     "device": "Linux",
+     "t": 1790866800000
+    },
+    {
+     "id": "dfixture001-16825",
+     "chapter": 46,
+     "block": 25,
+     "start": 30,
+     "end": 197,
+     "quote": "to build the vectors and according to Theorem SSNS and describe as a span of the set . Instead, if has been set to , then executing the command NullSpace[a] yields the",
+     "device": "Linux",
+     "t": 1790866140000
+    },
+    {
+     "id": "dfixture001-17821",
+     "chapter": 49,
+     "block": 21,
+     "start": 42,
+     "end": 62,
+     "quote": "to multiply row 2 by",
+     "device": "Linux",
+     "t": 1790866740000
+    },
+    {
+     "id": "dfixture001-19140",
+     "chapter": 49,
+     "block": 40,
+     "start": 22,
+     "end": 99,
+     "quote": "of a matrix stored in SAGE. Then a.transpose() will return the transpose of a",
+     "device": "Linux",
+     "t": 1790867520000
+    },
+    {
+     "id": "dfixture001-20410",
+     "chapter": 53,
+     "block": 10,
+     "start": 86,
+     "end": 147,
+     "quote": "to confuse the notion of a definition with that of a theorem.",
+     "device": "Linux",
+     "t": 1790868300000
+    },
+    {
+     "id": "dfixture001-18416",
+     "chapter": 60,
+     "block": 16,
+     "start": 166,
+     "end": 198,
+     "quote": "to matrices that are not square.",
+     "device": "Linux",
+     "t": 1790867100000
+    },
+    {
+     "id": "dfixture001-1654",
+     "chapter": 62,
+     "block": 4,
+     "start": 29,
+     "end": 91,
+     "quote": "of linear equations (not necessarily exhaustive):\nNone. (Why?)",
+     "device": "Linux",
+     "t": 1790865960000
+    },
+    {
+     "id": "dfixture001-16611",
+     "chapter": 62,
+     "block": 11,
+     "start": 26,
+     "end": 144,
+     "quote": "of the homogenous linear system, and use row operations to convert to reduced row-echelon form. Notice how the entries",
+     "device": "Linux",
+     "t": 1790866020000
+    },
+    {
+     "id": "dfixture001-2058",
+     "chapter": 75,
+     "block": 8,
+     "start": 143,
+     "end": 178,
+     "quote": "set for the range ( Theorem SSRLT):",
+     "device": "Linux",
+     "t": 1790868360000
+    },
+    {
+     "id": "dfixture001-1693",
+     "chapter": 94,
+     "block": 3,
+     "start": 468,
+     "end": 500,
+     "quote": "assume is some positive integer.",
+     "device": "Linux",
+     "t": 1790866200000
+    }
+   ],
+   "position": {
+    "chapter": 15,
+    "block": 0,
+    "offset": 0,
+    "quote": "Chapter D  Determinants",
+    "y": 200,
+    "percent": 12,
+    "device": "Linux",
+    "t": 1790868960000,
+    "dev": "dfixture001",
+    "devices": {
+     "dfixture001": {
+      "chapter": 15,
+      "block": 0,
+      "offset": 0,
+      "quote": "Chapter D  Determinants",
+      "y": 200,
+      "percent": 12,
+      "device": "Linux",
+      "t": 1790868960000
+     }
+    }
+   }
+  },
+  "le-vrai-r-gime-anti-cancer": {
+   "file": "idpf-regime-anticancer-arabic.epub",
+   "highlights": [
+    {
+     "id": "dfixture001-2553",
+     "chapter": 2,
+     "block": 3,
+     "start": 68,
+     "end": 139,
+     "quote": "أو تخفض احتمالات إصابتنا بالسرطان، علينا أن نفهم كيف «يعمل» السرطان[1].",
+     "device": "Linux",
+     "t": 1790871360000
+    },
+    {
+     "id": "dfixture001-2508",
+     "chapter": 2,
+     "block": 8,
+     "start": 251,
+     "end": 276,
+     "quote": "لا تضيف أيّ معلومات جديدة",
+     "device": "Linux",
+     "t": 1790871060000
+    },
+    {
+     "id": "dfixture001-24410",
+     "chapter": 2,
+     "block": 10,
+     "start": 31,
+     "end": 127,
+     "quote": "ما يفسّر سبب تسميتها بالخليّة «الجذعيّة» – وهي قدرتها الفوريّة على القيام بأمر مذهل: وهو نسخ كلّ",
+     "device": "Linux",
+     "t": 1790870700000
+    },
+    {
+     "id": "dfixture001-26310",
+     "chapter": 2,
+     "block": 10,
+     "start": 52,
+     "end": 145,
+     "quote": "بالخليّة «الجذعيّة» – وهي قدرتها الفوريّة على القيام بأمر مذهل: وهو نسخ كلّ ما تحتويه ومضاعفة",
+     "device": "Linux",
+     "t": 1790871840000
+    },
+    {
+     "id": "dfixture001-22312",
+     "chapter": 2,
+     "block": 12,
+     "start": 0,
+     "end": 102,
+     "quote": "وشيئًا فشيئًا، ويومًا بعد يوم، تنقسم كلّ منهما إلى خليّتين تبعًا لآليّة مماثلة، بحيث تُولَد في كلّ مرة",
+     "device": "Linux",
+     "t": 1790869440000
+    },
+    {
+     "id": "dfixture001-23412",
+     "chapter": 2,
+     "block": 12,
+     "start": 31,
+     "end": 113,
+     "quote": "تنقسم كلّ منهما إلى خليّتين تبعًا لآليّة مماثلة، بحيث تُولَد في كلّ مرة خليّتان من",
+     "device": "Linux",
+     "t": 1790870100000
+    },
+    {
+     "id": "dfixture001-23919",
+     "chapter": 2,
+     "block": 19,
+     "start": 103,
+     "end": 185,
+     "quote": "ستضطلع كلّ منها في ختامها بوظيفة واحدة حصريّة (الخلايا القلبيّة ستُعْنَى بالخفقان،",
+     "device": "Linux",
+     "t": 1790870400000
+    },
+    {
+     "id": "dfixture001-22921",
+     "chapter": 2,
+     "block": 21,
+     "start": 137,
+     "end": 176,
+     "quote": "مكانها. وتتواصل هذه العمليّة طوال أيّام",
+     "device": "Linux",
+     "t": 1790869800000
+    },
+    {
+     "id": "dfixture001-26222",
+     "chapter": 2,
+     "block": 22,
+     "start": 228,
+     "end": 293,
+     "quote": "خلايا جديدة شابّة ونشطة، ثمّ تموت لتفسح لها المجال للحلول مكانها.",
+     "device": "Linux",
+     "t": 1790871780000
+    },
+    {
+     "id": "dfixture001-23824",
+     "chapter": 2,
+     "block": 24,
+     "start": 36,
+     "end": 71,
+     "quote": "الكتاب، سأسرد لكم أرقامًا أخرى أكثر",
+     "device": "Linux",
+     "t": 1790870340000
+    },
+    {
+     "id": "dfixture001-23534",
+     "chapter": 2,
+     "block": 34,
+     "start": 19,
+     "end": 92,
+     "quote": "الموادّ الجينيّة، أي جيناتنا القادرة على تحديد صفاتنا كجنس بشري أو كأفراد",
+     "device": "Linux",
+     "t": 1790870160000
+    },
+    {
+     "id": "dfixture001-23737",
+     "chapter": 2,
+     "block": 37,
+     "start": 89,
+     "end": 181,
+     "quote": "من خلايانا البشريّة، شريطًا طويلًا يصل طوله إلى مترين كُتبت عليه جيناتنا البالغ عددها ثلاثين",
+     "device": "Linux",
+     "t": 1790870280000
+    },
+    {
+     "id": "dfixture001-25240",
+     "chapter": 2,
+     "block": 40,
+     "start": 69,
+     "end": 178,
+     "quote": "على شريطين بطول مترين، الأوّل كان في البويضة والثاني في المني. أحدهما يحمل جينات والدتنا والآخر جينات والدنا.",
+     "device": "Linux",
+     "t": 1790871180000
+    },
+    {
+     "id": "dfixture001-25741",
+     "chapter": 2,
+     "block": 41,
+     "start": 87,
+     "end": 124,
+     "quote": "عنه بالغ الصغر وبالتالي شديد الهشاشة.",
+     "device": "Linux",
+     "t": 1790871480000
+    },
+    {
+     "id": "dfixture001-23045",
+     "chapter": 2,
+     "block": 45,
+     "start": 18,
+     "end": 83,
+     "quote": "هي الوصفات والبرمجيّات التي تتيح للخلية أن تعرف كيف عليها أن تفعل",
+     "device": "Linux",
+     "t": 1790869860000
+    },
+    {
+     "id": "dfixture001-25645",
+     "chapter": 2,
+     "block": 45,
+     "start": 84,
+     "end": 112,
+     "quote": "ما ينبغي لها فعله. لكن لنطرح",
+     "device": "Linux",
+     "t": 1790871420000
+    },
+    {
+     "id": "dfixture001-24048",
+     "chapter": 2,
+     "block": 48,
+     "start": 141,
+     "end": 286,
+     "quote": "من الخلايا. يجب أن نفهم جيّدًا أنّ كلّ خليّة متمايزة تنتمي إلى أحد الأعضاء، وتشكّل جزءًا منه ولا تضطلع إلاّ بوظيفة واحدة: فخلايا القلب تخفق لتتيح",
+     "device": "Linux",
+     "t": 1790870460000
+    },
+    {
+     "id": "dfixture001-23649",
+     "chapter": 2,
+     "block": 49,
+     "start": 23,
+     "end": 161,
+     "quote": "إضافيّ من التعقيد وهو الأخير، أعدكم: إلى جانب كلّ من هذه الجينات، سواء كانت مرتبطة بالانقسام الخلويّ أو الوظائف الخلويّة، هناك جينة تُوصَف",
+     "device": "Linux",
+     "t": 1790870220000
+    },
+    {
+     "id": "dfixture001-22849",
+     "chapter": 2,
+     "block": 49,
+     "start": 64,
+     "end": 161,
+     "quote": "جانب كلّ من هذه الجينات، سواء كانت مرتبطة بالانقسام الخلويّ أو الوظائف الخلويّة، هناك جينة تُوصَف",
+     "device": "Linux",
+     "t": 1790869740000
+    },
+    {
+     "id": "dfixture001-22255",
+     "chapter": 2,
+     "block": 55,
+     "start": 113,
+     "end": 179,
+     "quote": "الأخرى، وكلّها من سلالة الخليّة الأولى التي شهدت جيناتها المعنيّة،",
+     "device": "Linux",
+     "t": 1790869380000
+    },
+    {
+     "id": "dfixture001-26458",
+     "chapter": 2,
+     "block": 58,
+     "start": 5,
+     "end": 85,
+     "quote": "تحلّوا ببعض الشجاعة! بعد مرحلتَين ليس إلّا، سنبدأ بالكلام عن الحِمْية الغذائيّة.",
+     "device": "Linux",
+     "t": 1790871900000
+    },
+    {
+     "id": "dfixture001-23160",
+     "chapter": 2,
+     "block": 60,
+     "start": 30,
+     "end": 67,
+     "quote": "كيف يمكن لهذه الجينات أن تتضرّر. أقول",
+     "device": "Linux",
+     "t": 1790869920000
+    },
+    {
+     "id": "dfixture001-26562",
+     "chapter": 2,
+     "block": 62,
+     "start": 128,
+     "end": 162,
+     "quote": "كيميائيّة. إنها تشكّل ركيزة عضويّة",
+     "device": "Linux",
+     "t": 1790871960000
+    },
+    {
+     "id": "dfixture001-24365",
+     "chapter": 2,
+     "block": 65,
+     "start": 25,
+     "end": 46,
+     "quote": "فإنّ الخليّة هي حصيلة",
+     "device": "Linux",
+     "t": 1790870640000
+    },
+    {
+     "id": "dfixture001-25168",
+     "chapter": 2,
+     "block": 68,
+     "start": 32,
+     "end": 74,
+     "quote": "لنأخذ مثالًا. تعرفون كلّكم أنّ لون العينين",
+     "device": "Linux",
+     "t": 1790871120000
+    },
+    {
+     "id": "dfixture001-21969",
+     "chapter": 2,
+     "block": 69,
+     "start": 86,
+     "end": 243,
+     "quote": "خلاياكم تحافظ على الإرث الجيني نفسه، أي لا تحافظ على ثبات الجينات التي تجعل بشرتكم بيضاء وعينيكم زرقاوين. ماذا سيحدث؟ شيئًا فشيئًا، سيتغيّر لون عينيكم لتصبحا",
+     "device": "Linux",
+     "t": 1790869200000
+    },
+    {
+     "id": "dfixture001-22469",
+     "chapter": 2,
+     "block": 69,
+     "start": 230,
+     "end": 307,
+     "quote": "عينيكم لتصبحا بنيّتين، وكذلك ستصبح بشرتكم سوداء. في هذا المثال، بعد مرور فترة",
+     "device": "Linux",
+     "t": 1790869500000
+    },
+    {
+     "id": "dfixture001-24578",
+     "chapter": 2,
+     "block": 78,
+     "start": 59,
+     "end": 114,
+     "quote": "ألاّ يتكرّر هذا السيناريو الكارثيّ آلاف المرّات لدى كلّ",
+     "device": "Linux",
+     "t": 1790870760000
+    },
+    {
+     "id": "dfixture001-24779",
+     "chapter": 2,
+     "block": 79,
+     "start": 39,
+     "end": 106,
+     "quote": "مرة؟ لحسن الحظّ أنّ الجواب هو لا! وإلّا لَمُتنا كلّنا من هذا المرض.",
+     "device": "Linux",
+     "t": 1790870880000
+    },
+    {
+     "id": "dfixture001-22081",
+     "chapter": 2,
+     "block": 81,
+     "start": 22,
+     "end": 68,
+     "quote": "تحدث في أوقات أخرى غير مرحلة التخليق التي تسبق",
+     "device": "Linux",
+     "t": 1790869260000
+    },
+    {
+     "id": "dfixture001-24888",
+     "chapter": 2,
+     "block": 88,
+     "start": 142,
+     "end": 266,
+     "quote": "فآليات الإصلاح التي ستلجأ إليها الخليّة، إن كان الأمر يتعلّق بحرف زائد (أو مجموعة حروف زائدة) أو بحرف ناقص أو حرف مكتوب مكان",
+     "device": "Linux",
+     "t": 1790870940000
+    },
+    {
+     "id": "dfixture001-24289",
+     "chapter": 2,
+     "block": 89,
+     "start": 22,
+     "end": 91,
+     "quote": "هدفًا نهائيًّا مشتركًا وحيدًا وأساسيًّا: هو الحفاظ، طوال حياة الخليّة",
+     "device": "Linux",
+     "t": 1790870580000
+    },
+    {
+     "id": "dfixture001-22589",
+     "chapter": 2,
+     "block": 89,
+     "start": 98,
+     "end": 122,
+     "quote": "حياتنا، على كمال دنا كلّ",
+     "device": "Linux",
+     "t": 1790869560000
+    },
+    {
+     "id": "dfixture001-258103",
+     "chapter": 2,
+     "block": 103,
+     "start": 76,
+     "end": 199,
+     "quote": "هذا العلم في بداياته، أقرّ بذلك، لكنّ بعض الدراسات التي بدأت تُنشَر نتائجها توفّر لنا دلائل مثيرة للاهتمام، بالرغم من كونها",
+     "device": "Linux",
+     "t": 1790871540000
+    },
+    {
+     "id": "dfixture001-260103",
+     "chapter": 2,
+     "block": 103,
+     "start": 89,
+     "end": 173,
+     "quote": "بداياته، أقرّ بذلك، لكنّ بعض الدراسات التي بدأت تُنشَر نتائجها توفّر لنا دلائل مثيرة",
+     "device": "Linux",
+     "t": 1790871660000
+    },
+    {
+     "id": "dfixture001-259107",
+     "chapter": 2,
+     "block": 107,
+     "start": 43,
+     "end": 107,
+     "quote": "أو الفحم أو النفط، أو اللجوء إلى الطاقة المائيّة أو الكهربائيّة.",
+     "device": "Linux",
+     "t": 1790871600000
+    },
+    {
+     "id": "dfixture001-246126",
+     "chapter": 2,
+     "block": 126,
+     "start": 19,
+     "end": 169,
+     "quote": "جدًّا في الطبيعة لتجنّب تفعيل الجينات الخطرة، مثل الجينات الورمية. وهي تعتمد على نوعَين من الأنزيمات المتعارضة. الأنزيمات التي تخمد الجينات هي هستونات",
+     "device": "Linux",
+     "t": 1790870820000
+    },
+    {
+     "id": "dfixture001-241131",
+     "chapter": 2,
+     "block": 131,
+     "start": 41,
+     "end": 149,
+     "quote": "ودرجة نشاطها، محدّد وراثيًّا: هذا يعني أنّنا نرث من ذوينا وجود الكثير من هذه الأنزيمات أو عدم وجودها، أو كون",
+     "device": "Linux",
+     "t": 1790870520000
+    },
+    {
+     "id": "dfixture001-232135",
+     "chapter": 2,
+     "block": 135,
+     "start": 161,
+     "end": 213,
+     "quote": "أس-ترانسفيراز. عندما تعمل هذه الأنزيمة، تفعّل عمليّة",
+     "device": "Linux",
+     "t": 1790869980000
+    },
+    {
+     "id": "dfixture001-226137",
+     "chapter": 2,
+     "block": 137,
+     "start": 51,
+     "end": 144,
+     "quote": "التجربة العلميّة، فهمنا أنّ هناك حتمًا رابطًا بين ما نأكله واحتمالات إصابتنا بالسرطان. ورأينا",
+     "device": "Linux",
+     "t": 1790869620000
+    },
+    {
+     "id": "dfixture001-261137",
+     "chapter": 2,
+     "block": 137,
+     "start": 101,
+     "end": 137,
+     "quote": "ما نأكله واحتمالات إصابتنا بالسرطان.",
+     "device": "Linux",
+     "t": 1790871720000
+    },
+    {
+     "id": "dfixture001-233137",
+     "chapter": 2,
+     "block": 137,
+     "start": 104,
+     "end": 165,
+     "quote": "نأكله واحتمالات إصابتنا بالسرطان. ورأينا كيف يحدث ذلك ولماذا.",
+     "device": "Linux",
+     "t": 1790870040000
+    },
+    {
+     "id": "dfixture001-227138",
+     "chapter": 2,
+     "block": 138,
+     "start": 10,
+     "end": 54,
+     "quote": "بدأنا نكوّن فكرة مسبقة عمّا ينبغي القيام به،",
+     "device": "Linux",
+     "t": 1790869680000
+    },
+    {
+     "id": "dfixture001-221139",
+     "chapter": 2,
+     "block": 139,
+     "start": 124,
+     "end": 175,
+     "quote": "كلّ ما سأقوله لاحقًا جدّيّ. إنّ فرضيّتي هذه هي ثمرة",
+     "device": "Linux",
+     "t": 1790869320000
+    },
+    {
+     "id": "dfixture001-249140",
+     "chapter": 2,
+     "block": 140,
+     "start": 46,
+     "end": 91,
+     "quote": "مصطلحات معقّدة، بل ستتناول فقط الأغذية وكيفية",
+     "device": "Linux",
+     "t": 1790871000000
+    },
+    {
+     "id": "dfixture001-254140",
+     "chapter": 2,
+     "block": 140,
+     "start": 73,
+     "end": 109,
+     "quote": "فقط الأغذية وكيفية التغذية بشكل أفضل",
+     "device": "Linux",
+     "t": 1790871300000
+    },
+    {
+     "id": "dfixture001-253145",
+     "chapter": 2,
+     "block": 145,
+     "start": 88,
+     "end": 115,
+     "quote": "باريس، منشورات أوديل جاكوب،",
+     "device": "Linux",
+     "t": 1790871240000
+    }
+   ],
+   "position": {
+    "chapter": 2,
+    "block": 3,
+    "offset": 0,
+    "quote": "حسنًا! إن أردنا أن نفهم الآن كيف يمكن للأغذية ال",
+    "y": 200,
+    "percent": 12,
+    "device": "Linux",
+    "t": 1790872200000,
+    "dev": "dfixture001",
+    "devices": {
+     "dfixture001": {
+      "chapter": 2,
+      "block": 3,
+      "offset": 0,
+      "quote": "حسنًا! إن أردنا أن نفهم الآن كيف يمكن للأغذية ال",
+      "y": 200,
+      "percent": 12,
+      "device": "Linux",
+      "t": 1790872200000
+     }
+    }
+   }
+  }
+ }
+}
